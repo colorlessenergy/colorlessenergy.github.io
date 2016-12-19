@@ -1,0 +1,140 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #089C00;
+  transition: 0.3s ease-in-out;
+}
+
+
+footer {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  height: 100px;
+  justify-content: center;
+}
+
+
+.contacts {
+  align-items: center;
+  background-color: #2D2E2E;
+  color: white;
+  display: flex;
+  height: 300px;
+  font-size: 50px;
+  justify-content: center;
+}
+
+.contacts p {
+  margin: 0;
+}
+
+.container .top {
+  display: flex;
+  background-color: #272927;
+}
+
+.container .top h1{
+  color: #DEE0DE;
+  margin: 0;
+  padding: 10px 10px;
+}
+
+.top .github {
+  align-self: baseline;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img {
+  background-color: #C4C4C4;
+}
+
+.nav {
+  background-color: #C4C4C4;
+  text-align: center;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.nav li {
+  border-bottom: dashed white 1px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.projects {
+  background-color: #C4C4C4;
+  height: 400px;
+}
+
+.projects ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  list-style-type: none;
+  margin: 0 30px;
+  max-width: 290px;
+  text-align: center;
+}
+
+.projects li p {
+  background-color: #062904;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.projects li img{
+  max-width: 100%;
+}
+
+.skills {
+  background-color: #1B1C1C;
+  height: 300px;
+}
+
+.skills ul {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 0;
+}
+
+.skills li {
+  height: 100px;
+  list-style-type: none;
+  margin: 0 30px;
+  width: 100px;
+}
+
+
+.skills li img {
+  height: 100px;
+  width: 100px;
+}
