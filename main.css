@@ -51,8 +51,8 @@ footer {
   padding: 10px 10px;
 }
 
-.top .github {
-  align-self: baseline;
+.top a {
+  align-self: center;
 }
 
 .img img {
