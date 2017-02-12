@@ -62,11 +62,10 @@ footer {
 }
 
 .img {
-  background-color: #C4C4C4;
+  background-image: url("assets/rubik-cube.jpg");
 }
 
 .nav {
-  background-color: #C4C4C4;
   text-align: center;
 }
 
@@ -76,21 +75,19 @@ footer {
 }
 
 .nav li {
-  border-bottom: dashed white 1px;
+  color: black;
+  border-bottom: dashed black 1px;
   display: inline-block;
   margin: 0 20px;
 }
 
 .projects {
-  background-color: #C4C4C4;
-  height: 800px;
+  color: black;
 }
 
 .projects ul {
   display: flex;
-  align-items: center;
   flex-flow: wrap;
-  height: 800px;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -103,7 +100,7 @@ footer {
   text-align: center;
 }
 
-.projects li p {
+.projects li p, .darken {
   background-color: #062904;
   border-radius: 3px;
   padding: 5px;
