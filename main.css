@@ -17,8 +17,8 @@ a:hover {
 
 footer {
   align-items: center;
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   display: flex;
   font-size: 30px;
   height: 100px;
@@ -29,7 +29,7 @@ footer {
 .contacts {
   align-items: center;
   background-color: #2D2E2E;
-  color: white;
+  color: #fff;
   display: flex;
   font-size: 30px;
   height: 300px;
@@ -74,10 +74,10 @@ footer {
 }
 
 .nav li {
-  color: black;
-  border-bottom: dashed black 1px;
+  color: #000;
+  border-bottom: dashed #000 1px;
   display: inline-block;
-  margin: 0 20px;
+  margin-left: 20px;
 }
 
 .projects {
@@ -128,7 +128,6 @@ footer {
 .skills li {
   height: 100px;
   list-style-type: none;
-  margin: 0 30px;
   width: 100px;
 }
 
