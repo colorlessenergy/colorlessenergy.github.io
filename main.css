@@ -18,27 +18,106 @@ html, body {
   justify-content: flex-end;
 }
 
-.nav nav {
+
+.responsive-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav nav, .responsive-nav ul {
+  align-items: center;
   display: flex;
   font-size: 14px;
   list-style-type: none;
   justify-content: space-around;
 }
 
-.nav nav li {
+.nav nav li, .responsive-nav ul li {
   text-align: center;
 }
 
-.nav img, .nav nav li a, .nav nav li {
+.nav img, .nav nav li a, .nav nav li, .responsive-nav li {
   color: #7c6148;
   text-decoration: none;
 }
 
-.nav nav img {
+.nav nav img, .responsive-nav img {
   height: 50px;
   width: 50px;
 }
 
-.nav nav p {
+.nav nav p, .responsive-nav ul li p {
   margin: 0;
+}
+
+.nav-click {
+  cursor: pointer;
+}
+
+.nav-click img {
+  height: 25px;
+  width: 25px;
+}
+
+.responsive-nav {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.responsive-nav .special {
+  font-weight: bold;
+}
+
+.responsive-navbar {
+  background-color: #232323;
+  position: absolute;
+  width: 100%;
+}
+
+.show {
+  display: none;
+}
+
+.responsive-navbar ul .special {
+  border-bottom: 1px solid #7c6148;
+  width: 50%;
+}
+
+.responsive-navbar div {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.responsive-navbar ul {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    list-style: none;
+}
+
+.responsive-navbar ul li, .responsive-navbar ul li a  {
+  color: #7c6148;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.work {
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .responsive-nav {
+    display: block;
+  }
+  .responsive-nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav {
+    display: none;
+  }
+
 }
