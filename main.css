@@ -1,4 +1,44 @@
 html, body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  margin: 0 2%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav nav {
+  display: flex;
+  font-size: 14px;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.nav nav li {
+  text-align: center;
+}
+
+.nav img, .nav nav li a, .nav nav li {
+  color: #7c6148;
+  text-decoration: none;
+}
+
+.nav nav img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav nav p {
+  margin: 0;
 }
