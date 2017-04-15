@@ -8,6 +8,11 @@ html, body {
   margin: 0 2%;
 }
 
+.current {
+  margin-left: 50px;
+  margin-top: auto;
+}
+
 .display-work {
   display: flex;
   flex-direction: column;
@@ -15,11 +20,46 @@ html, body {
 
 .display-work .display-text-img {
   display: flex;
+  height: 600px;
+}
+
+.display-work .display-text-img .content {
+  background-color: #000;
+  color: #7c6148;
+  width: 50%;
+}
+
+.display-work .display-text-img .content img {
+  height: 100%;
+  width: 100%;
+}
+
+.display-work .display-text-img .content div {
+  margin: 50px
+}
+
+.display-work .display-text-img .content div .title {
+  border-bottom: 1px solid;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.display-work .display-text-img .content div .link {
+  margin: 0;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.flex-bottom {
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .nav div {
