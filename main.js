@@ -1,11 +1,46 @@
 var navbar = document.getElementById("responsive-navbar");
 var navClick = document.getElementById("nav-click");
+var slideShowTitle = document.getElementById("slideshow-title");
+var slideShowLink = document.getElementById("slideshow-link");
+var slideShowPic = document.getElementById("slideshow-pic");
+var leftArrow = document.getElementById("left");
+var rightArrow = document.getElementById("right");
+var current = 0;
 var slideshowItems = [
-    {"pic": "apps/pacman.png", "desc": "my first game I have ever made", "link": "https://colorlessenergy.github.io/pacman/"},
-    {"pic": "apps/scramble-word.png", "desc": "a game where you unscramble a word that is given", "link": "https://colorlessenergy.github.io/scrambled-word/"},
-    {"pic": "apps/spelling-with-chemistry.png", "desc": "changes words into chemistry ", "link": "https://colorlessenergy.github.io/spelling-with-chemistry/"}
+    {"pic": "apps/pacman-game.png", "title": "PACMAN GAME", "link": "https://colorlessenergy.github.io/pacman/"},
+    {"pic": "apps/scramble-word-game.png", "title": "SCRAMBLE WORDS", "link": "https://colorlessenergy.github.io/scrambled-word/"},
+    {"pic": "apps/spelling-with-chemistry.png", "title": "SPELLING WITH CHEMISTRY", "link": "https://colorlessenergy.github.io/spelling-with-chemistry/"}
     ];
+
+function slideShow () {
+    if (current === 3) {
+        current = 0
+    }
+    if (current === -1) {
+        current = 2
+    }
+    slideShowTitle.innerHTML = slideshowItems[current].title;
+    slideShowLink.href = slideshowItems[current].link;
+    slideShowPic.src = slideshowItems[current].pic;
+}
+
 navClick.addEventListener("click", function () {
     navbar.classList.toggle("show");
 });
+
+leftArrow.addEventListener("click", function () {
+    current--;
+    slideShow();
+});
+
+rightArrow.addEventListener("click", function () {
+    current++;
+    slideShow();
+});
+
+setInterval(function () {
+    current++;
+    slideShow();
+}, 4500)
+
 

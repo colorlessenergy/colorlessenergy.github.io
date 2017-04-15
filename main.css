@@ -45,10 +45,12 @@ html, body {
   padding: 10px 0;
 }
 
-.display-work .display-text-img .content div .link {
-  margin: 0;
+.display-work .display-text-img .content div .link, .display-work .display-text-img .content div p a  {
+  color: #7c6148;
   font-style: italic;
   font-size: 14px;
+  margin: 0;
+  text-decoration: none;
 }
 
 .flex-bottom {
@@ -154,6 +156,14 @@ html, body {
 
 .work {
   position: relative;
+}
+
+#left {
+  font-size: 20px;
+}
+
+#right {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1024px) {
