@@ -20,7 +20,12 @@ html, body {
 
 .display-work .display-text-img, .display-text-img-responsive {
   display: flex;
+  height: 750px;
+}
+
+.display-text-img-responsive img {
   height: 600px;
+  width: 100%;
 }
 
 .display-text-img-responsive {
@@ -42,19 +47,32 @@ html, body {
   margin: 50px
 }
 
-.display-work .display-text-img .content div .title {
+.display-work .display-text-img .content div .title, .display-text-img-responsive .title {
   border-bottom: 1px solid;
   color: #fff;
   display: inline-block;
   padding: 10px 0;
 }
+.display-text-img-responsive {
+  background-color: #f3f1f1;
 
-.display-work .display-text-img .content div .link, .display-work .display-text-img .content div p a  {
+}
+
+.display-text-img-responsive .title {
+  color: #000;
+  margin-left: 10px;
+}
+
+.display-work .display-text-img .content div .link, .display-work .display-text-img .content div p a, .display-text-img-responsive .link a  {
   color: #7c6148;
   font-style: italic;
   font-size: 14px;
   margin: 0;
   text-decoration: none;
+}
+
+.display-text-img-responsive .link a {
+  margin-left: 10px;
 }
 
 .flex-bottom {
