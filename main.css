@@ -4,6 +4,22 @@ html, body {
   padding: 0;
 }
 
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact .link {
+  margin: 0;
+}
+
 .container {
   margin: 0 2%;
 }
@@ -47,7 +63,7 @@ html, body {
   margin: 50px
 }
 
-.display-work .display-text-img .content div .title, .display-text-img-responsive .title, .skills .title {
+.display-work .display-text-img .content div .title, .display-text-img-responsive .title, .skills .title, .contact .title {
   border-bottom: 1px solid;
   color: #fff;
   display: inline-block;
@@ -58,13 +74,13 @@ html, body {
   background-color: #f3f1f1;
 }
 
-.display-text-img-responsive .title, .skills .title {
+.display-text-img-responsive .title, .skills .title, .contact .title {
   color: #000;
   margin-left: 10px;
   letter-spacing: 2px;
 }
 
-.display-work .display-text-img .content div .link, .display-work .display-text-img .content div p a, .display-text-img-responsive .link a, .skills .link a {
+.display-work .display-text-img .content div .link, .display-work .display-text-img .content div p a, .display-text-img-responsive .link a, .skills .link a, .mastery .link a, .contact .link a {
   color: #7c6148;
   font-style: italic;
   font-size: 14px;
@@ -79,6 +95,78 @@ html, body {
 .flex-bottom {
   display: flex;
   flex-direction: column;
+}
+
+.collage {
+  display: flex;
+  margin-top: 30px;
+}
+
+.left-collage img {
+  height: 600px;
+  margin-top: 10px;
+  width: 450px;
+}
+
+.collage .right-collage .text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.collage .right-collage p {
+  margin: 0;
+}
+
+.right-collage {
+  align-self: flex-end;
+}
+
+.right-collage img {
+  height: 400px;
+  width: 100%;
+}
+
+.mastery {
+  background-image: url("assets/mastery.png");
+  display: flex;
+  height: 600px;
+}
+
+.mastery div {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
+  width: 40%;
+}
+
+.mastery div img {
+ border-radius: 30px;
+ margin-top: 30px;
+ width: 85%;
+}
+
+.mastery .passion {
+  border-bottom: 1px solid #000;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.mastery .mastery-desc {
+  color: #989898;
+  font-size: 14px;
+  margin: 14px 20px;
+}
+
+.mastery .link {
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 .nav {
@@ -175,7 +263,7 @@ html, body {
 
 }
 
-.skills-info .link {
+.skills-info .link, .mastery .link {
   margin-right: 10px;
 }
 
@@ -254,6 +342,10 @@ html, body {
   .responsive-nav ul {
     display: flex;
     justify-content: space-between;
+  }
+
+  .mastery div {
+    width: 90%;
   }
 
   .nav {
