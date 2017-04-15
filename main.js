@@ -1,6 +1,8 @@
 var navbar = document.getElementById("responsive-navbar");
 var navClick = document.getElementById("nav-click");
 var slideShowTitle = document.getElementById("slideshow-title");
+var slideShowTitleResponsive = document.getElementById("slideshow-responsive-title");
+var slideshowPicResponsive = document.getElementById("slideshow-pic-responsive");
 var slideShowLink = document.getElementById("slideshow-link");
 var slideShowPic = document.getElementById("slideshow-pic");
 var leftArrow = document.getElementById("left");
@@ -22,6 +24,8 @@ function slideShow () {
     slideShowTitle.innerHTML = slideshowItems[current].title;
     slideShowLink.href = slideshowItems[current].link;
     slideShowPic.src = slideshowItems[current].pic;
+    slideShowTitleResponsive.innerHTML = slideshowItems[current].title;
+    slideshowPicResponsive.src = slideshowItems[current].pic;
 }
 
 navClick.addEventListener("click", function () {
@@ -42,5 +46,3 @@ setInterval(function () {
     current++;
     slideShow();
 }, 4500)
-
-
