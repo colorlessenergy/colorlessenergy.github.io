@@ -47,23 +47,24 @@ html, body {
   margin: 50px
 }
 
-.display-work .display-text-img .content div .title, .display-text-img-responsive .title {
+.display-work .display-text-img .content div .title, .display-text-img-responsive .title, .skills .title {
   border-bottom: 1px solid;
   color: #fff;
   display: inline-block;
   padding: 10px 0;
 }
+
 .display-text-img-responsive {
   background-color: #f3f1f1;
-
 }
 
-.display-text-img-responsive .title {
+.display-text-img-responsive .title, .skills .title {
   color: #000;
   margin-left: 10px;
+  letter-spacing: 2px;
 }
 
-.display-work .display-text-img .content div .link, .display-work .display-text-img .content div p a, .display-text-img-responsive .link a  {
+.display-work .display-text-img .content div .link, .display-work .display-text-img .content div p a, .display-text-img-responsive .link a, .skills .link a {
   color: #7c6148;
   font-style: italic;
   font-size: 14px;
@@ -151,6 +152,37 @@ html, body {
   display: none;
 }
 
+.skills ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.skills ul li img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills-info {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.skills-info .link {
+  margin-right: 10px;
+}
+
+.skills-info .title {
+  padding: 0;
+}
+
 .responsive-navbar ul .special {
   border-bottom: 1px solid #7c6148;
   width: 50%;
@@ -174,6 +206,24 @@ html, body {
   color: #7c6148;
   margin: 10px 0;
   text-decoration: none;
+}
+
+.quote {
+  background-image: url("assets/canyon-bg.jpg");
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.quote .author {
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-top: auto;
+}
+
+.quote .author-quote {
+  margin-left: 10px;
 }
 
 .work {
