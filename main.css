@@ -105,10 +105,10 @@ footer p {
 .left-collage img {
   height: 600px;
   margin-top: 10px;
-  width: 450px;
+  width: 500px;
 }
 
-.collage .right-collage .text {
+.collage .right-collage .text, .responsive-collage .text {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -180,6 +180,9 @@ footer p {
   justify-content: flex-end;
 }
 
+.responsive-collage {
+  display: none;
+}
 
 .responsive-nav ul {
   margin: 0;
@@ -327,6 +330,14 @@ footer p {
 }
 
 @media screen and (max-width: 1024px) {
+
+  .collage {
+    display: none;
+  }
+
+  .responsive-collage {
+    display: block;
+  }
 
   .display-work .display-text-img {
     display: none;
