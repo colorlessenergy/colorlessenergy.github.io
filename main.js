@@ -7,6 +7,7 @@ var slideShowLink = document.getElementById("slideshow-link");
 var slideShowPic = document.getElementById("slideshow-pic");
 var leftArrow = document.getElementById("left");
 var rightArrow = document.getElementById("right");
+var currentDisplay = document.getElementById("num");
 var current = 0;
 var slideshowItems = [
     {"pic": "apps/pacman-game.png", "title": "PACMAN GAME", "link": "https://colorlessenergy.github.io/pacman/"},
@@ -26,6 +27,7 @@ function slideShow () {
     slideShowPic.src = slideshowItems[current].pic;
     slideShowTitleResponsive.innerHTML = slideshowItems[current].title;
     slideshowPicResponsive.src = slideshowItems[current].pic;
+    currentDisplay.innerHTML = current+1;
 }
 
 navClick.addEventListener("click", function () {
@@ -33,16 +35,16 @@ navClick.addEventListener("click", function () {
 });
 
 leftArrow.addEventListener("click", function () {
-    current--;
-    slideShow();
+  current--;
+  slideShow();
 });
 
 rightArrow.addEventListener("click", function () {
-    current++;
-    slideShow();
+  current++;
+  slideShow();
 });
 
 setInterval(function () {
-    current++;
-    slideShow();
+  current++;
+  slideShow();
 }, 4500)
