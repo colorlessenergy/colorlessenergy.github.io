@@ -250,7 +250,6 @@ footer p {
 .skills ul {
   align-items: center;
   display: flex;
-  flex-flow: wrap;
   justify-content: space-around;
   height: 200px;
   list-style-type: none;
