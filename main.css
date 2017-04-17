@@ -325,11 +325,8 @@ footer p {
   position: relative;
 }
 
-#left {
-  font-size: 20px;
-}
-
-#right {
+#left, #right {
+  cursor: pointer;
   font-size: 20px;
 }
 
