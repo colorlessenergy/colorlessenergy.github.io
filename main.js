@@ -10,8 +10,8 @@ var rightArrow = document.getElementById("right");
 var currentDisplay = document.getElementById("num");
 var current = 0;
 var slideshowItems = [
-    {"pic": "apps/pacman-game.png", "title": "PACMAN GAME", "link": "https://colorlessenergy.github.io/pacman/"},
-    {"pic": "apps/scramble-word-game.png", "title": "SCRAMBLE WORDS", "link": "https://colorlessenergy.github.io/scrambled-word/"},
+    {"pic": "apps/fruitsandvegetables.png", "title": "FRUITS AND VEGETABLES", "link": "https://colorlessenergy.github.io/fruitsandvegetables/"},
+    {"pic": "apps/pacman-game.png", "title": "PACMAN", "link": "https://colorlessenergy.github.io/pacman/"},
     {"pic": "apps/spelling-with-chemistry.png", "title": "SPELLING WITH CHEMISTRY", "link": "https://colorlessenergy.github.io/spelling-with-chemistry/"}
     ];
 

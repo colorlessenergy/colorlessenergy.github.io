@@ -36,6 +36,11 @@ footer p {
 
 .display-work .display-text-img, .display-text-img-responsive {
   display: flex;
+  height: 600px;
+}
+
+.display-text-img-responsive {
+  display: flex;
   height: 750px;
 }
 
