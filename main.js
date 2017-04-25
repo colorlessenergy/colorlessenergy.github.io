@@ -12,7 +12,7 @@ var current = 0;
 var slideshowItems = [
     {"pic": "apps/fruitsandvegetables.png", "title": "FRUITS AND VEGETABLES", "link": "https://colorlessenergy.github.io/fruitsandvegetables/"},
     {"pic": "apps/pacman-game.png", "title": "PACMAN", "link": "https://colorlessenergy.github.io/pacman/"},
-    {"pic": "apps/spelling-with-chemistry.png", "title": "SPELLING WITH CHEMISTRY", "link": "https://colorlessenergy.github.io/spelling-with-chemistry/"}
+    {"pic": "apps/devbanana.png", "title": "Devbanana - freelance", "link": "https://colorlessenergy.github.io/spelling-with-chemistry/"}
     ];
 
 function slideShow () {
