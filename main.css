@@ -256,11 +256,9 @@ footer p {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  height: 200px;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-
+  padding: 100px 0;
 }
 
 .skills ul li img {
