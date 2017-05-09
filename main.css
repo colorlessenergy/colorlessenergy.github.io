@@ -1,0 +1,128 @@
+html, body {
+  background-color: #4a8286;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container .left, .container .right  {
+  margin-top: 4%;
+  height: 500px;
+  width: 40%;
+}
+
+.container .left .logo-start {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .left p.margin {
+  margin-right: 10px;
+}
+
+.container .left .logo-start img {
+  height: 50px;
+  margin: 10px;
+  width: 50px;
+}
+
+.container .left .title {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.container .left .title div {
+  align-items: center;
+  display: flex;
+}
+
+.container .left .title .image {
+  background-image: url("assets/iphone.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 25% 50%;
+  justify-content: flex-end;
+  width: 80%;
+  height: 100%;
+}
+
+.container .left .title .image h1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+
+.container .left .title .image h1 span {
+  display: block;
+  font-size: 40px;
+}
+
+.container .left .title div p {
+  margin: 10px 10px 10px 0;
+}
+
+.container .left .title-logo span {
+  display: block;
+}
+
+.container .right img {
+  height: 25px;
+  width: 25px;
+}
+
+.container .right p  {
+  font-size: 15px;
+}
+
+.container .right p span {
+  font-weight: 600;
+}
+
+.container .right .contact {
+  align-items: center;
+  display: flex;
+}
+
+.container .right .arrow {
+  background-color: #222;
+  height: 50%;
+  position: absolute;
+  width: 1px;
+}
+
+.container .right .message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.container .right .message button {
+  align-self: flex-end;
+  background-color: #e0e078;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 6px;
+  width: 50px;
+}
+
+.container .right .message input {
+  background-color: #4a8286;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  padding-bottom: 2px;
+}
+
+
+.work {
+  display: none;
+}
