@@ -52,50 +52,68 @@
       </div>
       <!-- arrow -->
       <span class="arrow"></span>
-      <div class="message">
-        <input placeholder="name" type="text">
-        <input placeholder="message" type="text">
-        <button>send</button>
-      </div>
-      <div>
-        <p>click for portfolio</p>
-        <p>find me: github</p>
-      </div>
+        <div class="message">
+          <input placeholder="name" type="text">
+          <input placeholder="message" type="text">
+          <button>send</button>
+        </div>
+        <div class="next">
+          <p id="load" class="load">Portfolio is below</p>
+          <p>find me: <a href="https://github.com/colorlessenergy">Github</a></p>
+        </div>
     </section>
-  <section class="work">
-    <div>
+  <section class="work" id="work">
+    <div class="logo-copy">
       <img src="assets/favicon.png" alt="banana">
       <div>
-        <p>-</p>
-        <p>works</p>
-        <p>&copy; 2017</p>
+        <p class="space">-</p>
+        <p>
+          <span>W</span>
+          <span>o</span>
+          <span>r</span>
+          <span>k</span>
+          <span>s</span>
+        </p>
       </div>
+        <p class="copy">&copy; 2017</p>
     </div>
-    <div>
-      <div>
+    <div class="port-work">
+      <div class="back-home">
         <span></span>
-        <p>about up</p>
+        <p id="load" class="load">about up</p>
       </div>
-      <div>
+      <div class="display-work">
         <!-- logo -->
-        <div>
-
+        <div class="logo">
+          <p>Pacman</p>
         </div>
+
         <!-- name -->
-        <div>
+        <div class="work-title">
+          <div>
+            <h2>Pacman</h2>
+            <p>one of my first projects </p>
+          </div>
 
         </div>
         <!-- link -->
-        <div>
+        <div class="work-link">
+          <div>
+            <a href="https://colorlessenergy.github.io/pacman/">View Case</a>
+          </div>
 
         </div>
       </div>
     </div>
-    <div>
-      <input type="range" step="1" min="0" max="5">
+    <div class="section-load">
+      <div>
+        <input id="slider" type="range" step="1" min="0" max="5">
+        <p id="show">Pacman</p>
+      </div>
       <p>find me: github</p>
     </div>
   </section>
 </section>
+<script src="main.js"></script>
 </body>
 </html>
