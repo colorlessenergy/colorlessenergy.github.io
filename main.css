@@ -73,6 +73,7 @@ html, body {
 
 .container .left .title-logo span {
   display: block;
+  font-size: 15px;
 }
 
 .container .right img {
@@ -80,11 +81,11 @@ html, body {
   width: 25px;
 }
 
-.container .right p  {
+.container .right p, .container-responsive .res-desc div p  {
   font-size: 14px;
 }
 
-.container .right p span {
+.container .right p span, .container-responsive .res-desc div p span {
   font-weight: 600;
 }
 
@@ -97,6 +98,11 @@ html, body {
   margin: 15px;
 }
 
+.container .right .contact p a, .section-load p a, footer p a {
+  color: #222;
+  text-decoration: none;
+}
+
 .container .right .arrow {
   background-color: #222;
   bottom: 10px;
@@ -105,44 +111,23 @@ html, body {
   width: 1px;
 }
 
-.container .right .message {
+.container .right .next {
+  align-items: center;
+  height: 83%;
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-
-.container .right .message button {
-  align-self: flex-end;
-  background-color: #e0e078;
-  border-radius: 10px;
-  margin-top: 30px;
-  padding: 6px;
-  width: 50px;
-}
-
-.container .right .message input {
-  background-color: #4a8286;
-  border: none;
-  border-bottom: 1px solid #000;
-  font-size: 20px;
-  padding-bottom: 10px;
-}
-
-.container .right .message input:focus {
-  outline: none;
-}
-
-.container .right .next {
-  align-items: flex-end;
-  height: 42%;
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 10px;
 }
 
+.container .right .next div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .container .right .next p {
+  cursor: pointer;
   font-size: 12px;
   margin: 0;
 }
@@ -216,6 +201,7 @@ html, body {
 }
 
 .work .port-work .back-home p {
+  cursor: pointer;
   font-size: 12px;
 }
 
@@ -223,47 +209,83 @@ html, body {
   margin-top: 20%;
 }
 
+.work .port-work .display-work .logo-active {
+  display: flex;
+}
+
 .work .port-work .work-link {
-  margin-top: 40%;
+  margin-top: 20%;
   text-align: center;
 }
 
-.work .port-work .work-link a {
+.work .port-work .work-link a, .container-responsive .res-link a {
   color: #000;
   text-decoration: none;
 }
 
-.work .port-work .work-link div {
+.work .port-work .work-link div, .container-responsive .res-link {
+  -ms-animation: push 3s linear 0s;
+  -webkit-animation: push 3s linear 0s;
+  animation: push 3s linear 0s;
   border: 1px solid #000;
   border-radius: 30px;
-  display: inline;
+  display: none;;
   padding: 10px;
 }
 
-.work .port-work .logo {
+.work .port-work .logo, .container-responsive .res-logo {
   align-items: center;
   background-color: #fff;
   border-radius: 100px;
-  display: flex;
+  display: none;
+  font-family: 'Kaushan Script', cursive;
   height: 100px;
   justify-content: center;
   padding: 50px;
-  width: 100px;
 }
 
-.work .port-work .work-title {
+.logo p, .container-responsive .res-logo p {
+  -ms-animation: push 3s linear 0s;
+  -webkit-animation: push 3s linear 0s;
+  animation: push 3s linear 0s;
+  font-size: 30px;
+  width: 100px;
   text-align: center;
 }
 
-.work .port-work .work-title h2 {
+.work .port-work .work-link .link-active, .container-responsive .res-link-active {
+  display: inline;
+}
+
+.work .port-work .work-title, .container-responsive .res-title-work {
+  text-align: center;
+}
+
+.work .port-work .work-title div, .container-responsive .res-title-work {
+  display: none;
+}
+
+.work .port-work .work-title h2, .container-responsive .res-title-work h2 {
+  -ms-animation: push 3s linear 0s;
+  -webkit-animation: push 3s linear 0s;
+  animation: push 3s linear 0s;
   font-size: 50px;
   font-weight: normal;
   margin-bottom: 0px;
+  overflow: hidden;
 }
 
-.work .port-work .work-title p {
+.work .port-work .work-title p, .container-responsive .res-title-work p {
+  -ms-animation: push 3s linear 0s;
+  -webkit-animation: push 3s linear 0s;
+  animation: push 3s linear 0s;
   font-size: 13px;
   margin-top: 0;
+  overflow: hidden;
+}
+
+.work .port-work .work-title .title-active, .container-responsive .res-title-active {
+  display: block;
 }
 
 .work .section-load {
@@ -284,6 +306,10 @@ html, body {
   transform: translateX(0);
 }
 
+#margin {
+  margin: auto;
+}
+
 #slider {
   -webkit-appearance: none;
   height: 1px;
@@ -293,4 +319,115 @@ html, body {
   border-left: solid rgba(0,0,0,0.5) 1px;
   -webkit-transform: rotate(90deg);
  -webkit-transform-origin: top left;
+}
+
+@-moz-keyframes push{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: rotate(0deg) scale(2) skew(0deg) translate(0px); }
+	10% { opacity: 1; -moz-transform: translateX(0px); }
+	25% { opacity: 1; -moz-transform: translateX(0px); }
+
+}
+@-webkit-keyframes push{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform:rotate(0deg) scale(2) skew(0deg) translate(0px);}
+		10% { opacity: 1; -webkit-transform: translateX(0px); }
+	25% { opacity: 1; -webkit-transform: translateX(0px); }
+
+}
+@-ms-keyframes push{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: rotate(0deg) scale(2) skew(0deg) translate(0px); }
+	10% { opacity: 1; -ms-transform: translateX(0px); }
+	25% { opacity: 1; -ms-transform: translateX(0px); }
+}
+
+/*responsive container*/
+
+.container-responsive {
+  display: none;
+}
+
+.container-responsive nav {
+  border-bottom: 1px solid #222;
+  padding-bottom: 5px;
+}
+
+.container-responsive nav img {
+  height: 50px;
+  width: 50px;
+}
+
+.container-responsive .contain-title {
+  height: 200px;
+}
+
+.container-responsive .contain-title h1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.container-responsive .contain-title h1 span {
+  display: block;
+  font-size: 30px;
+}
+
+.container-responsive .res-desc div {
+  margin-left: 20px;
+}
+
+.container-responsive .message {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-responsive .res-logo-active {
+  display: flex;
+}
+
+.container-responsive .res-title-active {
+  display: block;
+}
+
+.container-responsive .res-work-link {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.container-responsive .res-section-load {
+  text-align: center;
+}
+
+.container-responsive .res-work {
+  height: 400px;
+}
+
+footer {
+  height: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container .left .title .image h1 {
+    margin-right: 0;
+  }
+
+  .container .left .title .image h1 span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: none;
+  }
+
+  .container-responsive {
+    display: block;
+  }
 }
