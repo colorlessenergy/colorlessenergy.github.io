@@ -2,4 +2,43 @@
 layout: default
 ---
 
-<p>Hi I am in the progress of creating a new portfolio!</p>
+{% include nav.html %}
+
+<header>
+  <h2>I make</h2>
+  <h2>responsive websites</h2>
+</header>
+<section>
+  <div>
+    {% for display in site.data.work %}
+    <a href="{{display.link}}">
+      <div style="background-image: url({{display.img-link}})" height="{{display.height}}">
+        <div>
+          <h2>{{display.title}}</h2>
+          <p>{{display.desc}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <div>
+    {% for display in site.data.work2 %}
+    <a href="{{display.link}}">
+      <div style="background-image: url({{display.img-link}})" height="{{display.height}}">
+        <div>
+          <h2>{{display.title}}</h2>
+          <p>{{display.desc}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <div>
+    <p>Our Services</p>
+    <p>Let me help you!</p>
+  </div>
+  <div>
+  </div>
+</section>
