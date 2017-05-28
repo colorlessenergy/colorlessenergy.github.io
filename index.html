@@ -6,11 +6,11 @@ layout: default
   <h2>I make</h2>
   <h2>responsive websites</h2>
 </header>
-<section>
-  <div>
+<section class="work-contain">
+  <div class="work">
     {% for display in site.data.work %}
-    <a href="{{display.link}}">
-      <div style="background-image: url({{display.img-link}})" height="{{display.height}}">
+    <a class="{{display.class}}" href="{{display.link}}">
+      <div class="bg" style="background-image: url({{display.img-link}})" height="{{display.height}}">
         <div>
           <h2>{{display.title}}</h2>
           <p>{{display.desc}}</p>
@@ -19,10 +19,10 @@ layout: default
     </a>
     {% endfor %}
   </div>
-  <div>
+  <div class="work">
     {% for display in site.data.work2 %}
-    <a href="{{display.link}}">
-      <div style="background-image: url({{display.img-link}})" height="{{display.height}}">
+    <a class="{{display.class}}" href="{{display.link}}">
+      <div class="bg" style="background-image: url({{display.img-link}})" height="{{display.height}}">
         <div>
           <h2>{{display.title}}</h2>
           <p>{{display.desc}}</p>
@@ -32,17 +32,20 @@ layout: default
     {% endfor %}
   </div>
 </section>
-<section>
-  <div>
-    <p>Our Services</p>
+<section class="services">
+  <div class="services-about">
+    <p>My Services</p>
     <p>Let me help you!</p>
   </div>
-  <div>
+  <div class="services-info">
     {% for service in site.data.about %}
       <a href="{{service.link}}">
-        <div style="background-image: url({{service.img}})">
+        <div class="bg-service" style="background-image: url({{service.img}})">
+          <div class="opac">
+          </div>
           <h2>{{service.title}}</h2>
-          <p>{{service.desc}}</p>
+          <p class="desc">{{service.desc}}</p>
+          <p id="more" class="more-button">more</p>
         </div>
       </a>
     {% endfor %}

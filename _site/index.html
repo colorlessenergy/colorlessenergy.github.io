@@ -16,17 +16,26 @@
     <li><a href="services.html">Services</a></li>
     <li><a href="contact.html">contact</a></li>
   </ul>
+  <img class="menu-icon" src="apps/menu-icon.svg" alt="menu icon">
 </nav>
+<section class="responsivenav" id="responsivenav">
+  <p class="menu-icon">x</p>
+  <ul>
+    <li><a href="index.html">Work</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">contact</a></li>
+  </ul>
+</section>
 
   <header class="header-main">
   <h2>I make</h2>
   <h2>responsive websites</h2>
 </header>
-<section>
-  <div>
+<section class="work-contain">
+  <div class="work">
     
-    <a href="colorlessenergy.github.io/imaqtpie">
-      <div style="background-image: url(apps/imaqtpie.png)" height="400px">
+    <a class="big" href="https://colorlessenergy.github.io/imaqtpie">
+      <div class="bg" style="background-image: url(apps/imaqtpie.png)" height="">
         <div>
           <h2>imaqtpie</h2>
           <p>responsive design</p>
@@ -34,8 +43,8 @@
       </div>
     </a>
     
-    <a href="https://colorlessenergy.github.io/fruitsandvegetables/">
-      <div style="background-image: url(apps/fruitsandvegetables.jpg)" height="300px">
+    <a class="small" href="https://colorlessenergy.github.io/fruitsandvegetables/">
+      <div class="bg" style="background-image: url(apps/fruitsandvegetables.jpg)" height="">
         <div>
           <h2>fruits & vegetables</h2>
           <p>responsive design</p>
@@ -43,8 +52,8 @@
       </div>
     </a>
     
-    <a href="https://colorlessenergy.github.io/all-about-fruit/">
-      <div style="background-image: url(apps/all-about-fruit.jpg)" height="300px">
+    <a class="small" href="https://colorlessenergy.github.io/all-about-fruit/">
+      <div class="bg" style="background-image: url(apps/all-about-fruit.jpg)" height="">
         <div>
           <h2>all about fruits</h2>
           <p>responsive design</p>
@@ -53,19 +62,10 @@
     </a>
     
   </div>
-  <div>
+  <div class="work">
     
-    <a href="colorlessenergy.github.io/growlypw">
-      <div style="background-image: url(apps/growlypw.png)" height="400px">
-        <div>
-          <h2>growlypw</h2>
-          <p>responsive design</p>
-        </div>
-      </div>
-    </a>
-    
-    <a href="colorlessenergy.github.io/giant">
-      <div style="background-image: url(apps/giant.jpg)" height="300px">
+    <a class="small" href="https://colorlessenergy.github.io/giant">
+      <div class="bg" style="background-image: url(apps/giant.jpg)" height="">
         <div>
           <h2>giant - clash of clans</h2>
           <p>responsive design</p>
@@ -73,8 +73,8 @@
       </div>
     </a>
     
-    <a href="colorlessenergy.github.io/tyler1">
-      <div style="background-image: url(apps/tyler1.jpg)" height="300px">
+    <a class="small" href="https://colorlessenergy.github.io/tyler1/">
+      <div class="bg" style="background-image: url(apps/tyler1.jpg)" height="">
         <div>
           <h2>tyler1</h2>
           <p>responsive design</p>
@@ -82,26 +82,41 @@
       </div>
     </a>
     
+    <a class="big" href="https://colorlessenergy.github.io/growlypw">
+      <div class="bg" style="background-image: url(apps/growlypw.png)" height="">
+        <div>
+          <h2>growlypw</h2>
+          <p>responsive design</p>
+        </div>
+      </div>
+    </a>
+    
   </div>
 </section>
-<section>
-  <div>
-    <p>Our Services</p>
+<section class="services">
+  <div class="services-about">
+    <p>My Services</p>
     <p>Let me help you!</p>
   </div>
-  <div>
+  <div class="services-info">
     
       <a href="services.html">
-        <div style="background-image: url(apps/homeoffice.jpg)">
+        <div class="bg-service" style="background-image: url(apps/homeoffice.jpg)">
+          <div class="opac">
+          </div>
           <h2>web dev</h2>
-          <p>I have alot of experience creating websites, I try to build a website everyday, I tend to keep up with latest trends</p>
+          <p class="desc">I have alot of experience creating websites, I try to build a website everyday, I tend to keep up with latest trends</p>
+          <p id="more" class="more-button">more</p>
         </div>
       </a>
     
       <a href="services.html">
-        <div style="background-image: url(apps/responsive.png)">
+        <div class="bg-service" style="background-image: url(apps/responsive.png)">
+          <div class="opac">
+          </div>
           <h2>responsive web dev</h2>
-          <p>responsive design makes your website accessible across all devices. Let me create you an awesome professional website</p>
+          <p class="desc">responsive design makes your website accessible across all devices. Let me create you an awesome professional website</p>
+          <p id="more" class="more-button">more</p>
         </div>
       </a>
     
@@ -155,5 +170,6 @@
   </section>
 </footer>
 
+  <script src="main.js"></script>
 </body>
 </html>

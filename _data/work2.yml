@@ -1,17 +1,17 @@
-- title: growlypw
-  desc: responsive design
-  img-link: apps/growlypw.png
-  link: colorlessenergy.github.io/growlypw
-  height: 400px
-
 - title: giant - clash of clans
   desc: responsive design
-  height: 300px
   img-link: apps/giant.jpg
-  link: colorlessenergy.github.io/giant
+  link: https://colorlessenergy.github.io/giant
+  class: small
 
 - title: tyler1
   desc: responsive design
-  height: 300px
   img-link: apps/tyler1.jpg
-  link: colorlessenergy.github.io/tyler1
+  link: https://colorlessenergy.github.io/tyler1/
+  class: small
+
+- title: growlypw
+  desc: responsive design
+  img-link: apps/growlypw.png
+  link: https://colorlessenergy.github.io/growlypw
+  class: big

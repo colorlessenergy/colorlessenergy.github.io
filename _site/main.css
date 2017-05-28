@@ -4,6 +4,10 @@ html, body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   align-items: center;
   background-color: #000;
@@ -32,6 +36,12 @@ nav ul li a, nav p {
   text-decoration: none;
 }
 
+nav img {
+  cursor: pointer;
+  display: none;
+  margin-right: 5%;
+}
+
 header {
   align-items: center;
   background-repeat: no-repeat;
@@ -39,10 +49,217 @@ header {
   color: #2196f3;
   display: flex;
   flex-direction: column;
+  font-size: 25px;
   justify-content: center;
-  height: 90vh
+  height: 90vh;
+  text-align: center;
 }
 
 header.header-main {
   background-image: url(apps/lightbulb.jpg);
+}
+
+.responsivenav {
+  background-color: #2196f3;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  transition: transform 0.6s ease;
+}
+
+.responsivenav p {
+  cursor: pointer;
+}
+
+.toggle-nav {
+  transform: translateY(0);
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.services .services-about {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: center;
+}
+
+.services .services-about p:first-of-type {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.services .services-about p:last-of-type {
+  font-size: 15px;
+}
+
+.services .services-about p {
+  margin: 0.2% 0;
+}
+
+.services .services-info {
+  display: flex;
+}
+
+.services .services-info .bg-service {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.services .services-info .opac {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.services .services-info .opac {
+  transition: all ease 0.5s;
+}
+
+.services .services-info .opac:hover {
+  background-color: #2196f3;
+}
+
+.services .services-info .opac:hover ~ #more {
+  opacity: 1;
+}
+
+.services .services-info .opac::after {
+  content:'';
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+.services .services-info div h2 {
+  font-size: 30px;
+  margin: 0;
+  z-index: 1;
+}
+
+.services .services-info div .desc {
+  width: 80%;
+  text-align: center;
+  z-index: 1;
+}
+
+.more-button {
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  opacity: 0;
+  transition: all ease 2s;
+  width: 100%;
+}
+
+.work {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: 5% 0;
+  width: 45%;
+  height: 700px;
+}
+
+.work .big {
+  width: 100%;
+}
+
+.work .big .bg, .work .small .bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 400px;
+  position: relative;
+}
+
+.work .big .bg div, .work .small .bg div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  transition: all ease 2s;
+}
+
+.work .big .bg div h2, .work .big .bg div p, .work .small .bg div p, .work .small .bg div h2 {
+  margin: 0;
+  margin-left: 5%;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.work .big .bg div h2, .work .big .bg div p, .work .small .bg h2, .work .small .bg p {
+  color: #fff;
+}
+
+.work .big .bg div:after, .work .small .bg div:after {
+  content:'';
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+.work .big .bg:hover > div, .work .small .bg:hover >  div {
+  background-color: #2196f3;
+}
+
+.work .small {
+  width: 48%;
+}
+
+.work .small .bg {
+  height: 200px;
+}
+
+.work-contain {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 980px) {
+  nav img {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
 }
