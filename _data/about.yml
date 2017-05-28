@@ -1,9 +1,9 @@
 - title: web dev
   desc: I have alot of experience creating websites, I try to build a website everyday, I tend to keep up with latest trends
-  img: homeoffice
+  img: apps/homeoffice.jpg
   link: services.html
 
 - title: responsive web dev
   desc: responsive design makes your website accessible across all devices. Let me create you an awesome professional website
-  img: homeoffice
+  img: apps/responsive.png
   link: services.html

@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include nav.html %}
-
 <header>
   <h2>I make</h2>
   <h2>responsive websites</h2>
@@ -40,5 +38,24 @@ layout: default
     <p>Let me help you!</p>
   </div>
   <div>
+    {% for service in site.data.about %}
+      <a href="{{service.link}}">
+        <div style="background-image: url({{service.img}})">
+          <h2>{{service.title}}</h2>
+          <p>{{service.desc}}</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <div>
+    <p>I think if you do something and it turns out pretty good,</p>
+    <p>then you should go do something else wonderful, not dwell on it for too long.</p>
+    <p>Just figure out what's next.</p>
+    <p>- Steve Jobs</p>
+  </div>
+  <div>
+    <p>Work with me ></p>
   </div>
 </section>
