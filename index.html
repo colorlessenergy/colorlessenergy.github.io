@@ -22,7 +22,7 @@ layout: default
   <div class="work">
     {% for display in site.data.work2 %}
     <a class="{{display.class}}" href="{{display.link}}">
-      <div class="bg" style="background-image: url({{display.img-link}})" height="{{display.height}}">
+      <div class="bg" style="background-image: url({{display.img-link}})">
         <div>
           <h2>{{display.title}}</h2>
           <p>{{display.desc}}</p>
@@ -31,6 +31,18 @@ layout: default
     </a>
     {% endfor %}
   </div>
+</section>
+<section class="work-contain-responsive">
+  {% for display in site.data.responsive-work %}
+  <a class="responsive-work" href="{{display.link}}">
+    <div class="bg" style="background-image: url({{display.img-link}})">
+      <div>
+        <h2>{{display.title}}</h2>
+        <p>{{display.desc}}</p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
 </section>
 <section class="services">
   <div class="services-about">

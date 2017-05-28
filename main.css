@@ -267,9 +267,10 @@ header.header-main {
   width: 100%;
 }
 
-.work .big .bg, .work .small .bg {
+.work .big .bg, .work .small .bg, .responsive-work .bg {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -277,7 +278,7 @@ header.header-main {
   position: relative;
 }
 
-.work .big .bg div, .work .small .bg div {
+.work .big .bg div, .work .small .bg div, .responsive-work .bg div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -285,7 +286,7 @@ header.header-main {
   transition: all ease 2s;
 }
 
-.work .big .bg div h2, .work .big .bg div p, .work .small .bg div p, .work .small .bg div h2 {
+.work .big .bg div h2, .work .big .bg div p, .work .small .bg div p, .work .small .bg div h2, .responsive-work .bg div p, .responsive-work .bg div h2 {
   margin: 0;
   margin-left: 5%;
   position: relative;
@@ -293,11 +294,11 @@ header.header-main {
   z-index: 1;
 }
 
-.work .big .bg div h2, .work .big .bg div p, .work .small .bg h2, .work .small .bg p {
+.work .big .bg div h2, .work .big .bg div p, .work .small .bg h2, .work .small .bg p, .responsive-work .bg p, .responsive-work .bg h2 {
   color: #fff;
 }
 
-.work .big .bg div:after, .work .small .bg div:after {
+.work .big .bg div:after, .work .small .bg div:after, .responsive-work .bg div:after {
   content:'';
   background-color: #000;
   width: 100%;
@@ -308,7 +309,7 @@ header.header-main {
   opacity: 0.6;
 }
 
-.work .big .bg:hover > div, .work .small .bg:hover >  div {
+.work .big .bg:hover > div, .work .small .bg:hover >  div, .responsive-work .bg:hover > div {
   background-color: #2196f3;
 }
 
@@ -325,15 +326,6 @@ header.header-main {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 980px) {
-  nav img {
-    display: block;
-  }
-
-  nav ul {
-    display: none;
-  }
-}
 
 /*service page*/
 
@@ -470,4 +462,113 @@ header.header-main {
 
 .overflowhidden {
   overflow: hidden;
+}
+
+/*responsive work*/
+
+.work-contain-responsive {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  margin: 5% 0;
+}
+
+.responsive-work {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 90%;
+}
+
+.responsive-work .bg {
+  height: 100%;
+  margin: 1% 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+
+  footer {
+    height: auto;
+  }
+
+  footer .copy {
+    align-items: center;
+    height: 50px;
+  }
+
+  footer .footer-info {
+    height: auto;
+    flex-direction: column;
+  }
+
+  footer .footer-info section {
+    border-bottom: 1px solid #000;
+    width: 95%;
+  }
+
+  footer .footer-info section div p {
+    margin-left: 3%;
+  }
+
+  nav img {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .display-services {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 600px;
+  }
+
+  .display-services .images {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .display-services .images .services-big {
+    width: 65%;
+  }
+
+  header {
+    background-position: center;
+  }
+
+  .services-responsive {
+    flex-direction: column;
+    height: 650px;
+    justify-content: space-around;
+  }
+
+  .services-responsive .service-images {
+    width: auto;
+  }
+
+  .services-responsive img {
+    height: 175px;
+  }
+
+  .services .services-info div h2 {
+    font-size: 25px;
+  }
+
+  .services-responsive .service-info {
+    width: 90%;
+  }
+
+  .work-contain {
+    display: none;
+  }
+
+  .work-contain-responsive {
+    display: flex;
+  }
+
 }
