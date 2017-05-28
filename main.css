@@ -1,0 +1,48 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+}
+
+nav p {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin: 0% 5%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 10%;
+  padding: 0;
+  width: 40%;
+}
+
+nav ul li a, nav p {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #2196f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh
+}
+
+header.header-main {
+  background-image: url(apps/lightbulb.jpg);
+}
