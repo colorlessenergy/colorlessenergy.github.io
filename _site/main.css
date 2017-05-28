@@ -8,6 +8,12 @@ a {
   text-decoration: none;
 }
 
+footer {
+  background-color: #212121;
+  color: #8c8b8b;
+  display: flex;
+}
+
 nav {
   align-items: center;
   background-color: #000;
@@ -181,6 +187,51 @@ header.header-main {
   opacity: 0;
   transition: all ease 2s;
   width: 100%;
+}
+
+.quote .steve {
+  align-items: center;
+  background-image: url(apps/season.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+    /* no flex support*/
+  text-align: center;
+}
+
+.quote .steve p {
+  color: #2f2f2f;
+  margin: 0;
+}
+
+.quote .steve p:last-of-type {
+  margin-top: 1%;
+}
+
+.quote .work-me {
+  align-items: center;
+  background-color: #2196f3;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.quote .work-me p a {
+  color: #fff;
+  font-size: 25px;
+
+}
+
+.quote .work-me p .marginleft {
+  transition: all ease 0.5s;
+}
+
+.quote .work-me:hover .marginleft {
+  padding-left: 10px;
 }
 
 .work {
