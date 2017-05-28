@@ -10,8 +10,28 @@ a {
 
 footer {
   background-color: #212121;
+}
+
+footer .footer-info {
+  align-items: center;
   color: #8c8b8b;
   display: flex;
+  justify-content: space-around;
+  height: 450px;
+}
+
+footer .footer-info a {
+  color: #8c8b8b;
+}
+
+footer .copy {
+  display: flex;
+  justify-content: center;
+}
+
+footer .copy p {
+  color: #8c8b8b;
+  margin: 0;
 }
 
 nav {
@@ -313,4 +333,141 @@ header.header-main {
   nav ul {
     display: none;
   }
+}
+
+/*service page*/
+
+.display-services {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.display-services h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.display-services ul {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.display-services .images {
+  display: flex;
+  margin-left: 5%;
+}
+
+.display-services .images .services-big {
+  width: 400px;
+}
+
+.display-services .images .services-big img {
+  height: 260px;
+  width: 100%;
+}
+
+.display-services .images .services-small img {
+  height: 50%;
+  width: 150px;
+}
+
+.display-services .images .services-small {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-header {
+  background-image: url(apps/lead.jpg)
+}
+
+.service-nav ul {
+  align-items: center;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services-responsive {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.services-responsive .service-info {
+  width: 32%;
+}
+
+.services-responsive .service-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services-responsive img {
+  height: 200px;
+}
+
+.services-responsive .service-images {
+  display: flex;
+  width: 45%;
+}
+
+/*contact page*/
+
+.contact-bg {
+  background-image: url(apps/climb.jpg)
+}
+
+.contact-bg a {
+  color: #111;
+}
+
+.email {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+}
+
+/*respsonive nav*/
+
+.responsivenav div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.responsivenav div p {
+  font-size: 30px;
+  margin: 2% 5%;
+}
+
+.responsivenav ul {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.responsivenav ul li a {
+  color: #fff;
+}
+
+/*overflow hidden*/
+
+.overflowhidden {
+  overflow: hidden;
 }
