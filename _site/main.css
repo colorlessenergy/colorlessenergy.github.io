@@ -276,6 +276,8 @@ header.header-main {
   justify-content: flex-end;
   height: 400px;
   position: relative;
+  opacity: 0;
+  transition: all ease 3s;
 }
 
 .work .big .bg div, .work .small .bg div, .responsive-work .bg div {
