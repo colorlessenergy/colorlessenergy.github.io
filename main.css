@@ -92,7 +92,7 @@ header {
           align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #2196f3;
+  color: #e3f321;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,6 +110,10 @@ header {
 
 header.header-main {
   background-image: url(apps/lightbulb.jpg);
+}
+
+header.header-main h2 {
+  margin: 0;
 }
 
 .responsivenav {
@@ -211,6 +215,7 @@ header.header-main {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  background-position: center;
 }
 
 .services .services-info .opac {
@@ -514,6 +519,12 @@ header.header-main {
   padding: 0;
 }
 
+.service-nav ul li {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 0 10px;
+}
+
 .services-responsive {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -539,6 +550,7 @@ header.header-main {
 
 .services-responsive img {
   height: 200px;
+  width: 100%;
 }
 
 .services-responsive .service-images {
@@ -551,7 +563,7 @@ header.header-main {
 /*contact page*/
 
 .contact-bg {
-  background-image: url(apps/climb.jpg)
+  background-image: url(apps/climb.jpg);
 }
 
 .contact-bg a {
@@ -758,4 +770,22 @@ header.header-main {
     display: flex;
   }
 
+}
+
+@media screen and (max-width: 430px) {
+  .services .services-info .bg-service {
+    text-align: center;
+  }
+
+  .services .services-info div .desc {
+    width: 95%;
+  }
+
+  .contact-bg div {
+    text-align: center;
+  }
+
+  .contact-bg p {
+    margin: 0;
+  }
 }
