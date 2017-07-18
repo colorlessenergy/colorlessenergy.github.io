@@ -78,6 +78,11 @@ nav ul {
 nav ul li a, nav p {
   color: #fff;
   text-decoration: none;
+  transition: color 2s ease;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
 }
 
 nav img {
@@ -109,11 +114,7 @@ header {
 }
 
 header.header-main {
-  background-image: url(apps/lightbulb.jpg);
-}
-
-header.header-main h2 {
-  margin: 0;
+  background-image: url(apps/railway.jpg);
 }
 
 .responsivenav {
