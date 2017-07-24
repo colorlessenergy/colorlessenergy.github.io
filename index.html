@@ -3,8 +3,8 @@ layout: default
 ---
 
 <header class="header-main">
-  <h2>I make</h2>
-  <h2>responsive websites</h2>
+  <h2>I Make</h2>
+  <h2>Responsive Websites</h2>
 </header>
 <section class="work-contain">
   <div class="work">
@@ -23,6 +23,18 @@ layout: default
     {% for display in site.data.work2 %}
     <a class="{{display.class}}" href="{{display.link}}">
       <div class="bg" style="background-image: url({{display.img-link}})">
+        <div>
+          <h2>{{display.title}}</h2>
+          <p>{{display.desc}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="work">
+    {% for display in site.data.work3 %}
+    <a class="{{display.class}}" href="{{display.link}}">
+      <div class="bg" style="background-image: url({{display.img-link}})" height="{{display.height}}">
         <div>
           <h2>{{display.title}}</h2>
           <p>{{display.desc}}</p>
