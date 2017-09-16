@@ -11,8 +11,8 @@ beginners. I will show you how to make a website that looks like the image below
 
 <br />
 
-I structured this guide so that a anyone can just a text editor and build this website
-anywhere, from your phone or your computer! All you need a browser and a text editor.
+I structured this guide so that a anyone can just use a text editor and build this website
+anywhere, from your phone or your computer! All you need is a browser and a text editor.
 
 <img src="../../../../blog-pics/first-website-guide/finished-page-2017-09-16.png" />
 
@@ -22,7 +22,7 @@ anywhere, from your phone or your computer! All you need a browser and a text ed
 <h2>1. first you have to find a text editor. </h2>
 <p>
   I recommend <a href="https://atom.io/"> atom </a> if you are developing on a laptop or computer. I recommend
-  <a href="https://play.google.com/store/apps/details?id=com.maskyn.fileeditor&hl=en"> turbo edtior </a> for mobile devices. You can use any editor of your choice HTML can be built and ran on any device with a text editor and a browser. this is the hardest step in the whole guide. Usually the hardest part is downloading and getting the application to work. If you thought this was easy this guide will be a breeze! Once you found the application you have download it.
+  <a href="https://play.google.com/store/apps/details?id=com.maskyn.fileeditor&hl=en"> turbo edtior </a> for mobile devices. You can use any editor of your choice HTML can be built and ran on any device with a text editor and a browser. this is the hardest step in the whole guide. Usually the hardest part is downloading and getting the application to work. If you thought this was easy this guide will be a breeze! Once you found the application you want download it.
 </p>
 
 <div>
@@ -35,14 +35,14 @@ anywhere, from your phone or your computer! All you need a browser and a text ed
 
   <div>
     <p>
-      First make a folder with the name of website. The folder can be named anything
+      First make a folder with the name of "website". The folder can be named anything
       I am just using that name just for this guide!
     </p>
     <img src="../../../../blog-pics/first-website-guide/folder-name-2017-09-16.png" />
   </div>
   <div>
     <p>
-      After you have created the folder, open the folder (see first pic) and make a file named "index.html" (see second pic), again this can be named whatever you choose but it is best practice to name file for the main page as index.html, but you can name it what ever you feel like naming it.
+      After you have created the folder, open the folder (see first pic) and make a file named "index.html" (see second pic), again this can be named whatever you choose but it is best practice to name for the main file as index.html, but you can name it what ever you feel like naming it but make sure to have the extension of .html or it ends with .html.
     </p>
     <img src="../../../../blog-pics/first-website-guide/folder-name-2017-09-16.png" />
     <img src="../../../../blog-pics/first-website-guide/files-name-2017-09-16.png" />
@@ -54,7 +54,7 @@ anywhere, from your phone or your computer! All you need a browser and a text ed
 
   <div>
     <p>
-      open up the index.html file or what ever you named your file, remember that it needs to have the extension or that it ends with ".html" and open it with the text editor of your choice.
+      open up the index.html file or what ever you named your file, remember that it needs to have the extension or that it ends with ".html" and open it with the text editor of your choice to see it on the browser you can either double click it on computers or on a mobile device you can either double tap or just go to your file manager and tap and hold the file and open it with your browser.
     </p>
     <img src="../../../../blog-pics/first-website-guide/open-file-2017-09-16.png" />
   </div>
@@ -73,18 +73,18 @@ anywhere, from your phone or your computer! All you need a browser and a text ed
     </p>
     <img src="../../../../blog-pics/first-website-guide/tags-explain-2017-09-16.png" />
     <p>
-    there is a opening tag and a closing tag <xmp> <p> </p> </xmp> and the content goes between the opening and closing tag. this code will produce this website. to be able to see your website you have to either double click on the file with the .html extension, if you are on the computer or you can right click and left click or hover open with and choose what ever browser you have. If you are on a device you can either open it with your text editor or go to the file manager and tap and hold and choose open with and then tap on browser of your choice.
+    there is an opening tag and a closing tag <xmp> <p> </p> </xmp> and the content goes between the opening and closing tag. this code will produce this website. to be able to see your website you have to either double click on the file with the .html extension, if you are on the computer or you can right click and hover open with and choose what ever browser you have. If you are on a device you can either open it with your text editor or go to the file manager and tap and hold and then choose open with and then tap on the browser of your choice.
     </p>
     <img src="../../../../blog-pics/first-website-guide/hi-2017-09-16.png" />
 
     <p>
-      now time to explain what each tag means, remember a tag is anything with a opening and closing tag, there are some special cases that I will talk about in another guide.
+      now it is time to explain what each tag means, remember a tag is anything with a opening and closing tag, there are some special cases that I will talk about later.
       <h3> "<!DOCTYPE html>" </h3>
       this just declares what version of HTML you are using this is the version you will always use until it gets updated again.
 
       <h3> <xmp> <html></html> </xmp>  </h3>
 
-      html tag is just for semantics and structure so the browser knows what is HTML
+      html tag is just for semantics and structure so the browser knows what is HTML and what isn't.
 
       <h3> <head> </head> </h3>
       the head tag includes any metadata which just explain data about the website, such as the characters to use, a description, and also a title. nothing in the head gets render, which means the everything you put in the head it won't be seen on the page.
@@ -110,9 +110,7 @@ anywhere, from your phone or your computer! All you need a browser and a text ed
 
   <section>
     <p>
-      Tags mostly are semantics, you don't to have the tags for the browser to display text. You should try to avoid that all times. Make sure to use semantic tags.
-
-      the tags we are going to use are the <xmp> <p> </p> </xmp> and <xmp> <h1> </h1> </xmp> and <xmp> <h2> </h2> </xmp>
+      Tags mostly are semantics, you don't to have the tags for the browser to display text. You should try to avoid that all times. Make sure to use semantic tags. some tags we are going to use are the <xmp> <p> </p> </xmp> and <xmp> <h1> </h1> </xmp> and <xmp> <h2> </h2> </xmp>. you can see more tags on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"> MDN </a>
     </p>
 
     <p>
