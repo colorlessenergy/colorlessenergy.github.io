@@ -680,6 +680,10 @@ article.blog-container {
   padding: 0 10px 0 10px;
 }
 
+article.blog-container img {
+  max-width: 100%;
+}
+
 article.blog-container p {
   line-height: 1.5;
   margin: 30px 0;
@@ -752,6 +756,10 @@ header.blog-header p {
   height: 400px;
 }
 
+xmp {
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 980px) {
   .posts .post {
     width: 60%;
@@ -761,6 +769,9 @@ header.blog-header p {
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  xmp {
+    font-size: 1.17em;
   }
 }
 
