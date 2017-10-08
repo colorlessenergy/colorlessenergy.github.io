@@ -23,3 +23,7 @@ fields:
   name: subtitle
   label: subtitle
   description: a description of the blog post
+- type: text
+  name: author
+  label: author
+  description: state the authors name
