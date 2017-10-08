@@ -1,0 +1,13 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  description: put post in the bottom line
+  config:
+    required: true
+- type: text
+  name: title
+  label: title
+  description: title of blog post goes here
