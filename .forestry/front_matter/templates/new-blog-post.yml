@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/using-forestry-to-upload-blog.md
 hide_body: false
 fields:
 - type: text
