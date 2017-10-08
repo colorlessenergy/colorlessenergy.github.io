@@ -1,0 +1,28 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  description: title of blog goes here
+  config:
+    required: true
+- type: textarea
+  name: text
+  label: text
+  description: insert the text here
+  config:
+    required: true
+- type: datetime
+  name: date
+  config:
+    date_format: MM/DD/YYYY
+    required: true
+- type: file
+  name: images
+  label: images
+  description: images go here
+- type: image_gallery
+  name: multiple-images
+  label: multiple-images
+  description: upload multiple of files here
