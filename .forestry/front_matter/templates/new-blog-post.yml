@@ -11,3 +11,7 @@ fields:
   name: title
   label: title
   description: title of blog post goes here
+- type: datetime
+  name: date
+  label: Date
+  description: date goes here
