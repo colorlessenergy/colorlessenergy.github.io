@@ -15,3 +15,7 @@ fields:
   name: date
   label: Date
   description: date goes here
+- type: text
+  name: categories
+  label: categories
+  description: list the topics discussed
