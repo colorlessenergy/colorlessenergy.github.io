@@ -2,11 +2,10 @@ var buttons = document.getElementsByClassName("menu-icon");
 var responsivenav = document.getElementById("responsivenav");
 var bgPics = document.getElementsByClassName('bg');
 
-for (var i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", function () {
-    document.getElementsByTagName("body")[0].classList.toggle("overflowhidden");
-    responsivenav.classList.toggle("toggle-nav");
-  })
+function toggleMenu(x) {
+  x.classList.toggle("change");
+  responsivenav.classList.toggle("toggle-nav");
+  responsivenav.classList.toggle("r-c");
 }
 
 document.addEventListener("scroll", function() {
