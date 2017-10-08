@@ -8,7 +8,7 @@ multiple-images:
 text: x
 subtitle: first post from a cms
 author: Brian Munoz
-header-img: apps/favicon.png
+header-img: /apps/favicon.png
 ---
 
 

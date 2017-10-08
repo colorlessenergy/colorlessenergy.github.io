@@ -5,7 +5,7 @@ date: 2017-09-12
 categories: code
 subtitle: importance of code
 author: Brian Munoz
-header-img: apps/favicon.png
+header-img: /apps/favicon.png
 ---
 
 Today I learned that having your code organized makes it more easier to read

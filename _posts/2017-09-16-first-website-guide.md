@@ -5,7 +5,7 @@ date: 2017-09-12
 categories: code
 post: first guide
 author: Brian Munoz
-header-img: apps/favicon.png
+header-img: /apps/favicon.png
 subtitle: first guide
 ---
 
