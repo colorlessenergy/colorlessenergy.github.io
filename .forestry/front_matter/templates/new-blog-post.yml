@@ -27,3 +27,7 @@ fields:
   name: author
   label: author
   description: state the authors name
+- type: file
+  label: header-img
+  name: header-img
+  description: the image placed on top of the page
