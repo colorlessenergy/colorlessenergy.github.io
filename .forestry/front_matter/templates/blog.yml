@@ -1,6 +1,6 @@
 ---
 pages:
-- _posts/first-post-from-cms.md
+- _posts/2017-10-08-first-post-from-cms.md
 hide_body: false
 fields:
 - type: text
