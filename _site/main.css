@@ -88,7 +88,7 @@ nav ul li a:hover, nav p a:hover {
 
 .container-menu {
   cursor: pointer;
-  display: inline-block;
+  display: none;
   margin: 0 5%;
 }
 
@@ -830,7 +830,7 @@ xmp {
     margin-left: 3%;
   }
 
-  nav img {
+  nav .container-menu {
     display: block;
   }
 
