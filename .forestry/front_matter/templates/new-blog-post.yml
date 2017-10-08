@@ -19,3 +19,7 @@ fields:
   name: categories
   label: categories
   description: list the topics discussed
+- type: text
+  name: subtitle
+  label: subtitle
+  description: a description of the blog post
