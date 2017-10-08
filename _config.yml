@@ -1,1 +1,4 @@
-baseurl: /colorlessenergy.github.io
+baseurl: ""
+description: "The official blog of Brian Munoz, young web developer looking for ways to improve"
+
+permalink: pretty
