@@ -705,13 +705,22 @@ article.blog-container {
   padding: 0 10px 0 10px;
 }
 
+article.blog-container h2 {
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
 article.blog-container img {
   max-width: 100%;
 }
 
 article.blog-container p {
   line-height: 1.5;
+  letter-spacing: 0.5px;
   margin: 30px 0;
+  max-width: 800px;
+  text-align: center;
 }
 
 header.blog-header {
@@ -779,6 +788,10 @@ header.blog-header p {
   background-size: contain;
   background-position: center;
   height: 400px;
+}
+
+.seemore {
+  text-align: center;
 }
 
 xmp {

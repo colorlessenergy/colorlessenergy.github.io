@@ -3,7 +3,7 @@ layout: post
 title: "importance of readable code"
 date: 2017-09-12
 categories: code
-subtitle: importance of code
+subtitle: importance of readable code
 author: Brian Munoz
 header-img: /apps/favicon.png
 ---
