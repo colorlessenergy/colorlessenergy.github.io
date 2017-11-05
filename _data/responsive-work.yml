@@ -27,3 +27,23 @@
   desc: responsive design
   img-link: apps/allaboutfruit-res.png
   link: https://colorlessenergy.github.io/all-about-fruit/
+
+- title: Nasus
+  desc: responsive design
+  img-link: apps/nasus.png
+  link: https://colorlessenergy.github.io/nasus/
+
+- title: Machamp
+  desc: responsive design
+  img-link: apps/machamp.png
+  link: https://colorlessenergy.github.io/machamp
+
+- title: Mario game
+  desc: Game Making
+  img-link: apps/mario-game.png
+  link: https://colorlessenergy.github.io/mario-game-refactor
+
+- title: Food website
+  desc: responsive design with a cms
+  img-link: apps/yum.png
+  link: http://yum.netlify.com/

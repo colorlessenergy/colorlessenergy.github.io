@@ -43,6 +43,18 @@ layout: default
     </a>
     {% endfor %}
   </div>
+  <div class="work">
+    {% for display in site.data.work4 %}
+    <a class="{{display.class}}" href="{{display.link}}">
+      <div class="bg" style="background-image: url({{display.img-link}})" height="{{display.height}}">
+        <div>
+          <h2>{{display.title}}</h2>
+          <p>{{display.desc}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </section>
 <section class="work-contain-responsive">
   {% for display in site.data.responsive-work %}

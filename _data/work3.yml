@@ -9,3 +9,9 @@
   img-link: apps/captainfalcon.png
   link: https://colorlessenergy.github.io/captainfalcon/
   class: small
+
+- title: Imaqtpie
+  desc: responsive design
+  img-link: apps/imaqtpie.png
+  link: https://colorlessenergy.github.io/imaqtpie
+  class: small
