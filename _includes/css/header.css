@@ -212,7 +212,7 @@ nav div ul li a {
   }
 
   header .welcome h1 {
-    animation: introres 1s ease;
+    animation: intro 1s ease;
     font-size: 58px;
     width: 80%;
   }
