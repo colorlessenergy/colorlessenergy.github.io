@@ -1,17 +1,15 @@
-- title: Nasus
-  desc: responsive design
-  img-link: apps/nasus.png
+- title: Mario Game
+  link: https://colorlessenergy.github.io/mario-game-refactor/
+  img: images/mario-game.png
+
+- title: Restaurant Template with cms
+  link: http://yum.netlify.com/
+  img: images/yum.png
+
+- title: Nasus Website
   link: https://colorlessenergy.github.io/nasus/
-  class: big
+  img: images/nasus.png
 
-- title: Fruits & Vegetables
-  desc: responsive design
-  img-link: apps/fruitsandvegetables.jpg
-  link: https://colorlessenergy.github.io/fruitsandvegetables/
-  class: small
-
-- title: All About Fruits
-  desc: responsive design
-  img-link: apps/all-about-fruit.jpg
-  link: https://colorlessenergy.github.io/all-about-fruit/
-  class: small
+- title: Heimerdinger Website
+  link: https://colorlessenergy.github.io/heimerdinger/
+  img: images/heimerdinger.png

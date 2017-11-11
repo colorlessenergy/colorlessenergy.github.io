@@ -1,18 +1,39 @@
-var buttons = document.getElementsByClassName("menu-icon");
-var responsivenav = document.getElementById("responsivenav");
-var bgPics = document.getElementsByClassName('bg');
+const containerMenu = document.querySelector(".container-menu");
+const menuShow = document.querySelector(".menu-show");
+const down = document.querySelector(".scroll");
+const gallery = document.querySelector(".gallery");
+const galleryPic = gallery.querySelectorAll(".gallery-wrapper a div");
 
-function toggleMenu(x) {
-  x.classList.toggle("change");
-  responsivenav.classList.toggle("toggle-nav");
-  responsivenav.classList.toggle("r-c");
-}
 
-document.addEventListener("scroll", function() {
+let once = false;
 
-  if (window.pageYOffset > 250) {
-    for (var i = 0; i < bgPics.length; i++) {
-      bgPics[i].style.opacity = "1";
-    }
-  }
+
+
+containerMenu.addEventListener("click", function(e) {
+  e.currentTarget.classList.toggle("change");
+  menuShow.classList.toggle("toggle-nav");
 });
+
+down.addEventListener("click", function () {
+  let scrollValue = 0;
+  let scroll = window.setInterval(function () {
+    let prevValue = window.scrollY;
+    if (window.scrollY < gallery.offsetTop - 100) {
+      window.scrollBy(0, scrollValue);
+  } else if (window.scrollY > gallery.offsetTop - 100) {
+    scrollValue = 0;
+    window.clearInterval(scroll);
+  }
+  scrollValue++;
+  }, 10)
+});
+
+window.setInterval(function () {
+  if (window.scrollY > 378 && !once) {
+    console.log("called", window.scrollY);
+    galleryPic.forEach(function (current) {
+      current.classList.toggle("showPic");
+    });
+    once = true;
+  }
+})
