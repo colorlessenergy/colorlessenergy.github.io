@@ -25,7 +25,7 @@ main.gallery .gallery-wrapper a div {
   height: 100%;
   text-align: center;
   opacity: 0;
-  transform: perspective(300px) translateY(90px) rotateX(10deg);
+  transform: translateY(90px);
   transition: all 1s ease;
   position: relative;
   width: 100%;
@@ -33,7 +33,7 @@ main.gallery .gallery-wrapper a div {
 
 main.gallery .gallery-wrapper a div.showPic {
   opacity: 1;
-  transform: perspective(0) translateY(0) rotateX(0);
+  transform: translateY(0);
 }
 
 main.gallery section {
@@ -64,6 +64,15 @@ main.gallery .gallery-wrapper div:hover section {
   main.gallery .gallery-wrapper {
     flex-flow: wrap;
     flex-direction: row;
+  }
+
+
+  main.gallery .gallery-wrapper a div {
+    transform: perspective(300px) translateY(90px) rotateX(10deg);
+  }
+
+  main.gallery .gallery-wrapper a div.showPic {
+    transform: perspective(0) translateY(0) rotateX(0);
   }
 
   main.gallery .gallery-wrapper h2 {

@@ -26,7 +26,7 @@ header .welcome h1 {
   font-size: 34px;
   line-height: 1.3;
   text-align: center;
-  animation: intro 1s ease;
+  animation: introres 1s ease;
 }
 
 nav {
@@ -53,6 +53,18 @@ nav {
 
   100% {
     transform: perspective(250px) translateY(0) rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes introres {
+  0% {
+    transform: translateY(90px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -209,6 +221,7 @@ nav div ul li a {
   }
 
   header .welcome h1 {
+    animation: introres 1s ease;
     font-size: 58px;
     width: 80%;
   }
@@ -247,7 +260,7 @@ main.gallery .gallery-wrapper a div {
   height: 100%;
   text-align: center;
   opacity: 0;
-  transform: perspective(300px) translateY(90px) rotateX(10deg);
+  transform: translateY(90px);
   transition: all 1s ease;
   position: relative;
   width: 100%;
@@ -255,7 +268,7 @@ main.gallery .gallery-wrapper a div {
 
 main.gallery .gallery-wrapper a div.showPic {
   opacity: 1;
-  transform: perspective(0) translateY(0) rotateX(0);
+  transform: translateY(0);
 }
 
 main.gallery section {
@@ -286,6 +299,15 @@ main.gallery .gallery-wrapper div:hover section {
   main.gallery .gallery-wrapper {
     flex-flow: wrap;
     flex-direction: row;
+  }
+
+
+  main.gallery .gallery-wrapper a div {
+    transform: perspective(300px) translateY(90px) rotateX(10deg);
+  }
+
+  main.gallery .gallery-wrapper a div.showPic {
+    transform: perspective(0) translateY(0) rotateX(0);
   }
 
   main.gallery .gallery-wrapper h2 {

@@ -17,7 +17,7 @@ header .welcome h1 {
   font-size: 34px;
   line-height: 1.3;
   text-align: center;
-  animation: intro 1s ease;
+  animation: introres 1s ease;
 }
 
 nav {
@@ -44,6 +44,18 @@ nav {
 
   100% {
     transform: perspective(250px) translateY(0) rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes introres {
+  0% {
+    transform: translateY(90px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -200,6 +212,7 @@ nav div ul li a {
   }
 
   header .welcome h1 {
+    animation: introres 1s ease;
     font-size: 58px;
     width: 80%;
   }
