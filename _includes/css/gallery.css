@@ -38,7 +38,7 @@ main.gallery .gallery-wrapper a div.showPic {
 
 main.gallery section {
   align-items: center;
-  background-color: #131313;
+  background-color: #2b2b2b;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -89,5 +89,11 @@ main.gallery .gallery-wrapper div:hover section {
 
   main.gallery .gallery-wrapper a div:nth-child(3) {
     height: 400px;
+  }
+}
+
+@media only screen and (min-width: 963px) and (max-width: 1200px) {
+  main.gallery .gallery-wrapper a div {
+      transform: perspective(250px) translateY(90px) rotateX(2deg);
   }
 }
