@@ -83,7 +83,7 @@ main.gallery .gallery-wrapper div:hover section {
     margin-top: 150px;
   }
 
-  main.gallery .gallery-wrapper a:nth-child(3) {
+  main.gallery .gallery-wrapper a:nth-child(3), main.gallery .gallery-wrapper a:nth-child(5) {
     transform: translate3d(0, -38%, 0);
   }
 
