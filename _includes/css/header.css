@@ -17,11 +17,17 @@ header .welcome h1 {
   font-size: 34px;
   line-height: 1.3;
   text-align: center;
+  transform: translateY(90px);
+  opacity: 0;
   animation: introres 1s ease;
+  animation-fill-mode:forwards;
 }
 
 nav {
+  opacity: 0;
+  transform: translate3d(0, -60%, 0);
   animation: load 1s ease;
+  animation-fill-mode:forwards;
 }
 
 @keyframes load {
@@ -213,6 +219,9 @@ nav div ul li a {
 
   header .welcome h1 {
     animation: intro 1s ease;
+    animation-fill-mode: forwards;
+    transform: perspective(300px) translateY(90px) rotateX(10deg);
+    opacity: 0;
     font-size: 58px;
     width: 80%;
   }

@@ -2,6 +2,8 @@ const containerMenu = document.querySelector(".container-menu");
 const menuShow = document.querySelector(".menu-show");
 const down = document.querySelector(".scroll");
 const gallery = document.querySelector(".gallery");
+let once = false;
+
 
 if (gallery) {
   const galleryPic = gallery.querySelectorAll(".gallery-wrapper a div");
@@ -31,10 +33,9 @@ if (gallery) {
   });
 }
 
-
+if (containerMenu) {
   containerMenu.addEventListener("click", function(e) {
     e.currentTarget.classList.toggle("change");
     menuShow.classList.toggle("toggle-nav");
   });
-
-let once = false;
+}
