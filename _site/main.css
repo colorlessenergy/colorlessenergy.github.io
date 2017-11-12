@@ -455,8 +455,18 @@ div.highlight {
 }
 
 .blog {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.blog section {
+  max-width: 800px
+}
+
+.blog section img {
+  width: 95%;
 }
 
 .post {
