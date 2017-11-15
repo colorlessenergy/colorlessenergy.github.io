@@ -14,7 +14,7 @@
   animation: intro 1s ease;
 }
 
-.contact div {
+.contact div:first-child {
   margin-top: 80px;
   padding: 0 18px;
   text-align: center;
@@ -30,10 +30,14 @@
   color: #fff;
 }
 
-.contact p {
+.contact .copy {
   align-items: flex-end;
   display: flex;
   flex: 1 1 auto;
+}
+
+.contact .copy p:last-child {
+  padding: 0 0 9px 0;
 }
 
 @media screen and (min-width: 961px) {

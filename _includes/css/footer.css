@@ -3,7 +3,6 @@ footer {
   text-align: center;
 }
 
-
 footer div h2 {
   font-size: 40px;
   line-height: 1.2;
@@ -12,7 +11,7 @@ footer div h2 {
   padding: 40px 0 10px 0;
 }
 
-footer div a {
+footer div a.button {
   background-color: #333;
   color: #fff;
   cursor: pointer;
@@ -27,11 +26,39 @@ footer div a {
   transition: background-color 0.5s ease;
 }
 
-footer div a:hover {
+footer div a.button:hover {
   background-color: black;
 }
 
-footer p {
+div.copy {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+div.copy p.cv a {
+  border: solid 1px #131313;
+  color: #131313;
+  padding: 5px;
+  text-decoration: none;
+  transition: color 1s ease,
+              border 1s ease;
+}
+
+div.copy p.cv a:hover {
+  border-color: #d9a6af;
+  color: #d9a6af;
+}
+
+div.copy .github {
+  transition: fill 1s ease;
+}
+
+div.copy .github:hover {
+  fill: #e91e63;
+}
+
+.copy p {
   margin: 0;
-  padding: 65px 0 20px 0;
+  padding: 33px 10px 20px 10px;
 }
