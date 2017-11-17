@@ -7,6 +7,20 @@ html, body {
   line-height: 1.5;
 }
 
+.page404 {
+  text-align: center;
+}
+
+.page404 a {
+  color: #131313;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+
+.page404 a:hover {
+  color: #e91e63;
+}
+
 header {
   display: flex;
   flex-direction: column;
