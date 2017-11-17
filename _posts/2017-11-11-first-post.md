@@ -1,6 +1,7 @@
 ---
 layout: post
 title: first post
+date: 2017-11-17 4:51:01 -08:00
 ---
 
 hi this is my first post on the design of the new website

@@ -523,3 +523,24 @@ div.highlight {
   text-align: center;
 }
 
+.post h1 {
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.post p {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.posts a {
+  color: #393939;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+
+.posts a:hover {
+  color: #b60c97;
+}
+
