@@ -11,12 +11,6 @@ layout: default
 
         <h1>{{ post.title }}</h1>
         <p>{{post.date | date: '%Y, %b %d'}}</p>
-
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
-
-        <p class="read-more">Read More</p>
       </article>
     </a>
   {% endfor %}
