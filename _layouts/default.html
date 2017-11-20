@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="{{ site.description }}">
+
+    {% assign page_description = page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 300 | escape %}
+
+    <meta name="description" content="{{ page_description }}">
+    <meta name="author" content="Brian Munoz" />
 
     <title>{{ site.title }}</title>
 
