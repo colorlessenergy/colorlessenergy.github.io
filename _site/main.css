@@ -543,7 +543,6 @@ div.highlight {
 .post h1 {
   border-bottom: 1px solid #1e1e1e;
   letter-spacing: 1px;
-  margin: 0 30px 0 0;
   text-transform: uppercase;
 }
 
@@ -552,9 +551,12 @@ div.highlight {
   margin: 0 0 0 30px;
 }
 
+.post {
+  margin: 10px 0;
+}
+
 .posts {
-  margin: 30px;
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .posts a {
@@ -565,5 +567,12 @@ div.highlight {
 
 .posts a:hover {
   color: #b60c97;
+}
+
+@media screen and (min-width: 961px) {
+  .posts {
+    margin: 30px;
+    padding: 30px;
+  }
 }
 
