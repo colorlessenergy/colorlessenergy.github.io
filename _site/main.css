@@ -232,7 +232,7 @@ nav div ul li a {
 
   header .welcome h1 {
     font-size: 32px;
-    max-width: 350px;
+    max-width: 336px;
   }
 }
 
@@ -277,6 +277,7 @@ main {
 }
 
 main .gallery-wrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -288,6 +289,8 @@ main.gallery .gallery-wrapper a {
   color: #fff;
   height: 350px;
   margin: 30px 0;
+  max-width: 450px;
+  width: 100%;
 }
 
 main.gallery .gallery-wrapper a div {
@@ -334,10 +337,10 @@ main.gallery .gallery-wrapper div:hover section {
   }
 
   main.gallery .gallery-wrapper {
+    align-items: initial;
     flex-flow: wrap;
     flex-direction: row;
   }
-
 
   main.gallery .gallery-wrapper a div {
     transform: perspective(300px) translateY(90px) rotateX(10deg);
@@ -370,6 +373,12 @@ main.gallery .gallery-wrapper div:hover section {
   }
 }
 
+
+@media only screen and (max-width: 400px) {
+  main.gallery .gallery-wrapper a {
+    max-width: 313px;
+  }
+}
 .contact {
   align-items: center;
   color: #000;
