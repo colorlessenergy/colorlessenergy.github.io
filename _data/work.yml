@@ -1,23 +1,29 @@
-- title: Mario Game
+- title: Mario Game made with javascript
   link: https://colorlessenergy.github.io/mario-game-refactor/
   img: images/mario-game.png
+  desc: A mario game made with javascript and html5 canvas
 
-- title: Restaurant Template with cms
+- title: restaurant template with a cms
   link: http://yum.netlify.com/
   img: images/yum.png
+  desc: a restaurant template with a cms
 
-- title: Nasus Website
+- title: responsive design
   link: https://colorlessenergy.github.io/nasus/
   img: images/nasus.png
+  desc: a responsive design website about a league of legends character
 
-- title: Heimerdinger Website
+- title: responsive design
   link: https://colorlessenergy.github.io/heimerdinger/
   img: images/heimerdinger.png
+  desc: a responsive design website about a league of legends character
 
 - title: Cookie shop with ecommerce
   link: https://colorlessenergy.github.io/sugar-shop/
   img: images/cookieshop.png
+  desc: a static website with ecommerce
 
-- title: spell words with chemistry
+- title: spelling words with chemistry
   link: https://colorlessenergy.github.io/spelling-with-chemistry/
   img: images/spellwithchemistry.png
+  desc: a website that turns words into chemical elements

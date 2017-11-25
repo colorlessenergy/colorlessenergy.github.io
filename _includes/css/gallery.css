@@ -16,8 +16,10 @@ main .gallery-wrapper {
 main.gallery .gallery-wrapper a {
   color: #fff;
   height: 350px;
-  margin: 30px 0;
+  margin: 30px 0 50px 0;  
   max-width: 450px;
+  padding: 10px;  
+  text-decoration: none;
   width: 100%;
 }
 
@@ -59,7 +61,16 @@ main.gallery .gallery-wrapper div:hover section {
   opacity: 1;
 }
 
+main.gallery .gallery-wrapper aside p {
+  color: #000;
+  text-align: center;  
+}
+
 @media screen and (min-width: 961px) {
+  main.gallery .gallery-wrapper aside p {
+    display: none;
+  }
+
   main div a {
     width: 45%;
   }
