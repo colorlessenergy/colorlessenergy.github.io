@@ -100,7 +100,7 @@ header .scroll {
 }
 
 header .scroll:hover {
-  color: #fff;
+  color: #636363;
 }
 
 .full {
@@ -223,7 +223,7 @@ nav div ul li a {
 }
 
 .responsive-nav h1 a:hover, .full ul li a:hover {
-  color: #fff;
+  color: #636363;
 }
 
 /*mobile styles*/
