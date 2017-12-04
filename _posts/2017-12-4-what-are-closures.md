@@ -35,8 +35,8 @@ function bam (baz) {
 ```
 
 Another example could be the timer functions in JavaScript. You would think that the function would be garbaged collected
-after it was called but it gets closed on until there are no more closures. So after the timer runs out and gets executed
-the function will be garbaged collected. See example below
+after it was called but it gets enclosed on until there are no more closures. So after the timer runs out and gets executed
+the function the can be garbaged collected. See example below
 
 
 ```javascript
@@ -51,8 +51,7 @@ function foo () {
 foo() // will print out bar a second after in the console
 ```
 
-Another example would be the event handlers. the function is closed on since there is a closure. once you remove the
-event listener there will be no more closures and the function will be garbaged collected.
+Another example would be the event handlers. the function is enclosed which means it remembers anything declared and defined around it. this is a closure because you never know when the button is going to be clicked it and it will always print out 'bar' since it has a reference to it. This is closure. To remove the closure you would have to unbind the event listener.
 
 ```javascript
 function foo () {
