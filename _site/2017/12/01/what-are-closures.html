@@ -53,7 +53,7 @@ what foo is even though it is in a other scope. This is closure.</p>
 
 <p>Another example could be the timer functions in JavaScript. You would think that the function would be garbaged collected
 after it was called but it gets enclosed on until there are no more closures. So after the timer runs out and gets executed
-the function the can be garbaged collected. See example below</p>
+the function the can be garbage collected. See example below.</p>
 
 <div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
   <span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="s2">"bar"</span><span class="p">;</span>

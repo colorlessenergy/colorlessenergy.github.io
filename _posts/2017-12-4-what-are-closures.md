@@ -36,7 +36,7 @@ function bam (baz) {
 
 Another example could be the timer functions in JavaScript. You would think that the function would be garbaged collected
 after it was called but it gets enclosed on until there are no more closures. So after the timer runs out and gets executed
-the function the can be garbaged collected. See example below
+the function the can be garbage collected. See example below.
 
 
 ```javascript
