@@ -34,9 +34,7 @@ function bam (baz) {
 }
 ```
 
-Another example could be the timer functions in JavaScript. You would think that the function would be garbaged collected
-after it was called but it gets enclosed on until there are no more closures. So after the timer runs out and gets executed
-the function the can be garbage collected. See example below.
+Another example could be the timer functions in JavaScript. You would think that the function gets enclosed on until there are no more closures. So after the timer gets executed it will print out bar a second later. See example below.
 
 
 ```javascript
@@ -44,14 +42,14 @@ function foo () {
   var bar = "bar";
 
   setTimeout(function () {
-    console.log(bar)
+    console.log(bar);
   }, 1000)
 }
 
 foo() // will print out bar a second after in the console
 ```
 
-Another example would be the event handlers. the function is enclosed which means it remembers anything declared and defined around it. this is a closure because you never know when the button is going to be clicked it and it will always print out 'bar' since it has a reference to it. This is closure. To remove the closure you would have to unbind the event listener.
+Another example would be the event handlers. the function is enclosed which means it remembers anything declared and defined around it. this is a closure because you never know when the button is going to be clicked and it will always print out 'bar' since it has a reference to it. This is closure. To remove the closure you would have to unbind the event listener.
 
 ```javascript
 function foo () {
@@ -60,8 +58,9 @@ function foo () {
   document.querySelector(".btn").addEventListener(function () {
     console.log(bar) // still has the reference to the bar
   })
+}
 
-foo() // will print out bar a second after in the console
+foo() // will print out bar when he btn is clicked
 ```
 
 Another example would be using for loops. the example below will print 6, 6 times in the console since it is only using one
