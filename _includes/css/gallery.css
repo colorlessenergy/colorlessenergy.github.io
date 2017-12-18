@@ -16,7 +16,7 @@ main .gallery-wrapper {
 main.gallery .gallery-wrapper a {
   color: #fff;
   height: 400px;
-  margin: 30px 0 50px 0;
+  margin: 50px 0 70px 0;
   max-width: 450px;
   text-decoration: none;
   width: 100%;
@@ -26,7 +26,7 @@ main.gallery .gallery-wrapper a div {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 100%;
   text-align: center;
   opacity: 0;
   transform: translateY(90px);
@@ -41,7 +41,6 @@ main.gallery .gallery-wrapper a div.showPic {
 }
 
 main.gallery section {
-  align-items: center;
   background-color: #2b2b2b;
   display: flex;
   justify-content: center;
@@ -59,6 +58,12 @@ main.gallery .gallery-wrapper div:hover section {
   height: 100%;
   opacity: 1;
 }
+
+main.gallery section h2 {
+  position: absolute;
+  bottom: 10%;
+}
+
 
 main aside {
   display: flex;
