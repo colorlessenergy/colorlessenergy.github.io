@@ -1,5 +1,5 @@
 - title: Mario Game made with javascript
-  link: https://colorlessenergy.github.io/mario-game-refactor/
+  link: /2017/12/18/mario-game.html
   img: images/mario-game.png
   desc: A mario game made with javascript and html5 canvas
 
@@ -12,7 +12,7 @@
   link: https://colorlessenergy.github.io/nasus/
   img: images/nasus.png
   desc: a responsive design website about a league of legends character
-  
+
 - title: Cookie shop with ecommerce
   link: https://colorlessenergy.github.io/sugar-shop/
   img: images/cookieshop.png
