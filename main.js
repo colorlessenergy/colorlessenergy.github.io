@@ -1,12 +1,13 @@
-const containerMenu = document.querySelector(".container-menu");
-const menuShow = document.querySelector(".menu-show");
-const down = document.querySelector(".scroll");
-const gallery = document.querySelector(".gallery");
-let once = false;
+var containerMenu = document.querySelector(".container-menu");
+var menuShow = document.querySelector(".menu-show");
+var down = document.querySelector(".scroll");
+var gallery = document.querySelector(".gallery");
+var once = false;
+var galleryPic = gallery.querySelectorAll(".gallery-wrapper a div");
+
 
 
 if (gallery) {
-  const galleryPic = gallery.querySelectorAll(".gallery-wrapper a div");
 
   down.addEventListener("click", function () {
     let scrollValue = 0;
@@ -22,15 +23,17 @@ if (gallery) {
     }, 10)
   });
 
-  window.setInterval(function () {
-    if (window.scrollY > 378 && !once) {
+  var scrollToShowPic = window.setInterval(function () {
+    console.log("im running " + window.scrollY)
+    if (window.scrollY > 351 && !once) {
       console.log("called", window.scrollY);
       galleryPic.forEach(function (current) {
         current.classList.toggle("showPic");
       });
       once = true;
+      window.clearInterval(scrollToShowPic);
     }
-  });
+  }, 10);
 }
 
 if (containerMenu) {
