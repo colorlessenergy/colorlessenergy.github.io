@@ -1,7 +1,7 @@
 ---
 layout: post
-title: restaurant template
-date: 2017-12-19 3:38 -08:00
+title: Nasus website
+date: 2017-12-21 3:38 -08:00
 ---
 
 ![league of legends character nasus]({{ site.baseurl }}/images/nasus.png "league of legends character nasus")
@@ -10,7 +10,7 @@ date: 2017-12-19 3:38 -08:00
 
 # what the website is about
 
-this website a showcase of my skill with making a website with vanilla css. This website is about a league of legends character nasus. Nasus is my favorite champion to play.
+this website is a showcase of my skill with making a website with vanilla css. This website is about a league of legends character nasus. Nasus is my favorite champion to play.
 
 # technologies
 
