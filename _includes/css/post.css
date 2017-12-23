@@ -38,6 +38,7 @@ div.highlight {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 1em;
 }
 
 .blog section {
@@ -88,5 +89,9 @@ div.highlight {
   .posts {
     margin: 30px;
     padding: 30px;
+  }
+
+  .blog {
+    margin: 0;
   }
 }
