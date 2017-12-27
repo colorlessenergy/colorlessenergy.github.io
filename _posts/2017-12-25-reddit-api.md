@@ -12,6 +12,10 @@ date: 2017-12-25 8:57 -08:00
 
 this websites uses the reddit api. it gets json data ands displays the images and title of the subreddit. It uses fetch api.
 
+# problem this solved
+
+This website solves the problem that reddit took a long time to load when i was browsing on it on my phone. Now i can browse reddit on my phone with just the stuff i want to see such as the pictures and link to the post.
+
 # technologies
 
 HTML5 / CSS3
