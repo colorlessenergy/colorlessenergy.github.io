@@ -4,7 +4,9 @@ title: Nasus website
 date: 2017-12-21 3:38 -08:00
 ---
 
+<a href="https://colorlessenergy.github.io/nasus/"> 
 ![league of legends character nasus]({{ site.baseurl }}/images/nasus.png "league of legends character nasus")
+</a>
 
 [Link to website](https://colorlessenergy.github.io/nasus/)
 

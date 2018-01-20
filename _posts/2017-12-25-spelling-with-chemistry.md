@@ -4,6 +4,10 @@ title: spelling with chemistry
 date: 2017-12-25 8:50 -08:00
 ---
 
+<a href="https://colorlessenergy.github.io/spelling-with-chemistry/">
+    ![static website with E-commerce]({{ site.baseurl }}/images/spellwithchem.png "static website with E-commerce")
+</a>
+
 ![static website with E-commerce]({{ site.baseurl }}/images/spellwithchem.png "static website with E-commerce")
 
 [Link to website](https://colorlessenergy.github.io/spelling-with-chemistry/)

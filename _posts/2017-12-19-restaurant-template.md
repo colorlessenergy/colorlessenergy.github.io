@@ -4,7 +4,10 @@ title: restaurant template
 date: 2017-12-19 3:38 -08:00
 ---
 
-![restaurant template]({{ site.baseurl }}/images/yum.png "a restaurant template")
+<a href="https://colorlessenergy.github.io/nasus/"> 
+    ![restaurant template]({{ site.baseurl }}/images/yum.png "a restaurant template")
+</a>
+
 
 [Link to website](http://yum.netlify.com/)
 

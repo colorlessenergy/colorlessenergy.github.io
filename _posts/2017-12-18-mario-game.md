@@ -4,9 +4,12 @@ title: mario game
 date: 2017-12-18 6:03 -08:00
 ---
 
-![mario game]({{ site.baseurl }}/images/mario-game.png "mario game")
+<a href="https://colorlessenergy.github.io/mario-game-refactor/">
+    ![mario game]({{ site.baseurl }}/images/mario-game.png "mario game")
+</a>
 
-[Link to Game](https://colorlessenergy.github.io/mario-game-refactor/)
+
+![mario game](https://colorlessenergy.github.io/mario-game-refactor/ "mario game")
 
 # what the game is about
 

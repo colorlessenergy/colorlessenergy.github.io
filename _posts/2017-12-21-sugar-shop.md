@@ -3,8 +3,10 @@ layout: post
 title: sugar shop
 date: 2017-12-21 4:25 -08:00
 ---
+<a href="https://colorlessenergy.github.io/sugar-shop/">
+    ![static website with E-commerce]({{ site.baseurl }}/images/sugar-shop.png "static website with E-commerce")
+</a>
 
-![static website with E-commerce]({{ site.baseurl }}/images/sugar-shop.png "static website with E-commerce")
 
 [Link to website](https://colorlessenergy.github.io/sugar-shop/)
 

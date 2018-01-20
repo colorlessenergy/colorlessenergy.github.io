@@ -3,8 +3,9 @@ layout: post
 title: reddit api
 date: 2017-12-25 8:57 -08:00
 ---
-
-![static website with E-commerce]({{ site.baseurl }}/images/reddit-api.png "static website with E-commerce")
+<a href="https://colorlessenergy.github.io/reddit-api/">
+    ![static website with E-commerce]({{ site.baseurl }}/images/reddit-api.png "static website with E-commerce")
+</a>
 
 [Link to website](https://colorlessenergy.github.io/reddit-api/)
 
