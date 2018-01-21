@@ -9,7 +9,7 @@ date: 2017-12-18 6:03 -08:00
 </a>
 
 
-![mario game](https://colorlessenergy.github.io/mario-game-refactor/ "mario game")
+[link to website](https://colorlessenergy.github.io/mario-game-refactor/)
 
 # what the game is about
 
