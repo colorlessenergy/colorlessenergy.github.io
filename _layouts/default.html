@@ -17,6 +17,8 @@
   </head>
   <body>
     {{ content }}
+    {% if page.url == '/' %}
     <script src="{{ site.baseurl }}main.js"></script>
+    {% endif %}
   </body>
 </html>
