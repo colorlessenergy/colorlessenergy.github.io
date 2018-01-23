@@ -14,6 +14,7 @@ html, body {
 .page404 a {
   color: #131313;
   text-decoration: none;
+  -webkit-transition: color 1s ease;
   transition: color 1s ease;
 }
 

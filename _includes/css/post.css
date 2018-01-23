@@ -2,7 +2,6 @@ div.highlight {
   background-color: #efefef;
   border: 1px solid #ddd;
   padding: 7px 7px 7px 10px;
-  -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
   margin: 20px 0 20px 0;
@@ -34,10 +33,19 @@ div.highlight {
 }
 
 .blog {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 1em;
 }
 
@@ -50,9 +58,15 @@ div.highlight {
 }
 
 .post {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -78,6 +92,7 @@ div.highlight {
 .posts a {
   color: #393939;
   text-decoration: none;
+  -webkit-transition: color 1s ease;
   transition: color 1s ease;
 }
 

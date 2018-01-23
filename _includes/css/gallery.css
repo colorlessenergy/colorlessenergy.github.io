@@ -1,14 +1,26 @@
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 30px 0;
 }
 
 main .gallery-wrapper {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   max-width: 1200px;
   width: 100%
 }
@@ -29,7 +41,9 @@ main.gallery .gallery-wrapper a div {
   height: 100%;
   text-align: center;
   opacity: 0;
-  transform: translateY(90px);
+  -webkit-transform: translateY(90px);
+          transform: translateY(90px);
+  -webkit-transition: all 1s ease;
   transition: all 1s ease;
   position: relative;
   width: 100%;
@@ -37,18 +51,25 @@ main.gallery .gallery-wrapper a div {
 
 main.gallery .gallery-wrapper a div.showPic {
   opacity: 1;
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 main.gallery section {
   background-color: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   bottom: 0;
   height: 0;
   width: 100%;
   z-index: 2;
+  -webkit-transition: height 0.4s ease,
+              opacity 0.4s ease;
   transition: height 0.4s ease,
               opacity 0.4s ease;
   opacity: 0;
@@ -66,8 +87,12 @@ main.gallery section h2 {
 
 
 main aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main.gallery .gallery-wrapper aside p {
@@ -86,17 +111,25 @@ main.gallery .gallery-wrapper aside p {
   }
 
   main.gallery .gallery-wrapper {
-    align-items: initial;
-    flex-flow: wrap;
-    flex-direction: row;
+    -webkit-box-align: initial;
+        -ms-flex-align: initial;
+            align-items: initial;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 
   main.gallery .gallery-wrapper a div {
-    transform: perspective(300px) translateY(90px) rotateX(10deg);
+    -webkit-transform: perspective(300px) translateY(90px) rotateX(10deg);
+            transform: perspective(300px) translateY(90px) rotateX(10deg);
   }
 
   main.gallery .gallery-wrapper a div.showPic {
-    transform: perspective(0) translateY(0) rotateX(0);
+    -webkit-transform: perspective(0) translateY(0) rotateX(0);
+            transform: perspective(0) translateY(0) rotateX(0);
   }
 
   main.gallery .gallery-wrapper h2 {
@@ -108,7 +141,8 @@ main.gallery .gallery-wrapper aside p {
   }
 
   main.gallery .gallery-wrapper a:nth-child(3), main.gallery .gallery-wrapper a:nth-child(5) {
-    transform: translate3d(0, -38%, 0);
+    -webkit-transform: translate3d(0, -38%, 0);
+            transform: translate3d(0, -38%, 0);
   }
 
   main.gallery .gallery-wrapper a div:nth-child(3) {
@@ -118,7 +152,8 @@ main.gallery .gallery-wrapper aside p {
 
 @media only screen and (min-width: 963px) and (max-width: 1200px) {
   main.gallery .gallery-wrapper a div {
-      transform: perspective(250px) translateY(90px) rotateX(2deg);
+      -webkit-transform: perspective(250px) translateY(90px) rotateX(2deg);
+              transform: perspective(250px) translateY(90px) rotateX(2deg);
   }
 }
 
