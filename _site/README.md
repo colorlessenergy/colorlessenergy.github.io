@@ -1,6 +1,6 @@
-# _Portfolio_
+# _colorlessenergy.github.io_
 
-#### _a site to showcase my new portfolio_
+#### _a site to showcase my work_
 
 #### By _**colorlessenergy**_
 

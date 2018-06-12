@@ -1,7 +1,7 @@
 ---
 layout: project
 title: what are closures
-date:  "2017-12-1 4:47 -0700"
+date:  "2018-06-11 4:47 -0700"
 meta: "closures is the most common feature that is used."
 pic: images/raindrop.jpg
 ---

@@ -394,7 +394,7 @@ p {
 }
 
 
-.highlight .nx {
+.highlight .nx, .highlight .nb {
   color: #268BD2;
 }
 
@@ -416,5 +416,11 @@ p {
 
 .highlight .mi {
   color: orange;
+}
+
+@media screen and (max-width: 961px) {
+  pre.highlight {
+    overflow: scroll;
+  }
 }
 

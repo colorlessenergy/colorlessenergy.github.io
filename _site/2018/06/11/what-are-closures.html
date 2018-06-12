@@ -41,7 +41,7 @@ this is a closure. This isn’t some new magic we all have been using this if yo
 which means that the function is called through another function because it is passed through as a parameter and remembers
 what foo is even though it is in a other scope. This is closure.</p>
 
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">bar</span> <span class="p">()</span> <span class="p">{</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">bar</span> <span class="p">()</span> <span class="p">{</span>
   <span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="s2">"foo"</span><span class="p">;</span>
   <span class="kd">function</span> <span class="nx">baz</span> <span class="p">()</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">foo</span><span class="p">)</span>
@@ -53,12 +53,11 @@ what foo is even though it is in a other scope. This is closure.</p>
 <span class="kd">function</span> <span class="nx">bam</span> <span class="p">(</span><span class="nx">baz</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">baz</span><span class="p">()</span> <span class="c1">// remembers what 'foo' was and prints out 'foo'</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Another example could be the timer functions in JavaScript. You would think that the function gets enclosed on until there are no more closures. So after the timer gets executed it will print out bar a second later. See example below.</p>
 
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
   <span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="s2">"bar"</span><span class="p">;</span>
 
   <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
@@ -67,12 +66,11 @@ what foo is even though it is in a other scope. This is closure.</p>
 <span class="p">}</span>
 
 <span class="nx">foo</span><span class="p">()</span> <span class="c1">// will print out bar a second after in the console</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Another example would be the event handlers. the function is enclosed which means it remembers anything declared and defined around it. this is a closure because you never know when the button is going to be clicked and it will always print out ‘bar’ since it has a reference to it. This is closure. To remove the closure you would have to unbind the event listener.</p>
 
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span> <span class="p">()</span> <span class="p">{</span>
   <span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="s2">"bar"</span><span class="p">;</span>
 
   <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">".btn"</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
@@ -81,30 +79,27 @@ what foo is even though it is in a other scope. This is closure.</p>
 <span class="p">}</span>
 
 <span class="nx">foo</span><span class="p">()</span> <span class="c1">// will print out bar when he btn is clicked</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Another example would be using for loops. the example below will print 6, 6 times in the console since it is only using one
 variable. There are a lot of ways to fix this but, in my opinion the best way to fix this is use ‘let’ instead of ‘var’ in the for loop. This is the easiest way to fix it.</p>
 
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"i: "</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span> <span class="c1">// will print out i: 6, 6 times</span>
   <span class="p">},</span> <span class="nx">i</span><span class="o">*</span><span class="mi">1000</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>fixed solution using let. Remember there is more then one solution I just prefer this one! I would even say
 to just use ‘let’ instead of ‘var’ in every for loop!</p>
 
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span><span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"i: "</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span> <span class="c1">// will print out i: + the current i</span>
   <span class="p">},</span> <span class="nx">i</span><span class="o">*</span><span class="mi">1000</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="ending">ending</h2>
 
