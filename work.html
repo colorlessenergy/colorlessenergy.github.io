@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% for project in site.projects %}
+<section class="work {{ project.class }}">
+  <h2 class="work__title">{{ project.title }}</h2>
+  <a href="{{ site.baseurl }}{{ project.url }}">
+    <img src="{{ site.baseurl }}{{project.image}}" class="work__image"></img>
+  </a>
+  <div class="work__center">
+    <p class="work__desc">
+      {{ project.descone }}
+      <br />
+      {{ project.desctwo }}
+    </p>
+
+    <p class="work__margin"> <a class="work__link" href="{{site.baseurl}}{{ project.url }}">view project</a> </p>
+  </div>
+</section>
+{% endfor %}

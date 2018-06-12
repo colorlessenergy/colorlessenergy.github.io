@@ -5,20 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    {% assign page_description = page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 300 | escape %}
+    <title>Brian Munoz, Front End Developer, California</title>
 
-    <meta name="description" content="{{ page_description }}">
-    <meta name="author" content="Brian Munoz" />
-
-    <title>{{ site.title }}</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="{{site.baseurl}}main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   </head>
   <body>
-    {{ content }}
-    {% if page.url == '/' %}
-    <script src="{{ site.baseurl }}main.js"></script>
-    {% endif %}
+    <main {% if page.url == "/work.html" %}class="work-main"{% endif %}>
+      {% include nav.html %}
+      {{ content }}
+    </main>
+    <p>{{ page.desc }}</p>
   </body>
 </html>

@@ -1,0 +1,37 @@
+/* syntax highlighting for the blog */
+
+.highlight {
+  background-color: #272822;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.highlight .c1 {
+  color: #75715e;
+}
+
+
+.highlight .nx {
+  color: #268BD2;
+}
+
+.highlight .o {
+  color: #fff;
+}
+
+.highlight .kd, .highlight .k {
+  color: #c537dd;
+}
+
+.highlight .s1, .highlight .s2 {
+  color: #a6e22e;
+}
+
+.highlight .p {
+  color: #ded9d9;
+}
+
+.highlight .mi {
+  color: orange;
+}

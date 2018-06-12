@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: project
 title: what are closures
-date: 2017-12-1 4:47 -08:00
+date:  "2017-12-1 4:47 -0700"
+meta: "closures is the most common feature that is used."
+pic: images/raindrop.jpg
 ---
 
 ## closures definition
