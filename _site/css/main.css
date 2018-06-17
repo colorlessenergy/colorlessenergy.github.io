@@ -108,11 +108,14 @@ p {
   margin: 10px 0;
 }
 
+/* these styles are for the blog and projects */
+
 .proj {
   align-items: center;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  max-width: 1360px;
   width: 100%;
 }
 
@@ -123,6 +126,7 @@ p {
 .proj p {
   line-height: 1.5;
   margin: 25px 0;
+  width: 80%;
 }
 
 .proj h1 {

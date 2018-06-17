@@ -20,8 +20,7 @@ image: /images/dagashitoyou.png
 Japanese candy. This site uses snipcart for the E-commerce. It also has
 the Netlify cms. Both snipcart and Netlify cms use Github as the backend -->
 
-I made this site because I wanted to know how to sell items online. I also wanted
-to make a static site because I didn't want the monolithic structure that modern sites have today. With these constraints I built a site using snipcart and the netlify cms. I chose to make a static site to make it easier for a potential client to delete and add content to the page.
+this is a static E-commerce site. I chose to make a static site so I would't have to use the monolithic structure that modern sites have today. This site allows the owner of the site to edit items in the shop with the use of netlify cms. It was made with snipcart a powerful shopping cart platform.
 
 ## built with
 
@@ -31,6 +30,8 @@ to make a static site because I didn't want the monolithic structure that modern
 
 ## challenges
 
-* hooking up netlify cms with github
-* understanding how to use snipcart
-* hooking up snipcart with the use of jekyll for the netlify cms
+this first problem I faced was making netlify cms connect with my github account. The first thing I did was try to figure out exactly what I was trying to do. After everything was clear and easy to understand I went on google to look at the netlify cms docs. I had to do a lot of digging around to find what I needed since there was a lot of documentation. 
+
+The second problem I faced was looking for a shopping cart platform. I look up best carts online and It lead to two options either shopify or snipcart. In the end I chose snipcart because it allowed more freedom with what I can do with the cart. Snipcart also has a api to be able to make the cart be on the page instead of using their modal version of the cart. 
+
+The last major problem was having snipcart connect with jekyll to utilize the netlify cms to make it easy for non technical people to add, edit and delete items in the cart. This was the hardest part since I had to figure out how Jekyll can generate the snipcart shopping buttons and allow the netlify cms add, edit and delete the shopping buttons with the use of the netlify cms. 
