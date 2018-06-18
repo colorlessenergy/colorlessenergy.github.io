@@ -32,5 +32,4 @@ I made this site to understand how to to animate properly in CSS. I chose to not
 
 The first problem I faced was understanding how to animate HTML with CSS. I had to figure what I wanted to do first then went on google and looked up everything I needed help with.
 
-The second problem i faced was having to understand the how to use owl carousel
-* reading docs
+The second problem I faced was having to understand the how to use owl carousel. The docs were good enough to be able to find what I needed. I had to experiment a lot to get what I wanted.
