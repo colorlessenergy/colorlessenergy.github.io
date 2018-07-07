@@ -2,7 +2,7 @@
 layout: project
 title: what are closures
 date:  "2018-06-11 4:47 -0700"
-meta: "closures is the most common feature that is used."
+meta: "closures is the most common feature in JavaScript that is used."
 pic: images/raindrop.jpg
 ---
 

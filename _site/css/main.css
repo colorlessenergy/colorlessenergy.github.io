@@ -422,6 +422,10 @@ p {
   color: orange;
 }
 
+.highlight .kc {
+  color: #f5d1d7;
+}
+
 @media screen and (max-width: 961px) {
   pre.highlight {
     overflow: scroll;
