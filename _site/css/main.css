@@ -1,5 +1,11 @@
 body {
-  background-color: #f5f5f5;
+  background-color: #fff;
+  background-image: url(../small-guy.png);
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: #333;
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
