@@ -10,7 +10,7 @@ pic: images/neural-network.jpg
 
 A single layer perceptron is one of the fundamentals of machine learning.
 
-Usually a single layer perceptron has 3 layers two inputs node, one hidden node and one output. For inputs you could think of it as X and Y, for the hidden layer it can be thought of as a machine learing recipe, for the output it is what the single perceptron thought the correct answer was.
+Usually a single layer perceptron has 3 layers two inputs node, one hidden node and one output. For inputs you could think of it as X and Y, for the hidden layer it can be thought of as a machine learning recipe, for the output it is what the single perceptron thought the correct answer was.
 
 what machine learning does it tries to make a graph with the inputs and give you an output. You could think of the single layer perceptron as function that tries to make a linear line.
 
