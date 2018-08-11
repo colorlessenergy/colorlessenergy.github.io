@@ -6,9 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- seo -->
-    <meta name="description" content="Hi my name is Brian Munoz. I am a Programmer from Long Beach, California that focuses in the Front-End of Web Development. I like to bring designs to life with HTML, CSS and JavaScript. My goal is to bring technical solutions to people."/>
+    <meta name="description" content="{% if page.meta %}{{ page.meta | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ site.description }}">
+    <title>{{ site.title }}</title>
 
-    <title>Brian Munoz, Front End Web Developer, California</title>
+     {% if page.tags %}
+    <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" /> 
+    {% for tag in page.tags %}
+    <meta property="article:tag" content="{{ tag }}"> 
+    {% endfor %} 
+    {% endif %}
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">

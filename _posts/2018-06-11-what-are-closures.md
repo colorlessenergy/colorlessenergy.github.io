@@ -2,8 +2,9 @@
 layout: project
 title: what are closures
 date:  "2018-06-11 4:47 -0700"
-meta: "closures is the most common feature in JavaScript that is used."
+meta: "a explanation on what closures are in javascript. Closures is the most common featured used in JavaScript"
 pic: images/raindrop.jpg
+tags: ["javascript", "programming"]
 ---
 
 ## closures definition

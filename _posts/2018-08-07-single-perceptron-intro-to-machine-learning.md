@@ -2,8 +2,9 @@
 layout: project
 title: single layer perceptron intro to machine learning
 date:  "2018-08-07 2:00 -0700"
-meta: "a introduction to a single layer peceptron"
+meta: "a intro for machine learning the single layer perceptron. explains how the inputs and hidden are connected and tranfers to the output"
 pic: images/neural-network.jpg
+tags: ["machine learning", "single layer perceptron", "programming", "neural network"]
 ---
 
 ## what is a single layer perceptron

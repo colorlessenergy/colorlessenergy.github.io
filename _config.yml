@@ -1,4 +1,6 @@
 baseurl: ''
+description: Hi my name is Brian Munoz. I am a Programmer from Long Beach, California that focuses in the Front-End of Web Development. I like to bring designs to life with HTML, CSS and JavaScript. My goal is to bring technical solutions to people.
+title: Brian Munoz, Front End Web Developer, California
 
 collections:
   projects:
