@@ -40,6 +40,18 @@
   color: #f5d1d7;
 }
 
+.highlight .nt {
+  color: #690;
+}
+
+.highlight .nl {
+  color: #905;
+}
+
+.highlight .n {
+  color: #DD4A68;
+}
+
 @media screen and (max-width: 961px) {
   pre.highlight {
     overflow: scroll;

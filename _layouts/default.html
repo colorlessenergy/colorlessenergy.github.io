@@ -20,6 +20,10 @@
     {% endfor %} 
     {% endif %}
 
+    {% if page.css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/blog-styles/{{ page.css }}">
+    {% endif %}
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   </head>
