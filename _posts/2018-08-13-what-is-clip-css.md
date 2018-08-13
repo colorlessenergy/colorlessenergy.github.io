@@ -10,7 +10,7 @@ css: clip.css
 
 ## what is clip in css
 
-clip is a box that only shows a part of the element you defined. only works on elements that have the style of position: absolute.
+clip is a box that only shows a part of the element you defined. only works on elements that have the style of position: absolute or position: fixed.
 
 the syntax for clip is
 
