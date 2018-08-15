@@ -52,6 +52,16 @@
   color: #DD4A68;
 }
 
+.highlight .na {
+  color: #4CAF50;
+}
+
+.highlight__code {
+  background-color: rgba(220,220,220,.5);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
 @media screen and (max-width: 961px) {
   pre.highlight {
     overflow: scroll;
