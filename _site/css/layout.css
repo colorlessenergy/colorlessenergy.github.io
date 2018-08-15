@@ -45,11 +45,11 @@
   text-decoration: underline;
 }
 
-.social, .blue {
+.social, .blue, .proj__contain a {
   transition: all 0.5s ease;
 }
 
-.social:hover, .blue:hover {
+.social:hover, .blue:hover, .proj__contain a:hover {
   color: #0083ff;
   font-weight: 900;
 }
@@ -79,6 +79,10 @@
 
 .proj__contain {
   width: 100%;
+}
+
+.proj__contain a {
+  text-decoration: underline;
 }
 
 .proj p {
