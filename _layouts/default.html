@@ -11,14 +11,19 @@
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ site.description }}">
-    <title>{{ site.title }}</title>
+    <title>
+      {%if page.title %} 
+        {{ page.title }} 
+      {% else %} 
+        {{ site.title }} 
+      {% endif %}
+    </title>
 
-     {% if page.tags %}
+
     <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" /> 
     {% for tag in page.tags %}
     <meta property="article:tag" content="{{ tag }}"> 
     {% endfor %} 
-    {% endif %}
 
     {% if page.css %}
     <link rel="stylesheet" href="{{ site.baseurl }}/css/blog-styles/{{ page.css }}">
