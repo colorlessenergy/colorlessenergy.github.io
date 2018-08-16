@@ -12,4 +12,10 @@
       {% include sitemap-entry.xml entry=page %}
     {% endif %}
   {% endfor %}
+
+   {% for project in site.projects %}
+    {% if project.layout %}
+      {% include sitemap-entry.xml entry=project %}
+    {% endif %}
+  {% endfor %}
 </urlset>

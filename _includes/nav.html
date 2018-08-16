@@ -1,10 +1,10 @@
 <div class="nav__fixed">
-  <nav class="row {% if page.url == "/work.html" %}work-nav{% endif %}">
+  <nav class="row {% if page.url == "/work" %}work-nav{% endif %}">
     <h3> <a class="list-item__active list-item__link" href="/">brmu</a> </h3>
     <ul class="list">
-      <li class="list-item"> <a class="{% if page.url == "/work.html" or page.url contains "proj" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/work.html">Projects</a> </li>
-      <li class="list-item"> <a class="{% if page.url contains "blog" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/blog.html">Blog</a> </li>
-      <li class="list-item"> <a class="{% if page.url contains "hire" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/hire-me.html">Hire me</a> </li>
+      <li class="list-item"> <a class="{% if page.url == "/work" or page.url contains "proj" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/work">Projects</a> </li>
+      <li class="list-item"> <a class="{% if page.url contains "blog" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/blog">Blog</a> </li>
+      <li class="list-item"> <a class="{% if page.url contains "hire" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/hire-me">Hire me</a> </li>
     </ul>
   </nav>
 </div>

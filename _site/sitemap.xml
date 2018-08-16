@@ -2,7 +2,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9/">
   
     <url>
-  <loc>https://colorlessenergy.github.io/2018/08/15/var-vs-const-vs-let-in-javascript.html</loc>
+  <loc>https://colorlessenergy.github.io/2018/08/15/var-vs-const-vs-let-in-javascript/</loc>
   
   
 
@@ -10,7 +10,7 @@
 </url>
   
     <url>
-  <loc>https://colorlessenergy.github.io/2018/08/13/what-is-clip-css.html</loc>
+  <loc>https://colorlessenergy.github.io/2018/08/13/what-is-clip-css/</loc>
   
   
 
@@ -18,7 +18,7 @@
 </url>
   
     <url>
-  <loc>https://colorlessenergy.github.io/2018/08/07/single-perceptron-intro-to-machine-learning.html</loc>
+  <loc>https://colorlessenergy.github.io/2018/08/07/single-perceptron-intro-to-machine-learning/</loc>
   
   
 
@@ -26,7 +26,7 @@
 </url>
   
     <url>
-  <loc>https://colorlessenergy.github.io/2018/07/07/what-are-collections-in-jekyll.html</loc>
+  <loc>https://colorlessenergy.github.io/2018/07/07/what-are-collections-in-jekyll/</loc>
   
   
 
@@ -34,7 +34,7 @@
 </url>
   
     <url>
-  <loc>https://colorlessenergy.github.io/2018/06/11/what-are-closures.html</loc>
+  <loc>https://colorlessenergy.github.io/2018/06/11/what-are-closures/</loc>
   
   
 
@@ -45,7 +45,7 @@
   
     
       <url>
-  <loc>https://colorlessenergy.github.io/blog.html</loc>
+  <loc>https://colorlessenergy.github.io/blog/</loc>
   
   
     <changefreq>weekly</changefreq>
@@ -57,7 +57,7 @@
   
     
       <url>
-  <loc>https://colorlessenergy.github.io/hire-me.html</loc>
+  <loc>https://colorlessenergy.github.io/hire-me/</loc>
   
   
 
@@ -83,7 +83,39 @@
   
     
       <url>
-  <loc>https://colorlessenergy.github.io/work.html</loc>
+  <loc>https://colorlessenergy.github.io/work/</loc>
+  
+  
+
+  
+</url>
+    
+  
+
+   
+    
+      <url>
+  <loc>https://colorlessenergy.github.io/projects/dagashi/</loc>
+  
+  
+
+  
+</url>
+    
+  
+    
+      <url>
+  <loc>https://colorlessenergy.github.io/projects/kube/</loc>
+  
+  
+
+  
+</url>
+    
+  
+    
+      <url>
+  <loc>https://colorlessenergy.github.io/projects/mario-game/</loc>
   
   
 
