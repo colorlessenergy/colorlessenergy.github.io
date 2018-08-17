@@ -2,7 +2,7 @@
 layout: project
 title: What is clip CSS
 date:  "2018-08-13 11:27 -0700"
-meta: "a explanation of what is the css property clip and how you can use it to make nice text animations"
+meta: a explanation of what is the css property clip and how you can use it to make nice text animations.
 pic: images/paperclip.jpg
 tags: ["css animation", "css", "programming", "animation"]
 css: clip.css

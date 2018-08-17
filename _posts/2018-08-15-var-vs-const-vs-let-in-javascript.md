@@ -2,7 +2,7 @@
 layout: project
 title: var vs const vs let in javascript
 date:  "2018-08-15 12:44 -0700"
-meta: "a explanation of differents ways to declare variables in JavaScript"
+meta: a explanation of why and how to use const, let, and var variables in javascript.
 pic: images/const-let-var.png
 tags: ["javascript", "JavaScript", "programming", "javascript fundamentals", "web programming", "es6"]
 ---

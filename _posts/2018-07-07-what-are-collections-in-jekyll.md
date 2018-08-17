@@ -2,7 +2,7 @@
 layout: project
 title: what are collections
 date:  "2018-07-07 5:05 -0700"
-meta: "a explanation how collections work in jekyll. Explains how to use collections as a way to store related pages"
+meta: a explanation how collections work in jekyll. Explains how to use collections as a way to store related pages.
 pic: images/collection-rocks.jpg
 tags: ["jekyll", "collections", "html"]
 ---
