@@ -104,16 +104,16 @@ var hoisted = "hi"
 
 ```javascript
 if (true) {
-  var hello = "hi"
+  var hello = "hello"
 }
 
 if (true) {
   // never do this
-  hi = "hello"
+  hi = "hi"
 }
 
-console.log(hello) // hi
-console.log(hi) // hello
+console.log(hello) // hello
+console.log(hi) // hi
 ```
 
 ### why var sucks
