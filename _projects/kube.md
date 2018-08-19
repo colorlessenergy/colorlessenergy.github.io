@@ -14,6 +14,10 @@ image: /images/kube.png
     ![kube]({{ site.baseurl }}/images/kube.png "kube")
 </a>
 
+link to site [Kube](https://colorlessenergy.github.io/kube/)
+
+link to github [Kube](https://github.com/colorlessenergy/kube)
+
 ## what this is
 <!-- this is a site to showcase a product. This site was made to understand how
 to animate with CSS. -->

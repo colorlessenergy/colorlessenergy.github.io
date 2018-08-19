@@ -14,6 +14,10 @@ image: /images/mario-game.png
     ![mario game]({{ site.baseurl }}/images/mario-game.png "mario game")
 </a>
 
+link to site [Mario](https://colorlessenergy.github.io/mario-game-refactor/)
+
+link to github [Mario](https://github.com/colorlessenergy/mario-game-refactor)
+
 ## what this is
 
 <!-- This is a recreation of the famous mario game. The controls for the game are
@@ -33,7 +37,7 @@ to play use the arrows key to move and jump.
 ## challenges
 
 The first challenge I faced was loading the sprites and having the
-characters animate. I started it off with just displaying a goomba on the the canvas. Then after it was displayed I made it animate with movement. The goomba at first wasn't being animated properly it was wonky so I had to fix it. I fixed this problem by just messing around with the time it starts animating after a animation is finished. Then I decided to load a map with the sprites I had. This was hard at first to figure out how to load a map with just sprites. What I ended up doing was setting up an array with different numbers which represents different blocks in the game. Then I chose to start implementing mario in the game. At first I decided to just display mario on the screen. Then add events to make mario move with the arrows keys. I used the same technique I used with animating the goomba but with mario. 
+characters animate. I started it off with just displaying a goomba on the the canvas. Then after it was displayed I made it animate with movement. The goomba at first wasn't being animated properly it was wonky so I had to fix it. I fixed this problem by just messing around with the time it starts animating after a animation is finished. Then I decided to load a map with the sprites I had. This was hard at first to figure out how to load a map with just sprites. What I ended up doing was setting up an array with different numbers which represents different blocks in the game. Then I chose to start implementing mario in the game. At first I decided to just display mario on the screen. Then add events to make mario move with the arrows keys. I used the same technique I used with animating the goomba but with mario.
 
 The second challenge I faced was having the screen move properly when mario is moving across the screen. I tried many ways to implement. The first way was change the origin point which the background was getting render to the center. This was really nice solution but it split the screen when mario first showed up the left half was just black. You had to move a little to fix it. I found the best solution on google which was to implement a camera. At first I felt lost but I just read and tried to understand the math. I understood it after looking at it for a while. Now I have the best implementation of a camera which is nice.
 
