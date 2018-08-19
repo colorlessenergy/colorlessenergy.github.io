@@ -114,6 +114,19 @@
 
 .archive {
   display: none;
+  width: 70%;
+}
+
+.archive li {
+  margin: 2px 0;
+}
+
+.archive li a {
+  text-decoration: underline;
+}
+
+.archive li a:hover {
+ font-weight: normal;
 }
 
 @media screen and (min-width: 961px) {
