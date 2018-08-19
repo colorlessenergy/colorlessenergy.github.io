@@ -18,13 +18,13 @@ link to site [Kube](https://colorlessenergy.github.io/kube/)
 
 link to github [Kube](https://github.com/colorlessenergy/kube)
 
-## what this is
+## What this is
 <!-- this is a site to showcase a product. This site was made to understand how
 to animate with CSS. -->
 
 I made this site to understand how to to animate properly in CSS. I chose to not use any libraries or frameworks with the animations to understand what really is going on under the roof. I used owl carousel to make it easier to make a carousel so I can focus on animation which was the goal for building this site.
 
-## built with
+## Built with
 
 * HTML
 * CSS
@@ -32,7 +32,7 @@ I made this site to understand how to to animate properly in CSS. I chose to not
   * jQuery
   * OWL carousel
 
-## challenges
+## Challenges
 
 The first problem I faced was understanding how to animate HTML with CSS. I had to figure what I wanted to do first then went on google and looked up everything I needed help with.
 

@@ -18,7 +18,7 @@ link to site [dagashi](https://dagashi.netlify.com/)
 
 link to github [dagashi](https://github.com/colorlessenergy/dagashi)
 
-## what this is
+## What this is
 
 <!-- this is a static E-commerce site. This site was made to sell
 Japanese candy. This site uses snipcart for the E-commerce. It also has
@@ -26,13 +26,13 @@ the Netlify cms. Both snipcart and Netlify cms use Github as the backend -->
 
 this is a static E-commerce site. I chose to make a static site so I would't have to use the monolithic structure that modern sites have today. This site allows the owner of the site to edit items in the shop with the use of netlify cms. It was made with snipcart a powerful shopping cart platform.
 
-## built with
+## Built with
 
 * HTML
 * CSS
 * JavaScript
 
-## challenges
+## Challenges
 
 this first problem I faced was making netlify cms connect with my github account. The first thing I did was try to figure out exactly what I was trying to do. After everything was clear and easy to understand I went on google to look at the netlify cms docs. I had to do a lot of digging around to find what I needed since there was a lot of documentation.
 
