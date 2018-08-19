@@ -4,7 +4,7 @@ descone: This game was made with only JavaScript.
 desctwo: use the arrow keys to move and jump.
 link: https://colorlessenergy.github.io/mario-game-refactor/
 layout: project
-class: white
+class: proj__bg-color
 image: /images/mario-game.png
 ---
 

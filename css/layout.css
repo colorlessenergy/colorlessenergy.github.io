@@ -101,8 +101,8 @@
   width: 100%;
 }
 
-.white {
-  background-color: #fff;
+.proj__bg-color {
+  background-color: #efeded;
 }
 
 /* blog */

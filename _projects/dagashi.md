@@ -4,7 +4,7 @@ descone: This site has a cms integration.
 desctwo: a site selling japanese candy.
 link: https://dagashi.netlify.com
 layout: project
-class: white
+class: proj__bg-color
 image: /images/dagashitoyou.png
 ---
 
