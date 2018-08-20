@@ -2,7 +2,7 @@
   <nav class="row {% if page.url == "/work" %}work-nav{% endif %}">
     <h3> <a class="list-item__active list-item__link" href="/">brian</a> </h3>
     <ul class="list">
-      <li class="list-item"> <a class="{% if page.url == "/work" or page.url contains "proj" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/work">Projects</a> </li>
+      <li class="list-item"> <a class="{% if page.url contains "work" or page.url contains "proj" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/work">Projects</a> </li>
       <li class="list-item"> <a class="{% if page.url contains "blog" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/blog">Blog</a> </li>
       <li class="list-item"> <a class="{% if page.url contains "contact" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/contact">Contact</a> </li>
     </ul>
