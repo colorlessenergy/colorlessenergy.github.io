@@ -139,15 +139,24 @@ h1 {
   text-decoration: underline;
 }
 
-.proj p {
-  line-height: 1.5;
+.proj p, .highlight {
+  line-height: 1.6;
   margin: 25px 0;
-  width: 80%;
+  font-size: 21px;
+  letter-spacing: -0.063px;
 }
 
 .proj h1 {
+  color: rgba(0, 0, 0, 0.7);
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+.proj h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 26px;
+  line-height: 1.22;
+  letter-spacing: -.312px;
 }
 
 .proj img {
@@ -411,8 +420,6 @@ h1 {
 
 .highlight {
   background-color: #272822;
-  font-size: 16px;
-  line-height: 1.2;
   padding: 10px;
 }
 
@@ -471,9 +478,7 @@ h1 {
   border-radius: 2px;
 }
 
-@media screen and (max-width: 961px) {
-  pre.highlight {
-    overflow: scroll;
-  }
+pre.highlight {
+    overflow-x: scroll;
 }
 

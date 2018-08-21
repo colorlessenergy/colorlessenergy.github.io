@@ -2,8 +2,6 @@
 
 .highlight {
   background-color: #272822;
-  font-size: 16px;
-  line-height: 1.2;
   padding: 10px;
 }
 
@@ -62,8 +60,6 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 961px) {
-  pre.highlight {
-    overflow: scroll;
-  }
+pre.highlight {
+    overflow-x: scroll;
 }
