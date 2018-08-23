@@ -7,7 +7,7 @@ pic: images/raindrop.jpg
 tags: ["javascript", "programming"]
 ---
 
-# what are collections
+# what are closures
 
 ![a picture of a flower]({{ site.baseurl }}/images/raindrop.jpg "a picture of a flower")
 
