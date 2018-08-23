@@ -490,6 +490,7 @@ h1 {
 /* syntax highlighting for the blog */
 
 .highlight {
+  color: #fff;
   background-color: #272822;
   padding: 10px;
 }
@@ -498,8 +499,11 @@ h1 {
   color: #75715e;
 }
 
+.highlight .c {
+  color: #9c9c9c
+}
 
-.highlight .nx, .highlight .nb {
+.highlight .nx, .highlight .nb, .highlight .nf {
   color: #268BD2;
 }
 
@@ -511,7 +515,11 @@ h1 {
   color: #c537dd;
 }
 
-.highlight .s1, .highlight .s2 {
+.highlight .s, .highlight .nc {
+  color: #ffa500;
+}
+
+.highlight .s1, .highlight .s2, .highlight .m {
   color: #a6e22e;
 }
 
