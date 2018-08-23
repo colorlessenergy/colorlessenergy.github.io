@@ -93,9 +93,13 @@
 }
 
 .proj h1 {
-  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: -0.4px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
-  text-decoration: underline;
 }
 
 .proj h2 {
@@ -106,7 +110,7 @@
 }
 
 .proj img {
-  max-width: 750px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -159,6 +163,10 @@
 
   .proj {
     width: 80%;
+  }
+
+  .proj h1 {
+    font-size: 32px;
   }
 
   .circle {

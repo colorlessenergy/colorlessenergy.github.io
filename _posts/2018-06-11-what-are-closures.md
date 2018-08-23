@@ -7,6 +7,10 @@ pic: images/raindrop.jpg
 tags: ["javascript", "programming"]
 ---
 
+# what are collections
+
+![a picture of a flower]({{ site.baseurl }}/images/raindrop.jpg "a picture of a flower")
+
 ## closures definition
 
 Closure isn't a new thing it actually is used everywhere. Even you Developers may have used it

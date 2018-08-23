@@ -13,4 +13,6 @@ css: {{ page.css }}
   </section>
 </div>
 
-{% include blog-footer.html prev=page.previous next=page.next %}
+{% unless page.url contains "project" %}
+  {% include blog-footer.html prev=page.previous next=page.next %}
+{% endunless %}

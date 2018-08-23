@@ -7,6 +7,11 @@ pic: images/const-let-var.png
 tags: ["javascript", "JavaScript", "programming", "javascript fundamentals", "web programming", "es6"]
 ---
 
+# var vs const vs let in javascript
+
+![a minecraft picture of chests with signs label var const and let]({{ site.baseurl }}/images/const-let-var.png "minecraft picture of chests with signs label var const and let")
+
+
 ## what is var, let and const
 
 <span class="highlight__code">var</span>, <span class="highlight__code">let</span> and <span class="highlight__code">const</span> are ways to declare variables. They all have a slight difference on how they work. It is important to use these declarations the right way because they were made to benefit the developer and make code easier to understand.
@@ -15,7 +20,7 @@ tags: ["javascript", "JavaScript", "programming", "javascript fundamentals", "we
 // they are declared like this
 
 // it is block scoped
-// should only be used on stuff that is constant 
+// should only be used on stuff that is constant
 const name = "Brian";
 
 // it is block scoped

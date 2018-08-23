@@ -7,6 +7,9 @@ pic: images/sandwich.png
 tags: ["javascript", "JavaScript", "programming", "javascript fundamentals", "web programming", "es6"]
 ---
 
+# var vs const vs let in javascript
+
+![picture of a sandwich to demonstrate dry]({{ site.baseurl }}/../../../images/sandwich.png "picture of a sandwich to demonstrate dry")
 
 ## what is DRY
 

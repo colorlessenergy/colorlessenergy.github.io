@@ -7,6 +7,11 @@ pic: images/neural-network.jpg
 tags: ["machine learning", "single layer perceptron", "programming", "neural network"]
 ---
 
+# single layer perceptron intro to machine learning
+
+![a picture of a neural network]({{ site.baseurl }}/images/neural-network.jpg "a picture of a neural network")
+
+
 ## what is a single layer perceptron
 
 A single layer perceptron is one of the fundamentals of machine learning.

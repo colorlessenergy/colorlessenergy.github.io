@@ -7,9 +7,14 @@ pic: images/collection-rocks.jpg
 tags: ["jekyll", "collections", "html"]
 ---
 
+# what are collections
+
+![a picture of a collection of rocks]({{ site.baseurl }}/images/collection-rocks.jpg "a picture of a collection of rocks")
+
+
 ## jekyll collection
 
-A jekyll collection is the correct way to store markdown files that are related to each other but isn't a blog or a page. 
+A jekyll collection is the correct way to store markdown files that are related to each other but isn't a blog or a page.
 
 ## why use collections
 
@@ -43,7 +48,7 @@ now you can loop through the collection of markdown files or do whatever you wan
 
 ## conclusion
 
-Collections are powerful to use when you want to make content that isn't a blog or a page. For more information look at the 
+Collections are powerful to use when you want to make content that isn't a blog or a page. For more information look at the
 <a class="hireme__link" href="https://jekyllrb.com/docs/collections/"> docs </a>
 
 if you have any questions or concerns contact me at brianmunozdev@gmail.com

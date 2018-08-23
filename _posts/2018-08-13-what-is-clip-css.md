@@ -8,6 +8,10 @@ tags: ["css animation", "css", "programming", "animation"]
 css: clip.css
 ---
 
+# What is clip CSS
+
+![a picture of paper clips]({{ site.baseurl }}/images/paperclip.jpg "a picture of paperclips")
+
 ## what is clip in css
 
 clip is a box that only shows a part of the element you defined. only works on elements that have the style of position: absolute or position: fixed.
