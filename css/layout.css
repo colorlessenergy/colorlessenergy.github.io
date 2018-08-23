@@ -88,7 +88,7 @@
 .proj p, .highlight {
   line-height: 1.6;
   margin: 25px 0;
-  font-size: 21px;
+  font-size: 18px;
   letter-spacing: -0.063px;
 }
 
@@ -147,6 +147,10 @@
 
   .contain-post {
     margin: 0;
+  }
+
+  .proj p, .highlight {
+    font-size: 21px;
   }
 
   .archive {
