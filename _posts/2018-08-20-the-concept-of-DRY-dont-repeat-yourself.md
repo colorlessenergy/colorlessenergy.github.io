@@ -9,7 +9,7 @@ tags: ["javascript", "JavaScript", "programming", "javascript fundamentals", "we
 
 # var vs const vs let in javascript
 
-![picture of a sandwich to demonstrate dry]({{ site.baseurl }}/../../../images/sandwich.png "picture of a sandwich to demonstrate dry")
+![picture of a sandwich to demonstrate dry]({{ site.baseurl }}/images/sandwich.png "picture of a sandwich to demonstrate dry")
 
 ## what is DRY
 
