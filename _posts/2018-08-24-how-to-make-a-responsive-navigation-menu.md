@@ -15,32 +15,32 @@ tags: ["html", "javascript", "css", "responsive web"]
 
 A responsive navigation menu usually comes with a hamburger menu to show or hide the responsive navigation menu. a harmbuger menu shows up on a page when it has become smaller and shows or hides other links on the page. when clicking or tapping on the hamburger menu, a small window should show up on the screen listing other links.
 
-you can see a example here: [kube](https://colorlessenergy.github.io/kube/)
+You can see a example here: [kube](https://colorlessenergy.github.io/kube/)
 
-if you want to mess with the code that will be built in this blog, there is a working example on [codepen](https://codepen.io/brianmunoz/pen/VGvvdZ)
+If you want to mess with the code that will be built in this blog, there is a working example on [codepen](https://codepen.io/brianmunoz/pen/VGvvdZ).
 
 ## When should you use a responsive navigation menu
 
-you could use it all the time but sometimes it does look better just having the links showing instead of them being hidden from the user. I recommend to use the responsive navigation menu only when you have more than 3 links.
+You could use it all the time but sometimes it does look better just having the links showing instead of them being hidden from the user. I recommend to use the responsive navigation menu only when you have more than 4 links.
 
 ## The HTML for the nav
 
-We need a svg to make the usual apperance of the responsive navigation menu. HTML makes it really easy to make small drawings with svg.
+We need a svg to make the usual apperance of the responsive hamburger menu. HTML makes it really easy to make small drawings with svg.
 
 ```html
 <svg viewBox="0 0 26 17" width="30px" height="100%">
-    <rect x="3" width="20px" height="3px"></rect>
-    <rect y="7" width="26px" height="3px"></rect>
-    <rect x="3" y="14" width="20px" height="3px"></rect>
+  <rect x="3" width="20px" height="3px"></rect>
+  <rect y="7" width="26px" height="3px"></rect>
+  <rect x="3" y="14" width="20px" height="3px"></rect>
 </svg>
 ```
 
 It will look like this!
 
 <svg viewBox="0 0 26 17" width="30px" height="100%">
-    <rect x="3" width="20px" height="3px"></rect>
-    <rect y="7" width="26px" height="3px"></rect>
-    <rect x="3" y="14" width="20px" height="3px"></rect>
+  <rect x="3" width="20px" height="3px"></rect>
+  <rect y="7" width="26px" height="3px"></rect>
+  <rect x="3" y="14" width="20px" height="3px"></rect>
 </svg>
 
 Now lets make it do an animation when it get clicked. We will need HTML, CSS and JavaScript for this.
@@ -64,33 +64,50 @@ the CSS
   transition: all 0.5s;
 }
 
-/* gave rects a transition only when the parent of the rect has the class of hamburger-menu */
+/* gave rects a transition only when the parent of the rect has the class of animate */
 
-.hamburger-menu .hamburger-menu__rect1 {
+.animate .hamburger-menu__rect1 {
   transform: rotate(35deg) translate(2px, -2px);
 }
 
-.hamburger-menu .hamburger-menu__rect3 {
+.animate .hamburger-menu__rect3 {
   transform: rotate(-35deg) translate(-7px, -2px);
 }
 
-/*  gave the second rect opacity of 0 only when the parent has the class of hamburger-menu */
-.hamburger-menu .hamburger-menu__rect2 {
+/*  gave the second rect opacity of 0 only when the parent has the class of animate */
+.animate .hamburger-menu__rect2 {
   opacity: 0;
 }
 ```
+what was added:
 
-I gave all the rects nested in the svg with the id of menu-hamburger a transition so the animation is smooth. I also gave the first rect and third rect a transform and the second rect a opacity of 0. I also made the styles only work when it is nested inside a element with a class of hamburger-menu which is the svg. We will give the svg (hamburger menu) a class of hamburger-menu with JavaScript. By doing this it will trigger the animations on the hamburger menu.
+* rects
+  * transition for smooth animation
+  * first and third rect were given a transform
+  * second rect will have a opacity of 0
+* we will give it the class of animate with JavaScript which will trigger the animation
+* these styles will only work when they are nested inside a element with the class of animate
+
+longer explanation
+
+I gave all the rects nested in the svg with the id of menu-hamburger a transition so the animation is smooth. I also gave the first rect and third rect a transform and the second rect a opacity of 0. I also made the styles only work when it is nested inside a element with a class of animate which is the svg. We will give the svg (hamburger menu) a class of animate with JavaScript. By doing this it will trigger the animations on the hamburger menu.
 
 ```javascript
 // this is the hamburger menu
-let responsiveMenu = document.querySelector('#menu-hamburger');
+let menuHamburger = document.querySelector('#menu-hamburger');
 
-// when clicking on the hamburger menu give the svg / hamburger-menu a class of hamburger-menu or remove it if it already has the class of hamburger-menu
-responsiveMenu.addEventListener('click', function () {
-  responsiveMenu.classList.toggle('hamburger-menu');
+// when clicking on the hamburger menu give the svg / hamburger menu a class of animate or remove it if it already has the class of animate
+menuHamburger.addEventListener('click', function () {
+  menuHamburger.classList.toggle('animate');
 })
 ```
+
+what was added:
+
+* stored the svg (hamburger menu) in a variable
+* add event listener to the hamburger menu
+  * gave a class to the hamburger menu when it is clicked
+
 
 Now we have a working hamburger menu. Click or tap on it to see the Animation.
 
@@ -101,11 +118,11 @@ Now we have a working hamburger menu. Click or tap on it to see the Animation.
 </svg>
 
 <script>
-let responsiveMenu = document.querySelector('#menu-hamburger');
+let menuHamburger = document.querySelector('#menu-hamburger');
 
-// when clicking on the hamburger menu give the svg / hamburgermenu a class of hamburger-menu
-responsiveMenu.addEventListener('click', function () {
-  responsiveMenu.classList.toggle('hamburger-menu');
+// when clicking on the hamburger menu give the svg / hamburgermenu a class of animate
+menuHamburger.addEventListener('click', function () {
+  menuHamburger.classList.toggle('animate');
 });
 </script>
 
@@ -114,24 +131,24 @@ responsiveMenu.addEventListener('click', function () {
   transition: all 0.5s;
 }
 
-.hamburger-menu .hamburger-menu__rect1 {
+.animate .hamburger-menu__rect1 {
   transform: rotate(35deg) translate(2px, -2px);
 }
 
-.hamburger-menu .hamburger-menu__rect3 {
+.animate .hamburger-menu__rect3 {
   transform: rotate(-35deg) translate(-7px, -2px);
 }
 
-.hamburger-menu .hamburger-menu__rect2 {
+.animate .hamburger-menu__rect2 {
   opacity: 0;
 }
 </style>
 
-Now we have the main functionality of the responsive nav now we will make it looks like on [codepen](https://codepen.io/brianmunoz/pen/VGvvdZ).
+Now that we have the main functionality of the responsive nav, we will make it look like the one on [codepen](https://codepen.io/brianmunoz/pen/VGvvdZ).
 
 We will need to add more HTML, CSS and JavaScript.
 
-For the html we will put the hamburger menu inside a nav element and inside the nav element we will also put a title. We will also include another div for the menu that shows up when the hamburger menu is clicked
+For the HTML we will put the hamburger menu inside a nav element and inside the nav element we will also put a heading. We will also include another div for the menu that shows up when the hamburger menu is clicked.
 
 ```html
 <nav>
@@ -158,6 +175,13 @@ For the html we will put the hamburger menu inside a nav element and inside the 
   </div>
 </nav>
 ```
+what was added:
+
+* add a nav element
+* inside nav
+  * heading tag
+  * hamburger menu
+  * div for the menu that shows up when hamburger menu is clicked
 
 For the css we are going to add styles to make the nav look nice and add styles to the responsive navigation menu that moves away from the screen and back when clicking on the hamburger menu.
 
@@ -224,32 +248,44 @@ nav {
 /*
   css to animate the responsive hamburger menu
   only when it is nested inside a element with
-  the class of hamburger-menu
+  the class of animate
 */
 
-.hamburger-menu .hamburger-menu__rect1 {
+.animate .hamburger-menu__rect1 {
   transform: rotate(35deg) translate(2px, -2px);
 }
 
-.hamburger-menu .hamburger-menu__rect3 {
+.animate .hamburger-menu__rect3 {
   transform: rotate(-35deg) translate(-7px, -2px);
 }
 
-.hamburger-menu .hamburger-menu__rect2 {
+.animate .hamburger-menu__rect2 {
   opacity: 0;
 }
 ```
+what was added:
+
+* vertically center and gave space around text inside nav
+* style the responsive navigation and moved it away from the users view
+* gave all the rects a transition for smooth animations
+* set a transform on each rect when the parent (svg) has a class of animate
+
 For JavaScript the only difference is storing the responsive nav that has the all the links in a variable and toggle a class on the responsve nav when it gets clicked or tapped to see show or hide the responsive nav.
 
 ```javascript
-let responsiveMenu = document.querySelector('#menu-hamburger');
+let menuHamburger = document.querySelector('#menu-hamburger');
 let responsiveNav = document.querySelector('.responsive-nav');
 
-responsiveMenu.addEventListener('click', function (event) {
-  responsiveMenu.classList.toggle('hamburger-menu');
+menuHamburger.addEventListener('click', function (event) {
+  menuHamburger.classList.toggle('animate');
   responsiveNav.classList.toggle('responsive-nav__open')
 });
 ```
+
+what was added:
+
+* stored the hidden nav inside a variabel
+* when the hamburger menu is clicked give the responsive nav a class to show it
 
 You can view this on [codepen](https://codepen.io/brianmunoz/pen/VGvvdZ)
 

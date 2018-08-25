@@ -115,7 +115,8 @@
 }
 
 .proj ul {
-  padding: 0 0 0 45px;
+  font-size: 18px;
+  padding: 0 0 0 30px;
   list-style-type: disc;
 }
 
@@ -153,8 +154,12 @@
     margin: 0;
   }
 
-  .proj p, .highlight {
+  .proj p, .highlight, .proj ul {
     font-size: 21px;
+  }
+
+  .proj ul {
+    padding: 0 0 0 45px;
   }
 
   .archive {
