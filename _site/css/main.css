@@ -122,10 +122,9 @@ h1 {
 
 /* these styles are for the blog and projects */
 
-.proj {
+.proj, .form {
   align-items: center;
   display: flex;
-  justify-content: center;
   margin: 0 auto;
   max-width: 1360px;
   width: 100%;
@@ -164,7 +163,7 @@ h1 {
 
 .proj img {
   max-width: 500px;
-  width: 100%;
+  height: 200px;
 }
 
 .proj ul {
@@ -219,7 +218,7 @@ h1 {
     display: block;
   }
 
-  .proj {
+  .proj, .form {
     width: 80%;
   }
 
@@ -356,6 +355,34 @@ h1 {
 
 .work-split__image {
   width: 60%;
+}
+
+/* styles for newsletter */
+
+.form__group {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  color: #7b7b7b;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.form__email {
+  border: none;
+  border-bottom: 1px solid #222;
+  padding-bottom: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form__button {
+  background-color: #fff;
+  outline: none;
+  margin: 20px 0;
 }
 
 /* blog */

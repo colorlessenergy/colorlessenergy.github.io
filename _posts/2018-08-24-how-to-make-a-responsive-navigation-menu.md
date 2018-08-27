@@ -284,7 +284,7 @@ menuHamburger.addEventListener('click', function (event) {
 
 what was added:
 
-* stored the hidden nav inside a variabel
+* stored the hidden nav inside a variable
 * when the hamburger menu is clicked give the responsive nav a class to show it
 
 You can view this on [codepen](https://codepen.io/brianmunoz/pen/VGvvdZ)

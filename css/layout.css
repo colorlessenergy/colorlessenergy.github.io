@@ -68,10 +68,9 @@
 
 /* these styles are for the blog and projects */
 
-.proj {
+.proj, .form {
   align-items: center;
   display: flex;
-  justify-content: center;
   margin: 0 auto;
   max-width: 1360px;
   width: 100%;
@@ -110,7 +109,7 @@
 
 .proj img {
   max-width: 500px;
-  width: 100%;
+  height: 200px;
 }
 
 .proj ul {
@@ -165,7 +164,7 @@
     display: block;
   }
 
-  .proj {
+  .proj, .form {
     width: 80%;
   }
 

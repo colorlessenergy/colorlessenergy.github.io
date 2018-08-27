@@ -120,6 +120,34 @@
   width: 60%;
 }
 
+/* styles for newsletter */
+
+.form__group {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  color: #7b7b7b;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.form__email {
+  border: none;
+  border-bottom: 1px solid #222;
+  padding-bottom: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form__button {
+  background-color: #fff;
+  outline: none;
+  margin: 20px 0;
+}
+
 /* blog */
 
 .post__contain {
