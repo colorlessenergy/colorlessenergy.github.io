@@ -14,7 +14,7 @@ tags: ["javascript"]
 ## What is sort on a array
 
 
-The <span class="highlight__code">sort()</span> method can take in a function to compare value. If no function is given to the <span class="highlight__code">sort()</span> ,ethod it turns the values into strings and orders them by string Unicode value. <span class="highlight__code">sort()</span> compares it the values in pairs. <span class="highlight__code">sort()</span> method makes it really easy to make changes to an array. The method is stored in the Array's prototype.
+The <span class="highlight__code">sort()</span> method can take in a function to compare value. If no function is given to the <span class="highlight__code">sort()</span> method it turns the values into strings and orders them by string Unicode value. <span class="highlight__code">sort()</span> compares it the values in pairs. <span class="highlight__code">sort()</span> method makes it really easy to make changes to an array. The method is stored in the Array's prototype.
 
 ```javascript
 
@@ -24,7 +24,7 @@ arr.sort() // [90, 8]
 
 ```
 
-In the example above you saw that the order of the array changed from lowest to highest because what sort does is convert the values into strings and compares them. The value "80" comes before "9" in string Unicode values.
+In the example above you saw that the order of the array changed from lowest to highest to highest to lowest because what sort does is convert the values into strings and compares them. The value "80" comes before "9" in string Unicode values.
 
 If you wanted to sort by numbers instead of strings you can pass in a function expression to compare numbers instead.
 
@@ -42,7 +42,7 @@ arr // [3, 8, 9, 10]
 
 ## what is happening under the roof when passing in a function expression
 
-What <span class="highlight__code">sort</span> does is look at the value that was returned from the function expression and use that to sort the array. If the returned value was negative, move a before b, if it was positive move b before a, and if it is 0 leave it how it is.
+What <span class="highlight__code">sort()</span> does is look at the value that was returned from the function expression and use that to sort the array. If the returned value was negative, move a before b, if it was positive move b before a, and if it is 0 leave it how it is.
 
 a example
 

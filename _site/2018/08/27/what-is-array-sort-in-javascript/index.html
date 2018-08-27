@@ -60,7 +60,7 @@
 
 <h2 id="what-is-sort-on-a-array">What is sort on a array</h2>
 
-<p>The <span class="highlight__code">sort()</span> method can take in a function to compare value. If no function is given to the <span class="highlight__code">sort()</span> ,ethod it turns the values into strings and orders them by string Unicode value. <span class="highlight__code">sort()</span> compares it the values in pairs. <span class="highlight__code">sort()</span> method makes it really easy to make changes to an array. The method is stored in the Array’s prototype.</p>
+<p>The <span class="highlight__code">sort()</span> method can take in a function to compare value. If no function is given to the <span class="highlight__code">sort()</span> method it turns the values into strings and orders them by string Unicode value. <span class="highlight__code">sort()</span> compares it the values in pairs. <span class="highlight__code">sort()</span> method makes it really easy to make changes to an array. The method is stored in the Array’s prototype.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">8</span><span class="p">,</span> <span class="mi">90</span><span class="p">]</span>
@@ -69,7 +69,7 @@
 
 </code></pre></div></div>
 
-<p>In the example above you saw that the order of the array changed from lowest to highest because what sort does is convert the values into strings and compares them. The value “80” comes before “9” in string Unicode values.</p>
+<p>In the example above you saw that the order of the array changed from lowest to highest to highest to lowest because what sort does is convert the values into strings and compares them. The value “80” comes before “9” in string Unicode values.</p>
 
 <p>If you wanted to sort by numbers instead of strings you can pass in a function expression to compare numbers instead.</p>
 
@@ -86,7 +86,7 @@
 
 <h2 id="what-is-happening-under-the-roof-when-passing-in-a-function-expression">what is happening under the roof when passing in a function expression</h2>
 
-<p>What <span class="highlight__code">sort</span> does is look at the value that was returned from the function expression and use that to sort the array. If the returned value was negative, move a before b, if it was positive move b before a, and if it is 0 leave it how it is.</p>
+<p>What <span class="highlight__code">sort()</span> does is look at the value that was returned from the function expression and use that to sort the array. If the returned value was negative, move a before b, if it was positive move b before a, and if it is 0 leave it how it is.</p>
 
 <p>a example</p>
 
