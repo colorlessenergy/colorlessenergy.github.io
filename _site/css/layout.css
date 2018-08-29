@@ -41,6 +41,10 @@
   color: #0083ff;
 }
 
+.blue {
+  color: #222;
+}
+
 .hireme__link:hover {
   text-decoration: underline;
 }
@@ -51,7 +55,6 @@
 
 .social:hover, .blue:hover, .proj__contain a:hover {
   color: #0083ff;
-  font-weight: 900;
 }
 
 .bio {
@@ -78,10 +81,6 @@
 
 .proj__contain {
   width: 100%;
-}
-
-.proj__contain a {
-  text-decoration: underline;
 }
 
 .proj p, .highlight {

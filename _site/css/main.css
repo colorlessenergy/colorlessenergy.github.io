@@ -10,10 +10,6 @@ body {
   margin: 0;
 }
 
-a {
-   color: #000;
-   text-decoration: none;
- }
 
 main, nav.work-nav {
   margin: 1em 2em;
@@ -95,6 +91,10 @@ h1 {
   color: #0083ff;
 }
 
+.blue {
+  color: #222;
+}
+
 .hireme__link:hover {
   text-decoration: underline;
 }
@@ -105,7 +105,6 @@ h1 {
 
 .social:hover, .blue:hover, .proj__contain a:hover {
   color: #0083ff;
-  font-weight: 900;
 }
 
 .bio {
@@ -132,10 +131,6 @@ h1 {
 
 .proj__contain {
   width: 100%;
-}
-
-.proj__contain a {
-  text-decoration: underline;
 }
 
 .proj p, .highlight {

@@ -1,0 +1,39 @@
+--- 
+layout: default 
+title: Tags 
+---
+
+<div id="archives">
+    <div class="archive-group">
+        <h3 class="category-head">javascript</h3>
+        {% for post in site.tags["javascript"] %}
+        <article class="archive-item">
+            <p><a class="blue" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
+        </article>
+        {% endfor %}
+    </div>
+    <div class="archive-group">
+        <h3 class="category-head">html</h3>
+        {% for post in site.tags["html"] %}
+        <article class="archive-item">
+            <p><a class="blue" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
+        </article>
+        {% endfor %}
+    </div>
+    <div class="archive-group">
+        <h3 class="category-head">css</h3>
+        {% for post in site.tags["css"] %}
+        <article class="archive-item">
+            <p><a class="blue" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
+        </article>
+        {% endfor %}
+    </div>
+    <div class="archive-group">
+        <h3 class="category-head">anything related to programming</h3>
+        {% for post in site.tags["programming"] %}
+        <article class="archive-item">
+            <p><a class="blue" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
+        </article>
+        {% endfor %}
+    </div>
+</div>

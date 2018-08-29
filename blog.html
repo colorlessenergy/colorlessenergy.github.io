@@ -33,6 +33,7 @@ changefreq: weekly
        {% endif %}
        <li><a class="blue" href="{{site.baseurl}}{{ post.url }}"><span>{{ post.date | date: "%B %-d" }}</span> - {{ post.title }}</a></li>
        {% if forloop.last %}
+       <li><a class="blue" href="{{site.baseurl}}/tags">all tags</a></li>
       </ul>
      </section>
      {% endif %}

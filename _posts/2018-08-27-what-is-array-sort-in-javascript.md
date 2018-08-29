@@ -1,8 +1,8 @@
 ---
 layout: project
-title: what is array sort in JavaScript
+title: What is array sort in JavaScript
 date: "2018-08-27 6:00 -0700"
-meta: what is array sort in JavaScript.
+meta: What is array sort in JavaScript. really easy way to sort in alphabetical order and numerical order (ascending and descending).
 pic: images/soap.jpg
 tags: ["javascript"]
 ---

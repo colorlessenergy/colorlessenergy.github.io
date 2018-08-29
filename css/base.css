@@ -10,10 +10,6 @@ body {
   margin: 0;
 }
 
-a {
-   color: #000;
-   text-decoration: none;
- }
 
 main, nav.work-nav {
   margin: 1em 2em;
