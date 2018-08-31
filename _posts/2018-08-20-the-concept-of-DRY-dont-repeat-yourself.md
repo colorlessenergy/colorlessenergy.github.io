@@ -1,13 +1,13 @@
 ---
 layout: project
-title: the concept of DRY, don't repeat yourself
+title: the concept of dry, don't repeat yourself
 date: "2018-08-20 10:00 -0700"
 meta: a explanation of the concept dry, don't repeat yourself, in programming.
 pic: images/sandwich.png
 tags: ["javascript", "programming", "javascript fundamentals", "web programming", "es6"]
 ---
 
-# var vs const vs let in javascript
+# a explanation of the concept dry, don't repeat yourself, in programming.
 
 ![picture of a sandwich to demonstrate dry]({{ site.baseurl }}/images/sandwich.png "picture of a sandwich to demonstrate dry")
 

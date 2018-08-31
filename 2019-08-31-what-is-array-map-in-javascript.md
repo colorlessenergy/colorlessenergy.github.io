@@ -1,0 +1,52 @@
+---
+layout: project
+title: what is array map in JavaScript
+date: 2018-09-03 6:00 -0700
+meta: what is array map in JavaScript.
+pic: images/responsive-nav.png
+tags: ["javascript"]
+---
+
+# What is array map in JavaScript
+
+![nav]({{ site.baseurl }}/images/responsive-nav.png "nav")
+
+## What is map on a array
+
+
+The <span class="highlight__code">map()</span> method takes in a function expression as a argument. The <span class="highlight__code">map()</span> method calls the function on every element on the array it is called on. It does not change the original array instead it makes a copy and returns a new array.
+
+```javascript
+
+// original array
+let arr = [1, 2, 3, 4, 10]
+
+// making a new array that takes in a function that just multiplies every element by 10
+let newArr = arr.map(function (number) {
+  return number * 10;
+});
+
+console.log(arr) // [3, 10, 40, 3]
+
+console.log(newArr) // [10, 20, 30, 40, 100]
+```
+
+When the <span class="highlight__code">map()</span> method gets invoked its callback gets 3 arguments
+
+* the value element
+* the index of the element
+* the original array being looped through
+
+## The power of filter
+
+<span class="highlight__code">map()</span> is powerful when you are trying to do something to every element in the array.
+
+the basics
+
+A callback function is needed
+
+* calls the function on every element in the array
+* have access to the current element, the index, and the original array being looped.
+* makes and returns a new array, doesn't alter the original array.
+
+happy coding :)
