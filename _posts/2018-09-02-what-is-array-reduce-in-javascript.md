@@ -1,17 +1,17 @@
 ---
 layout: project
 title: what is array reduce method in JavaScript
-date: "2018-08-31 6:00 -0700"
+date: 2018-09-03 	5:07 -0700
 meta: Array reduce in javascript. Reduce is a javascript method.
-pic: images/responsive-nav.png
+pic: images/javascript.png
 tags: ["javascript"]
 ---
 
 # What is array reduce in JavaScript
 
-![nav]({{ site.baseurl }}/images/responsive-nav.png "nav")
+![javascript]({{ site.baseurl }}/images/javascript.png "javascript")
 
-## What is reduce on a array
+## What is reduce array method
 
 
 The <span class="highlight__code">reduce()</span> method takes in a callback function. <span class="highlight__code">reduce()</span> returns the last function call value, it does not change the original array it is called on.
@@ -87,7 +87,7 @@ A callback is needed
 * takes a function to know how to accumulate the values.
 * does it in pairs ex: accumulate + currentvalue
 * have access to the currentValue, the accumulated value, the index, and the original array being looped.
-* returns the final function call return value 
+* returns the final function call return value
 
 
 happy coding :)
