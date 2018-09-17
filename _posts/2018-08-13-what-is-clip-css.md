@@ -22,7 +22,7 @@ the syntax for clip is
 selector {
   clip: rect(top, right, bottom, left)
 }
-````
+```
 for more information visit [mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/clip)
 
 ## a example of the animation can be seen here

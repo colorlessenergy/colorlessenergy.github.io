@@ -1,7 +1,7 @@
 ---
 layout: project
 title: types in javascript
-date: 2018-09-10 5:00 -0700
+date: 2018-09-14 5:00 -0700
 meta: what are the different types in javascript. All of them but objects are primitives which includes undefined, null, boolean, number, (symbol) and object. Difference between types.
 pic: images/javascript.png
 tags: ["javascript"]
