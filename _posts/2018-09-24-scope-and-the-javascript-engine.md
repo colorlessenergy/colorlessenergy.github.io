@@ -12,12 +12,12 @@ tags: ["javascript"]
 ![javascript]({{ site.baseurl }}/images/javascript.png "javascript")
 
 
-### variable lifetime
+## variable lifetime
 
 It begins when it is declared and ends at the end of a function if is it in one, if it isn't in a function it is at the end of global context which means when it the page is closed or refreshed
 
 
-### hoisting
+## hoisting
 
 Hoisting means that all function definition and variable declarations are put to the top of the nearest scope.
 
@@ -41,7 +41,7 @@ before executing the code, the engine reads the entire file and will throw a syn
 * any function will be saved in memory
 * variable initializations will not be run, but variable names will be declared
 
-### the execution and creation phase
+## the execution and creation phase
 
 ```javascript
 console.log(i);
