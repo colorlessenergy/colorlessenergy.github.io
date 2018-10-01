@@ -1,7 +1,7 @@
 ---
 layout: project
 title: this in JavaScript
-date: 2018-09-28 4:35 -0700
+date: 2018-10-01 4:35 -0700
 meta: this refers to a object that set is at the creation of a new execution context.
 pic: images/javascript.png
 tags: ["javascript"]
@@ -13,11 +13,12 @@ This refers to a object that set at the creation of a new
 execution context. this reference object invoked on. If it is called on the global context it is referred to the global object.
 
 ```javascript
-function whatisthis() {
+function whatIsThis() {
   console.log(this);
 }
 
-whatisthis(); // window
+whatIsThis();
+  // will log the window object
 ```
 
 Everything is invoked on the global object.
@@ -32,7 +33,6 @@ If the function is called as a method of an object
 var person = {
  firstName: 'brian',
  lastName: 'Munoz',
- whatisThis: function() {console.log(this);}
  greet: function () { console.log('hi, ' + this.firstName) }
 }
 
@@ -54,13 +54,16 @@ You can reassign what this is by using <span class="highlight__code">bind</span>
 var person = {
  firstName: 'brian',
  lastName: 'Munoz',
- whatisThis: function() {console.log(this);}
- greet: function (whatosay) { console.log(whatosay + ' ' + this.firstName) }
+ whatIsThis: function() {console.log(this);},
+ greet:
+  function (whatosay) { console.log(whatosay + ' ' + this.firstName) }
 }
 
-person.whatisthis(); // the person object
+person.whatIsThis();
+  // will log the person object
 
-person.greet('hi') // hi brian
+person.greet('hi')
+  // will log hi brian
 
 var student = {
   firstName: 'Daniel',
@@ -68,14 +71,19 @@ var student = {
 
 // returns function with this bounded
 var studentGreet = person.greet.bind(student, 'hi');
-studentGreet(); // hi Daniel
+studentGreet();
+  // will log hi Daniel
 
 // call and apply immediate runs the function
-person.greet.call(student, 'hi') // hi Daniel
+person.greet.call(student, 'hi')
+  // will log hi Daniel
 
-// use apply when you don't know how many parameters you will pass into the function
+// use apply when you
+// don't know how many parameters
+// you will pass into the function
 let arr = ['hi']
-person.greet.apply(student, arr) // hi Daniel
+person.greet.apply(student, arr)
+  // will log hi Daniel
 ```
 
 ## ES6 arrow notation
@@ -99,7 +107,8 @@ var newPerson = {
   greet: () => console.log('hi, ' + this.firstName)
 }
 
-newPerson.greet(); // hi, undefined
+newPerson.greet();
+  // will log hi, undefined
 ```
 
 It console logs 'hi, undefined' because the arrow function is set to this by the lexical scope instead of where it was invoked on.
@@ -123,7 +132,8 @@ function printX() {
 
 setX();
 
-printX(); // 42
+printX();
+  // will log 42
 ```
 
 <span class="highlight__code">printX()</span> prints 42 because it is on the global scope, <span class="highlight__code">printX()</span> can not see the x in the <span class="highlight__code">setX()</span> function because it is enclosed in a function.
@@ -142,7 +152,7 @@ function setX() {
 }
 
 setX();
- // will console log 50
+ // will log 50
 ```
 
 now <span class="highlight__code">printX()</span> will console log 50 because it is the variable bounded closes the scope the console log was executed in.
