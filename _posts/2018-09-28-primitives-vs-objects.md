@@ -1,7 +1,7 @@
 ---
 layout: project
 title: primitives vs objects.
-date: 2018-09-24 4:35 -0700
+date: 2018-09-28 4:35 -0700
 meta: primitives are immutable. objects are mutable and stored by reference
 pic: images/javascript.png
 tags: ["javascript"]
