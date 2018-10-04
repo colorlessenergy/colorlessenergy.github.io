@@ -4,6 +4,8 @@
   color: #fff;
   background-color: #272822;
   padding: 10px;
+
+  font-size: 19px;
 }
 
 .highlight .c1 {
@@ -69,5 +71,5 @@
 }
 
 pre.highlight {
-    overflow-x: auto;
+  overflow-x: auto;
 }

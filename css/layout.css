@@ -74,7 +74,7 @@
 .proj, .form {
   align-items: center;
   display: flex;
-  margin: 0 auto;
+  margin: 35px auto;
   max-width: 1360px;
   width: 100%;
 }
@@ -97,13 +97,18 @@
   line-height: 1.1;
   padding-top: 10px;
   color: rgba(0, 0, 0, 0.8);
+
+  margin: 15px 0;
+  text-align: center;
+  color: #3F51B5;
 }
 
 .proj h2 {
   color: rgba(0, 0, 0, 0.7);
-  font-size: 26px;
+  font-size: 30px;
   line-height: 1.22;
   letter-spacing: -.312px;
+  margin: 57px 0 22px 0;
 }
 
 .proj img {
@@ -151,7 +156,7 @@
     margin: 0;
   }
 
-  .proj p, .highlight, .proj ul {
+  .proj p, .proj ul {
     font-size: 21px;
   }
 
@@ -164,7 +169,7 @@
   }
 
   .proj, .form {
-    width: 80%;
+    width: 73.7%;
   }
 
   .proj h1 {
