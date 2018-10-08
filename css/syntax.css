@@ -70,6 +70,13 @@
   border-radius: 2px;
 }
 
+p.highlight__file-desc {
+  color: grey;
+  text-align: right;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
 pre.highlight {
   overflow-x: auto;
 }
