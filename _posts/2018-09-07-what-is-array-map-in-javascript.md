@@ -37,7 +37,7 @@ When the <span class="highlight__code">map()</span> method gets invoked its call
 * the index of the element
 * the original array being looped through
 
-## Practical uses of filter in JavaScript
+## Practical uses of map in JavaScript
 
 #### want to make every element in an array a number
 
@@ -64,7 +64,7 @@ console.log(numbers); // [1, 2, 3, 4, 5]
 ```
 The arrow function allows the function to be shorten by not having to use curly brackets, parentheses for parameters, and no return keyword.
 
-## The power of filter
+## The power of map
 
 <span class="highlight__code">map()</span> is powerful when you are trying to do something to every element in the array.
 

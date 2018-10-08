@@ -35,7 +35,7 @@ console.log(arr) // [1, 2, 3, 4, 5]
 * the index of the element
 * the original array being looped through
 
-## Practical uses of filter in JavaScript
+## Practical uses of reduce in JavaScript
 
 
 #### Math operation to simplify to one element
@@ -75,7 +75,7 @@ console.log(mean) // 3
 
 ```
 
-## The power of filter
+## The power of reduce
 
 <span class="highlight__code">reduce()</span> is powerful when you are trying to shrink a array to one value.
 
