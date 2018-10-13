@@ -102,8 +102,6 @@ for (let i = 0; i <=5; i++) {
 }
 ```
 
-# Closures
-
 functions that refer to variables declared by a parent function.
 only possible because of lexical scoping
 
