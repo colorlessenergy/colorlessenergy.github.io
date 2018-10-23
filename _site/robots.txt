@@ -1,2 +1,0 @@
-Sitemap: https://colorlessenergy.github.io/sitemap.xml
-User-agent: *
