@@ -662,7 +662,7 @@ footer {
   top: 0;
   right: 0;
   transition: transform 0.5s cubic-bezier(.42,0,.58,1);
-  transform: translateX(105%) skew(10deg);
+  transform: translateX(115%) skew(10deg);
   z-index: 1;
 }
 
