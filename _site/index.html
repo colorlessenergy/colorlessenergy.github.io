@@ -1,174 +1,277 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124255310-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brian Munoz Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-      gtag('config', 'UA-124255310-1');
-    </script>
+  <link rel="stylesheet" href="/css/main.css">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="/main.js" defer></script>
+</head>
+<body>
+  <header>
+  <nav class="nav">
+  <h2 class="nav__title">
+    <a href="/">
+      Brian
+    </a>
+  </h2>
+  <ul class="nav__links">
+    <li class="nav__list-item">
+      <a class="nav__link nav__link--active" href="/">projects</a> <span>03</span>
+    </li>
+    <li class="nav__list-item">
+      <a class="nav__link " href="/about">about me</a>
+    </li>
+    <li class="nav__list-item">
+      <a class="nav__link " href="/notes">notes</a>
+    </li>
+  </ul>
+  <svg id="menu-hamburger" viewBox="0 0 26 17" width="30px" height="100%">
+  <rect class="hamburger-menu__rect1" x="3" width="20px" height="3px"></rect>
+  <rect class="hamburger-menu__rect2" y="7" width="26px" height="3px"></rect>
+  <rect class="hamburger-menu__rect3" x="3" y="14" width="20px" height="3px"></rect>
+</svg>
+</nav>
+<section class="mobile-nav">
+  <ul class="mobile-nav__links">
+    <li class="mobile-nav__list-item">
+      <a class="mobile-nav__link mobile-nav__link--active" href="/">projects</a>
+      <span>03</span>
+    </li>
+    <li class="mobile-nav__list-item">
+      <a class="mobile-nav__link " href="/about">about
+        me</a>
+    </li>
+    <li class="mobile-nav__list-item">
+      <a class="mobile-nav__link " href="/notes">notes</a>
+    </li>
+  </ul>
 
-    <!-- seo -->
-    <meta name="description" content="Hi my name is Brian Munoz. I am a Programmer from Long Beach, California that focuses in the Front-End of Web Development. I like to bring designs to life with HTML, CSS and JavaScript. My goal is to bring technical solutions to people.">
-
-    <meta property="og:title" content="Brian Munoz, Front End Web Developer, California">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="Hi my name is Brian Munoz. I am a Programmer from Long Beach, California that focuses in the Front-End of Web Development. I like to bring designs to life with HTML, CSS and JavaScript. My goal is to bring technical solutions to people.">
-    <title>
-      
-        Brian Munoz, Front End Web Developer, California
-      
-    </title>
-
-
-    <meta itemprop="keywords" content="" />
-    
-
-    
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
-  </head>
-  <body>
-    <main>
-      <div class="nav__fixed">
-  <nav class="row ">
-    <h3> <a class="list-item__active list-item__link" href="/">brian</a> </h3>
-    <ul class="list">
-      <li class="list-item"> <a class="list-item__link" href="/work">Projects</a> </li>
-      <li class="list-item"> <a class="list-item__link" href="/blog">Blog</a> </li>
-      <li class="list-item"> <a class="list-item__link" href="/contact">Contact</a> </li>
-    </ul>
-  </nav>
-</div>
-
-      <section class="contain">
-  <div class="bio">
-    <!-- <img src="" alt=""> -->
-    <h2 class="bio__title">Brian Munoz</h2>
-    <h2 class="bio__title">Front-End Web Developer</h2>
+  <div class="social--mobile">
+    <a href="https://github.com/colorlessenergy">
+      <svg class="social__icon social__icon--mobile" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title id="simpleicons-github-icon">GitHub icon</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+</svg>
+    </a>
   </div>
+</section>
 
-  <div class="contain__description">
-    <div class="cards">
-      <div class="cards__interrogative-word">
-        <p>About?</p>
-      </div>
-      <div class="cards__description">
-        <h1>
-          Hi my name is Brian Munoz. I am a Programmer from Long Beach, California that focuses in the Front-End of Web Development. I like to bring designs to life with HTML, CSS and JavaScript. My goal is to bring technical solutions to people.
-          I make <a class="hireme__link" href="/blog">blogs</a> about all things web development on Mondays and Fridays. Most of my work is open source on <a class="hireme__link" href="https://github.com/colorlessenergy">Github</a>.
-        </h1>
-      </div>
+  <section class="hero">
+    <div>
+      <h1 class="hero__title">Brian Munoz - Front End Web Developer</h1>
+      <h2 class="hero__description">
+        Hello! I write about web development and I like to bring designs to life.
+        <span class="hero__description--color">I recently started my own company and love to face new challenges everyday !</span>
+      </h2>
     </div>
-    <div class="cards">
-      <div class="cards__interrogative-word">
-        <p>Skill?</p>
+
+    <div class="social">
+      <div>
+        <a href="https://github.com/colorlessenergy">
+          <svg class="social__icon social__icon--mobile" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title id="simpleicons-github-icon">GitHub icon</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
+</svg>
+        </a>
       </div>
-      <div class="cards__description">
+      <div class="contactme">
+        <p class="contactme__cta">contact me</p>
+        <span class="line"></span>
         <div>
-          <h3 class="cards__title"> Front-end Development:</h3>
-          <ul class="skills_sub">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>vuejs</li>
-            <li>Github & Git</li>
-          </ul>
-          <div>
-            <h3 class="cards__title"> Back-end Development: *</h3>
-            <ul class="skills_sub">
-              <li>node</li>
-              <li>vuejs</li>
-              <li>express</li>
-            </ul>
-          </div>
-          <div>
-            <h3> Languages </h3>
-            <ul class="skills_sub">
-              <li>Spanish</li>
-              <li>English</li>
-            </ul>
-          </div>
+          <?xml version='1.0' encoding='utf-8'?>
+<svg class="pen-icon" xmlns="http://www.w3.org/2000/svg" data-name="Ebene 1" viewBox="0 0 800 800">
+  <defs>
+    <clipPath id="clip-path">
+      <circle cx="400" cy="400" r="400" style="fill:none" />
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_5" x1="392.5418" y1="439.8751" x2="174.207" y2="658.2099" gradientUnits="userSpaceOnUse">
+      <stop offset="0" />
+      <stop offset="1" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <title>pen</title>
+  <circle cx="400" cy="400" r="400" style="fill:#1c8adb" />
+  <g style="clip-path:url(#clip-path)">
+    <path d="M362.3315,798.7065,592.7029,568.3351,572.164,471.8309l-270.0994-270.1-294.5,294.5C59.46,673.5159,172.8036,780,362.3315,798.7065Z"
+      style="opacity:0.30000001192092896;fill:url(#Unbenannter_Verlauf_5)" />
+  </g>
+  <path d="M586.088,537.2539h0l-13.9239-65.423h0L302.0646,201.7313l-75.9655,75.9655L496.1985,547.7961h0L561.6217,561.72l31.0812,6.6149ZM557.32,550.875,506.394,540.0366l58.01-58.01,10.8384,50.9256A26.5056,26.5056,0,0,0,557.32,550.875Z"
+    style="fill:#fff" />
+</svg>
         </div>
       </div>
     </div>
+  </section>
+  <!-- menu for the contact section -->
+  <section class="contact">
+    <nav class="contact__nav">
+      <h2>Brian</h2>
 
-    <hr />
-
-    <div class="cards">
-      <div class="cards__interrogative-word">
-        <p>Location?</p>
+      <p id="contact--back" class="contact__back">Go <span>Back</span></p>
+    </nav>
+    <div class="contact__contain-form">
+      <div class="contact__info">
+        <h3 class="contact__title">
+          Contact Me
+        </h3>
       </div>
-      <div class="cards__description">
-        <ul>
-          <li> <a class="social" href="https://github.com/colorlessenergy">Github</a> </li>
-          <li> <a class="social" href="https://colorlessenergy.github.io/cv/">CV</a> </li>
-        </ul>
+      <form class="contact-form" action="https://formspree.io/brianmunozdev.com" method="POST">
+        <div>
+          <div>
+            Hey,
+            <label for="name">name</label>
+            <input class="contact-form__input" placeholder="name of your company" type="text" id="name" name="name">
+            and your email is
+            <label for="_replyto">
+              <input class="contact-form__input" placeholder="your email" type="email" id="_replyto" name="_replyto">
+            </label>
+            In the field below you can ask me anything.
+          </div>
+          <div>
+            <label class="contact-form__label" for="message">Message: </label>
+            <textarea class="contact-form__textarea" id="message" name="message" rows="8" cols="80" placeholder="message..."></textarea>
+          </div>
+        </div>
+        <input class="contact-form__button" type="submit" value="Send">
+      </form>
+    </div>
+  </section>
+</header>
+<section id="projects" class="projects">
+  <ul>
+    
+    <a class="projects__link" href="/projects/codinglead/">
+    <li class="project">
+      <div class="date">
+        <p class="date__project">
+          october 2018
+        </p>
+      </div>
+      <div class="project__image-wrapper">
+        <img class="project__image" src="/images/codinglead.png" alt="codinglead better developers one post at a time">
+      </div>
+      <div class="project__description">
+        <div class="hide">
+          <p class="project__number">1</p>
 
-        <p class="hireme"> <span class="circle"></span> I'm available for work.  <a class="hireme__link" href="/contact">contact me</a> </p>
+          <p class="project__meta">
+            coding lead is a platform to post content about front end web development.
+          </p>
+
+          <p class="project__cta">See Case</p>
+        </div>
+
+        <div class="project__info">
+          <p class="project__desc hide">Front End Technologies</p>
+          <h3 class="project__title">codinglead better developers one post at a time</h3>
+        </div>
+      </div>
+    </li>
+  </a>
+  
+    <a class="projects__link" href="/projects/dagashi/">
+    <li class="project">
+      <div class="date">
+        <p class="date__project">
+          april 2018
+        </p>
+      </div>
+      <div class="project__image-wrapper">
+        <img class="project__image" src="/images/dagashitoyou.png" alt="DAGASHI E-COMMERCE">
+      </div>
+      <div class="project__description">
+        <div class="hide">
+          <p class="project__number">2</p>
+
+          <p class="project__meta">
+            Dagashi is a ecommerce site that sells japense candy. It is made with the jamStack.
+          </p>
+
+          <p class="project__cta">See Case</p>
+        </div>
+
+        <div class="project__info">
+          <p class="project__desc hide">Front End Technologies</p>
+          <h3 class="project__title">DAGASHI E-COMMERCE</h3>
+        </div>
+      </div>
+    </li>
+  </a>
+  
+    <a class="projects__link" href="/projects/mario-game/">
+    <li class="project">
+      <div class="date">
+        <p class="date__project">
+          september 2017
+        </p>
+      </div>
+      <div class="project__image-wrapper">
+        <img class="project__image" src="/images/mario-game.png" alt="Mario Game">
+      </div>
+      <div class="project__description">
+        <div class="hide">
+          <p class="project__number">3</p>
+
+          <p class="project__meta">
+            This is a mario game that taught me a lot about how games infrastructure are designed and built.
+          </p>
+
+          <p class="project__cta">See Case</p>
+        </div>
+
+        <div class="project__info">
+          <p class="project__desc hide">Front End Technologies</p>
+          <h3 class="project__title">Mario Game</h3>
+        </div>
+      </div>
+    </li>
+  </a>
+  
+  </ul>
+</section>
+<footer class="footer">
+  <div id="mc_embed_signup" class="mailchimp-container">
+  <div class="newsletter-info">
+    <h5 class="newsletter-info__headline">Stay up to date!</h5>
+    <p class="newsletter-info__content">
+      I will be posting new content about web development.
+      By subscribing, you will receive an email every friday about
+      new post I have made.
+    </p>
+  </div>
+  <form action="https://github.us19.list-manage.com/subscribe/post?u=b830a3ad9fcc1205b5721dcf4&amp;id=ebb1855b1f"
+    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailchimp-form" target="_blank"
+    novalidate="">
+    <div id="mc_embed_signup_scroll" class="mailchimp-form__group">
+      <div class="mc-field-group">
+        <label for="mce-EMAIL" class="mailchimp-form__label">Email Address </label>
+        <input placeholder="Email..." type="email" value="" name="EMAIL" class="required email mailchimp-form__input" id="mce-EMAIL">
+      </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_b830a3ad9fcc1205b5721dcf4_ebb1855b1f" tabindex="-1" value="">
+      </div>
+      <div class="clear">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="mailchimp-form__button button">
       </div>
     </div>
-  </div>
-
-  <!--
-
-  <div class="cards">
-    <div class="cards__interrogative-word">
-      <p>case studies</p>
-    </div>
-    <div class="cards__description">
-      <ul>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">E-Commerce</a>
-          <p class="case">Front-end Development</p>
-        </li>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">Mario game</a>
-          <p class="case">Front-end Development, Game Development</p>
-        </li>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">spelling words with chem</a>
-          <p class="case">Front-end Development</p>
-        </li>
-      </ul>
-
-      <p class="hireme"> <a class="blue anchor" href="/project.html">View All</a> </p>
-    </div>
-  </div> -->
-
-  <!-- <hr />
-
-  <div class="cards">
-    <div class="cards__interrogative-word">
-      <p>Writing</p>
-    </div>
-    <div class="cards__description">
-      <ul>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">E-Commerce</a>
-          <p class="case">Front-end Development</p>
-        </li>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">Mario game</a>
-          <p class="case">Front-end Development, Game Development</p>
-        </li>
-      </ul>
-
-      <p class="hireme"> <a class="blue anchor" href="/project.html">View All</a> </p>
-    </div>
-  </div>
-</section> -->
-
-    </main>
-  </body>
+  </form>
+</div>
+  <p class="footer__p">
+    Hi my name is Brian Munoz. I am a Programmer from Long Beach, California that focuses in the Front-End of Web
+    Development. I like to bring designs to life with HTML, CSS and JavaScript. My goal is to bring technical solutions to
+    people. I make <a href="">blogs</a> about all things web development on Mondays and Fridays. Most of my work is open source on <a href="">github</a>.
+  </p>
+</footer>
+<p class="top">go to the top</p>
+</body>
 </html>

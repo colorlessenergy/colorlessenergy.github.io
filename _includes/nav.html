@@ -1,10 +1,40 @@
-<div class="nav__fixed">
-  <nav class="row {% if page.url == "/work" %}work-nav{% endif %}">
-    <h3> <a class="list-item__active list-item__link" href="/">brian</a> </h3>
-    <ul class="list">
-      <li class="list-item"> <a class="{% if page.url contains "work" or page.url contains "proj" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/work">Projects</a> </li>
-      <li class="list-item"> <a class="{% if page.url contains "blog" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/blog">Blog</a> </li>
-      <li class="list-item"> <a class="{% if page.url contains "contact" %}list-item__active {% endif %}list-item__link" href="{{ site.baseurl }}/contact">Contact</a> </li>
-    </ul>
-  </nav>
-</div>
+<nav class="nav">
+  <h2 class="nav__title">
+    <a href="{{ site.baseurl }}/">
+      Brian
+    </a>
+  </h2>
+  <ul class="nav__links">
+    <li class="nav__list-item">
+      <a class="nav__link {% if page.url == '/'' %}nav__link--active{% endif %}" href="{{ site.baseurl }}/">projects</a> <span>03</span>
+    </li>
+    <li class="nav__list-item">
+      <a class="nav__link {% if page.url == '/about/' %}nav__link--active{% endif %}" href="{{ site.baseurl }}/about">about me</a>
+    </li>
+    <li class="nav__list-item">
+      <a class="nav__link {% if page.url == '/notes/' %}nav__link--active{% endif %}" href="{{ site.baseurl }}/notes">notes</a>
+    </li>
+  </ul>
+  {% include mobile-menu-hamburger.html %}
+</nav>
+<section class="mobile-nav">
+  <ul class="mobile-nav__links">
+    <li class="mobile-nav__list-item">
+      <a class="mobile-nav__link {% if page.url == '/'' %}mobile-nav__link--active{% endif %}" href="{{ site.baseurl }}/">projects</a>
+      <span>03</span>
+    </li>
+    <li class="mobile-nav__list-item">
+      <a class="mobile-nav__link {% if page.url == '/about/' %}mobile-nav__link--active{% endif %}" href="{{ site.baseurl }}/about">about
+        me</a>
+    </li>
+    <li class="mobile-nav__list-item">
+      <a class="mobile-nav__link {% if page.url == '/notes/' %}mobile-nav__link--active{% endif %}" href="{{ site.baseurl }}/notes">notes</a>
+    </li>
+  </ul>
+
+  <div class="social--mobile">
+    <a href="https://github.com/colorlessenergy">
+      {% include github-svg.html %}
+    </a>
+  </div>
+</section>

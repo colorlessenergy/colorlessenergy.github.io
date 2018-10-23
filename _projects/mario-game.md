@@ -1,32 +1,26 @@
 ---
-title: Mario 2d scroll
-descone: This game was made with only JavaScript.
-desctwo: use the arrow keys to move and jump.
+title: Mario Game
 link: https://colorlessenergy.github.io/mario-game-refactor/
 layout: project
-class: proj__bg-color
 image: /images/mario-game.png
+published: september 2017
+meta: This is a mario game that taught me a lot about how games infrastructure are designed and built.
+description: Front End Technologies
 ---
 
 # Mario Game
-
-<a href="https://colorlessenergy.github.io/mario-game-refactor/">
-    ![mario game]({{ site.baseurl }}/images/mario-game.png "mario game")
-</a>
-
-link to site [Mario](https://colorlessenergy.github.io/mario-game-refactor/)
-
-link to github [Mario](https://github.com/colorlessenergy/mario-game-refactor)
-
-## What this is
-
-<!-- This is a recreation of the famous mario game. The controls for the game are
-the arrows keys to move and jump. -->
 
 I remember playing Mario when I was younger. Doing this project taught me a lot about how powerful plain JavaScript can be when you understand what is happening. I usually
 used atom when I code but I decided to use vs code for the first time on this project. I chose to replicate Mario to see if any improvements could be made.
 
 to play use the arrows key to move and jump.
+
+[Live Version](https://colorlessenergy.github.io/mario-game-refactor/)
+
+<a href="https://colorlessenergy.github.io/mario-game-refactor/">
+    ![mario game]({{ site.baseurl }}/images/mario-game.png "mario game")
+</a>
+
 
 ## Built with
 

@@ -1,124 +1,44 @@
 ---
 layout: default
-priority: 1.0
 ---
 
-<section class="contain">
-  <div class="bio">
-    <!-- <img src="" alt=""> -->
-    <h2 class="bio__title">Brian Munoz</h2>
-    <h2 class="bio__title">Front-End Web Developer</h2>
-  </div>
+{% include header.html
+  bold-desc="Hello! I write about web development and I like to bring designs to life."
+  description="I recently started my own company and love to face new challenges everyday !"
+  %}
+<section id="projects" class="projects">
+  <ul>
+    {% for project in site.projects %}
+    <a class="projects__link" href="{{ project.url }}">
+    <li class="project">
+      <div class="date">
+        <p class="date__project">
+          {{ project.published }}
+        </p>
+      </div>
+      <div class="project__image-wrapper">
+        <img class="project__image" src="{{ project.image }}" alt="{{ project.title }}">
+      </div>
+      <div class="project__description">
+        <div class="hide">
+          <p class="project__number">{{ forloop.index }}</p>
 
-  <div class="contain__description">
-    <div class="cards">
-      <div class="cards__interrogative-word">
-        <p>About?</p>
-      </div>
-      <div class="cards__description">
-        <h1>
-          Hi my name is Brian Munoz. I am a Programmer from Long Beach, California that focuses in the Front-End of Web Development. I like to bring designs to life with HTML, CSS and JavaScript. My goal is to bring technical solutions to people.
-          I make <a class="hireme__link" href="{{ site.baseurl }}/blog">blogs</a> about all things web development on Mondays and Fridays. Most of my work is open source on <a class="hireme__link" href="https://github.com/colorlessenergy">Github</a>.
-        </h1>
-      </div>
-    </div>
-    <div class="cards">
-      <div class="cards__interrogative-word">
-        <p>Skill?</p>
-      </div>
-      <div class="cards__description">
-        <div>
-          <h3 class="cards__title"> Front-end Development:</h3>
-          <ul class="skills_sub">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>vuejs</li>
-            <li>Github & Git</li>
-          </ul>
-          <div>
-            <h3 class="cards__title"> Back-end Development: *</h3>
-            <ul class="skills_sub">
-              <li>node</li>
-              <li>vuejs</li>
-              <li>express</li>
-            </ul>
-          </div>
-          <div>
-            <h3> Languages </h3>
-            <ul class="skills_sub">
-              <li>Spanish</li>
-              <li>English</li>
-            </ul>
-          </div>
+          <p class="project__meta">
+            {{ project.meta }}
+          </p>
+
+          <p class="project__cta">See Case</p>
+        </div>
+
+        <div class="project__info">
+          <p class="project__desc hide">{{ project.description }}</p>
+          <h3 class="project__title">{{ project.title }}</h3>
         </div>
       </div>
-    </div>
-
-    <hr />
-
-    <div class="cards">
-      <div class="cards__interrogative-word">
-        <p>Location?</p>
-      </div>
-      <div class="cards__description">
-        <ul>
-          <li> <a class="social" href="https://github.com/colorlessenergy">Github</a> </li>
-          <li> <a class="social" href="https://colorlessenergy.github.io/cv/">CV</a> </li>
-        </ul>
-
-        <p class="hireme"> <span class="circle"></span> I'm available for work.  <a class="hireme__link" href="{{ site.baseurl }}/contact">contact me</a> </p>
-      </div>
-    </div>
-  </div>
-
-  <!--
-
-  <div class="cards">
-    <div class="cards__interrogative-word">
-      <p>case studies</p>
-    </div>
-    <div class="cards__description">
-      <ul>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">E-Commerce</a>
-          <p class="case">Front-end Development</p>
-        </li>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">Mario game</a>
-          <p class="case">Front-end Development, Game Development</p>
-        </li>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">spelling words with chem</a>
-          <p class="case">Front-end Development</p>
-        </li>
-      </ul>
-
-      <p class="hireme"> <a class="blue anchor" href="{{ site.baseurl }}/project.html">View All</a> </p>
-    </div>
-  </div> -->
-
-  <!-- <hr />
-
-  <div class="cards">
-    <div class="cards__interrogative-word">
-      <p>Writing</p>
-    </div>
-    <div class="cards__description">
-      <ul>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">E-Commerce</a>
-          <p class="case">Front-end Development</p>
-        </li>
-        <li class="cards__li">
-          <a class="blue" href="https://github.com/colorlessenergy">Mario game</a>
-          <p class="case">Front-end Development, Game Development</p>
-        </li>
-      </ul>
-
-      <p class="hireme"> <a class="blue anchor" href="{{ site.baseurl }}/project.html">View All</a> </p>
-    </div>
-  </div>
-</section> -->
+    </li>
+  </a>
+  {% endfor %}
+  </ul>
+</section>
+{% include footer.html %}
+<p class="top">go to the top</p>

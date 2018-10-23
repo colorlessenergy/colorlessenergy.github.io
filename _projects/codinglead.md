@@ -1,24 +1,24 @@
 ---
 title: codinglead better developers one post at a time
-descone: blogging and course platform
-desctwo: to educate people about the front end.
 link: https://codinglead.github.io
 layout: project
-class: ''
 image: /images/codinglead.png
+published: october 2018
+meta: coding lead is a platform to post content about front end web development.
+description: Front End Technologies
 ---
 
 # coding lead better developers one post at a time
+
+coding lead is a website to post content about front end web development. It currently has two authors me and [Daniel](https://planeswalker1.github.io/).
+
+[Live Version](https://codinglead.github.io)
+
 
 <a href="https://codinglead.github.io">
     ![coding lead]({{ site.baseurl }}/images/codinglead.png "coding lead")
 </a>
 
-link to site [codinglead](https://codinglead.github.io)
-
-## What this is
-
-coding lead is a website to post content about front end web development. It currently has two authors me and [daniel](https://planeswalker1.github.io/).
 
 ## Built with
 

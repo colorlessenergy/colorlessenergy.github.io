@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% include header.html
+  bold-desc="notes"
+  description="I love to write about Front End web development and challenges I face when developing." %}
+
+
+<section class="projects">
+  <ul class="projects__contain--blog">
+    {% for post in site.posts %}
+    <a class="projects__link" href="{{ post.link }}">
+      <li class="project project--blog">
+        <div class="date">
+          <p class="date__project">
+            {{ post.published }}
+          </p>
+        </div>
+        <div class="project__image-wrapper project__image-wrapper--blog">
+          <img class="project__image project__image--blog" src="{{ site.baseurl }}/{{ post.pic }}" alt="{{ post.imgAlt }}">
+        </div>
+        <div class="project__description">
+          <div class="project__info project__info--blog">
+            <h3 class="project__title">{{ post.title }}</h3>
+            <p class="project__meta">
+              {{ post.meta }}
+            </p>
+            <p class="project__cta">Read the Article :) </p>
+          </div>
+        </div>
+      </li>
+    </a>
+    {% endfor %}
+  </ul>
+</section>
+
+{% include footer.html %}
