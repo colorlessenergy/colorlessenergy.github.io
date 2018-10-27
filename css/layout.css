@@ -168,6 +168,10 @@
   margin-left: 50px;
 }
 
+.black {
+  color: #000;
+}
+
 @media screen and (max-width: 961px) {
   .hero__description {
     font-size: 34px;

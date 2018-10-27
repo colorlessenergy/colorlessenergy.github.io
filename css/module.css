@@ -308,6 +308,7 @@
 }
 
 .footer__p {
+  color: #81909a;
   width: 46%;
   font-size: 20px;
 }
@@ -321,6 +322,7 @@
 }
 
 .newsletter-info__content {
+  color: #81909a;
   font-size: 15px;
   max-width: 60%;
   margin: 0;
@@ -364,8 +366,9 @@
 
 @media screen and (max-width: 961px) {
   .nav {
-    z-index: 3;
+    align-items: center;
     position: relative;
+    z-index: 3;
   }
 
   .nav__links {
