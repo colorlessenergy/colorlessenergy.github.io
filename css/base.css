@@ -35,7 +35,7 @@ svg {
   cursor: pointer;
 }
 
-footer {
+.footer {
   display: flex;
   padding: 95px 80px;
 }

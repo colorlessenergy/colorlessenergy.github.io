@@ -60,8 +60,11 @@
 
 .about {
   display: flex;
-  justify-content: space-around;
   padding: 103px 0;
+}
+
+.about--justify {
+  justify-content: space-around;
 }
 
 .about__title {
@@ -69,6 +72,11 @@
   font-weight: 400;
   line-height: 1;
   margin: 0;
+}
+
+.about__title--experience {
+  width: 38%;
+  padding-left: 32px;
 }
 
 .about__description {
@@ -116,7 +124,7 @@
   top: 0;
   right: 0;
   transition: transform 0.5s cubic-bezier(.42,0,.58,1);
-  transform: translateX(115%) skew(10deg);
+  transform: translateX(120%) skew(10deg);
   z-index: 1;
 }
 
@@ -142,6 +150,20 @@
 .contact__contain-form {
   display: flex;
   margin: 30px 0;
+}
+
+/* open the contact page */
+
+.contact__cta {
+  transform: rotate(90deg) translateX(-30px);
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #81909a;
+  letter-spacing: 1.3px;
+}
+
+.contact__center {
+  text-align: center;
 }
 
 .contact__title {
@@ -179,7 +201,7 @@
 
   .about {
     flex-direction: column;
-    margin-left: 10px;
+    margin: 0 10px;
     padding: 40px 0;
   }
 
@@ -190,6 +212,11 @@
   }
 
   .about__description--2 {
+    width: 100%;
+  }
+
+  .about__title--experience {
+    padding-left: 0;
     width: 100%;
   }
 
