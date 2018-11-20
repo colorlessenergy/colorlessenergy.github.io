@@ -6,5 +6,5 @@ meta: what is array filter in JavaScript. filter Takes in a callback to filter o
 pic: images/javascript.png
 imgAlt: the javascript logo
 tags: ["javascript"]
-link: https://codinglead.github.io/2018/10/22/what-is-array-filter-in-javascript/
+link: https://codinglead.github.io/javascript/what-is-array-filter-in-javascript
 ---

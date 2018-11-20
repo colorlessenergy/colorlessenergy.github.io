@@ -6,5 +6,5 @@ meta: What is array sort in JavaScript. Really easy way to sort in alphabetical 
 pic: images/javascript.png
 imgAlt: the javascript logo
 tags: ["javascript"]
-link: https://codinglead.github.io/2018/10/19/what-is-array-sort-in-javascript/
+link: https://codinglead.github.io/javascript/what-is-array-sort-in-javascript
 ---
