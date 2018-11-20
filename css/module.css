@@ -1,4 +1,5 @@
 .nav {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   height: 61px;
@@ -341,7 +342,6 @@
 
 @media screen and (max-width: 961px) {
   .nav {
-    align-items: center;
     position: relative;
     z-index: 3;
   }
