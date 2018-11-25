@@ -6,11 +6,11 @@ changefreq: weekly
 ---
 
 {% include header.html
-  bold-desc="notes"
+  bold-desc="Notes"
   description="I love to write about Front End web development and challenges I face when developing." %}
 
 
-<section class="projects">
+<section id="more" class="projects">
   <ul class="projects__contain--blog">
     {% for post in site.posts %}
     <a class="projects__link" href="{{ post.link }}">

@@ -2,12 +2,19 @@
   {% include nav.html %}
 
   <section class="hero">
-    <div>
-      <h1 class="hero__title">Brian Munoz - Front End Web Developer</h1>
-      <h2 class="hero__description">
-        {{ include.bold-desc }}
-        <span class="hero__description--color">{{ include.description }}</span>
-      </h2>
+    <div class="position-element__down">
+      <div>
+        <h1 class="hero__title">Brian Munoz - Front End Web Developer</h1>
+        <h2 class="hero__description">
+          {{ include.bold-desc }}
+          {{ include.description }}
+        </h2>
+      </div>
+      <p>
+        <a class="seemore-cta" href="#more">
+          see more &#11015;
+        </a>
+      </p>
     </div>
 
     <div class="social">
