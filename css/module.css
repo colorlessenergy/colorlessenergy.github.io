@@ -314,12 +314,10 @@
 
 .mailchimp-form__input {
   border: none;
-  background-color: #3e3e3e;
+  border-bottom: 1px solid #333;
   height: 48px;
   font-size: 15px;
   padding-left: 24px;
-  color: #fff;
-  border-radius: 10px;
   outline: none;
 }
 
