@@ -200,6 +200,22 @@
   margin-left: 50px;
 }
 
+/* styles for blog */
+
+.img-container {
+  text-align: center;
+}
+
+img.img-container__img {
+  width: 350px;
+  box-shadow: 2px 1px 6px 1px black;
+}
+
+.center {
+  text-align: center;
+}
+
+
 .black {
   color: #000;
 }

@@ -10,14 +10,16 @@ description: Front End Technologies
 
 # coding lead better developers one post at a time
 
+<div class="img-container">
+  <img class="img-container__img" src="{{ site.baseurl }}/images/codinglead.png" alt="codinglead website">
+</div>
+
 coding lead is a website to post content about front end web development. It currently has two authors me and [Daniel](https://planeswalker1.github.io/).
 
 [Live Version](https://codinglead.github.io)
 
 
-<a href="https://codinglead.github.io">
-    ![coding lead]({{ site.baseurl }}/images/codinglead.png "coding lead")
-</a>
+
 
 
 ## Built with
