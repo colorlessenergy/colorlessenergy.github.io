@@ -192,12 +192,23 @@
   margin: 41px 80px;
 }
 
-.case-study img {
+.case-study__content img {
   width: 100%;
 }
 
-.case-study ul {
+.case-study__content ul {
   margin-left: 50px;
+}
+
+.case-study__content {
+  padding: 0 45px;
+  max-width: 45.5rem;
+  margin: 0 auto;
+}
+
+.case-study__content p {
+  font-size: 19px;
+  line-height: 1.9;
 }
 
 /* styles for blog */
@@ -253,6 +264,10 @@ img.img-container__img {
 
   .case-study {
     margin: 20px 30px 0;
+  }
+
+  .case-study__content {
+    padding: 0;
   }
 }
 

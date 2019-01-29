@@ -11,8 +11,14 @@ menuHamburger.addEventListener('click', function () {
   document.body.classList.toggle('disable-scroll');
 });
 
-buttonContact.addEventListener('click', contactToView);
-svgContactButton.addEventListener('click', contactToView)
+// these event listener aren't added on pages that don't have these buttons
+if (buttonContact) {
+  buttonContact.addEventListener('click', contactToView);
+}
+
+if (svgContactButton) {
+  svgContactButton.addEventListener('click', contactToView);
+}
 
 function contactToView() {
   contactMenu.classList.toggle('contact--back');
