@@ -269,4 +269,8 @@ img.img-container__img {
   .bio__title {
     transform: initial;
   }
+
+  img.img-container__img {
+    width: 100%;
+  }
 }
