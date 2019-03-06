@@ -18,6 +18,8 @@ description: full stack Technologies
 
 [Live Version](https://browses.herokuapp.com/)
 
+[Github](https://github.com/colorlessenergy/pwa-browse-reddit)
+
 Reddit on mobile loaded too slow on my phone so I decided to use their API to make a web app which loaded way faster because there is less stuff having to be loaded. This is a website that prompts you to download it.
 
 ## how to use
