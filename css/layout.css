@@ -60,21 +60,12 @@
 .about-content {
   display: flex;
   flex-direction: column;
-  border-left: 1px solid #e7edf1;
-  border-top: 1px solid #e7edf1;
-}
-
-.about-content section {
-  border-bottom: 1px solid #e7edf1;
+  margin: 0 80px;
 }
 
 .about {
   display: flex;
-  padding: 103px 0;
-}
-
-.about--justify {
-  justify-content: space-around;
+  margin: 40px 0;
 }
 
 .about__title {
@@ -82,45 +73,34 @@
   font-weight: 400;
   line-height: 1;
   margin: 0;
+  padding: 0 10px;
+  width: 50%;
 }
 
-.about__title--experience {
-  width: 38%;
-  padding-left: 32px;
-}
 
 .about__description {
-  width: 38%;
-  font-size: 27px;
+  width: 50%;
   font-weight: 400;
   margin: 0;
+  font-size: 19px;
+  color: #666;
+  line-height: 1.7;
 }
 
-.about__description--2 {
-  width: 30%;
-  margin: 0;
-  font-size: 18px;
-  color: #8b99a2;
+.about__description p {
+  margin: 0 0 10px 0;
+}
+
+.about__description ul {
+  list-style-type: none;
+}
+
+.about__description ul li {
+  margin-bottom: 10px;
 }
 
 .bio {
   display: flex;
-}
-
-.bio__title-container {
-  width: 80px;
-  border-top: 1px solid #e7edf1;
-  border-bottom: 1px solid #e7edf1;
-}
-
-.bio__title {
-  transform: rotate(-90deg) translateX(-100%) translateY(-50%);
-  white-space: nowrap;
-  color: #8b99a2;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 12px;
-  letter-spacing: 1px;
 }
 
 /* styles for the contact menu */
@@ -250,15 +230,6 @@ img.img-container__img {
   .about__description {
     font-size: 22px;
     margin: 10px 0;
-    width: 100%;
-  }
-
-  .about__description--2 {
-    width: 100%;
-  }
-
-  .about__title--experience {
-    padding-left: 0;
     width: 100%;
   }
 

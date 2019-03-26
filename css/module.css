@@ -152,27 +152,6 @@
   font-size: 47px;
 }
 
-.description {
-  width: 52%;
-}
-
-.description__contain {
-  display: flex;
-  justify-content: space-between;
-}
-
-.description__title {
-  margin: 0;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-.description__content {
-  color: #8b99a2;
-  margin: 0;
-  width: 50%;
-}
-
 /* styles for the blog section */
 
 .project--blog {
