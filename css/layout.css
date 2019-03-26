@@ -180,6 +180,10 @@
   margin-left: 50px;
 }
 
+.case-study__content h3 {
+  margin: 100px 0 0 0;
+}
+
 .case-study__content {
   padding: 0 45px;
   max-width: 45.5rem;
@@ -195,11 +199,11 @@
 
 .img-container {
   text-align: center;
+  margin: 50px 0;
 }
 
 img.img-container__img {
-  width: 350px;
-  box-shadow: 2px 1px 6px 1px black;
+  width: 100%;
 }
 
 .center {

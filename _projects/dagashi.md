@@ -8,9 +8,15 @@ meta: Dagashi is a ecommerce site that sells japense candy. It is made with the 
 description: Front End Technologies
 ---
 
-# dagashi
+### Dagashi
 
-[live version](https://dagashi.netlify.com/)
+<p class="project__intro">
+  <a href="https://dagashi.netlify.com/">visit Site</a>
+</p>
+<p class="project__intro">
+  <a href="https://github.com/colorlessenergy/dagashi">visit Github</a>
+</p>
+
 
 this is a static E-commerce site. I chose to make a static site so I would't have to use the monolithic structure that modern sites have today. This site allows the owner of the site to edit items in the shop with the use of netlify cms. It was made with snipcart a powerful shopping cart platform.
 

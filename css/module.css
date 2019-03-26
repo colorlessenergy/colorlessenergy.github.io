@@ -7,6 +7,7 @@
 
 .nav__title {
   margin: 0;
+  font-size: 18px;
 }
 
 .nav__title a {
@@ -98,6 +99,11 @@
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+}
+
+.project__intro {
+  margin: 0;
+  line-height: 1;
 }
 
 .project__meta {

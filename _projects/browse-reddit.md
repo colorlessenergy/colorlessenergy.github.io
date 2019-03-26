@@ -10,15 +10,23 @@ description: full stack Technologies
 
 
 
-# PWA browse reddit
+### PWA browse reddit
+
+<p class="project__intro">
+  <a href="https://browses.herokuapp.com/">visit Site</a>
+</p>
+<p class="project__intro">
+  <a href="https://github.com/colorlessenergy/pwa-browse-reddit">visit Github</a>
+</p>
+
+
+A progressive web app that uses allows you to access reddit offline.
 
 <a href="https://browses.herokuapp.com/">
     ![pwa browse reddit]({{ site.baseurl }}/images/browse-reddit.png "pwa browse reddit")
 </a>
 
-[Live Version](https://browses.herokuapp.com/)
 
-[Github](https://github.com/colorlessenergy/pwa-browse-reddit)
 
 Reddit on mobile loaded too slow on my phone so I decided to use their API to make a web app which loaded way faster because there is less stuff having to be loaded. This is a website that prompts you to download it.
 

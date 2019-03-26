@@ -8,18 +8,17 @@ meta: coding lead is a platform to post content about front end web development.
 description: Front End Technologies
 ---
 
-# coding lead better developers one post at a time
+### codinglead
+
+<p class="project__intro">
+  <a href="https://codinglead.github.io">visit Site</a>
+</p>
+
+coding lead is a website to post content about front end web development and recently about back end development. It currently has two authors me and [Daniel](https://planeswalker1.github.io/).
 
 <div class="img-container">
   <img class="img-container__img" src="{{ site.baseurl }}/images/codinglead.png" alt="codinglead website">
 </div>
-
-coding lead is a website to post content about front end web development. It currently has two authors me and [Daniel](https://planeswalker1.github.io/).
-
-[Live Version](https://codinglead.github.io)
-
-
-
 
 
 ## Built with
