@@ -216,6 +216,11 @@ img.img-container__img {
 }
 
 @media screen and (max-width: 961px) {
+
+  .about-content {
+    margin: 20px 30px;
+  }
+
   .hero {
     padding: 20px 0;
     min-height: 0;
@@ -248,6 +253,11 @@ img.img-container__img {
 
 /* styles for mobile screens */
 @media screen and (max-width: 500px) {
+  .about__title {
+    padding: 0;
+    width: 100%;
+  }
+
   .hero__description {
     font-size: 29px;
   }
