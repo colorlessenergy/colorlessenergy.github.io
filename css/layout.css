@@ -215,6 +215,11 @@ img.img-container__img {
   color: #000;
 }
 
+
+img.img-reset {
+  width: auto;
+}
+
 @media screen and (max-width: 961px) {
 
   .about-content {
