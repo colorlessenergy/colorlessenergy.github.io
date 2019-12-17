@@ -27,11 +27,11 @@ description: full stack Technologies
 
 ## what is this
 
-A progressive web app that allows you to access reddit offline.
+A progressive web app that utilizes a service worker to browse Reddit offline.
 
 ## how to use
 
-You put the subreddit you are trying to visit in the search box. Once you initially search a subreddit with a internet connection you will be able to view it offline. If you are on chrome it will prompt you to download it to your home screen and if you are on safari you will have to manually do it yourself.
+You enter the subreddit you are trying to visit in the search box. Once you initially search a subreddit with an internet connection you will be able to view it offline. it will prompt you to download it to your home screen and if you are on safari you will have to manually do it yourself.
 
 
 ## Built with
@@ -49,7 +49,7 @@ You put the subreddit you are trying to visit in the search box. Once you initia
 
 ### main problem
 
-Reddit loaded too slow on my phone so I decided to use their API they exposed to make a web app which loaded way faster because there is less stuff having to be loaded.
+Reddit loaded too slow on my phone so I decided to use their API to make a web app that loaded way faster because there is less stuff having to be loaded.
 
 ### design doc
 
@@ -57,8 +57,8 @@ I made a design doc at the start to map out how the app will be made and what wi
 
 ### service worker
 
-The service worker caches every request made and if it can't be found it will fetch it through the network.
+The service worker caches every request made to be able to load it faster the next time someone visits the same subreddit.
 
-A problem I had with this is that the JSON fetched from the reddit API will never be updated because everytime a request is made the service worker intercepts it and gets it from the cache. I realize the only content that ever changes is the JSON files that are fetched from the reddit API so I always made a network request for them and cached the new one every time a subreddit was searched.
+A problem I had with this is that the JSON fetched from the Reddit API will never be updated because every time a request is made the service worker intercepts it and gets it from the cache. I realize the only content that ever changes is the JSON files that are fetched from the Reddit API so I always made a network request for them and cached the new one every time a subreddit was searched.
 
 I am very proud of this project because I fixed a problem I had.
