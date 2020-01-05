@@ -112,14 +112,15 @@
   overflow: auto;
   position: fixed;
   top: 0;
-  right: 0;
-  transition: transform 0.5s cubic-bezier(.42,0,.58,1);
-  transform: translateX(120%) skew(10deg);
+  left: 130%;
+  transition: all 0.5s cubic-bezier(.42,0,.58,1);
+  transform: skew(10deg);
   z-index: 1;
 }
 
 .contact--back {
-  transform: translateX(0) skew(0);
+  left: 0;
+  transform: skew(0);
 }
 
 .contact__info {
