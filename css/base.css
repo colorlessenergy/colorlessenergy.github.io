@@ -36,6 +36,8 @@ svg {
 }
 
 .footer {
-  display: flex;
   padding: 95px 80px;
+ 
+  display: flex;
+  justify-content: space-between;
 }
