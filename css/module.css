@@ -56,11 +56,18 @@
   fill: #181717;
 }
 
-
 .project {
+  margin: 10px 0;
   border: #e2e2e2 1px solid;
-  display: flex;
   height: 400px;
+  
+  display: flex;
+
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.03);
 }
 
 .date {
@@ -85,11 +92,11 @@
 .project__image {
   width: 100%;
   height: 100%;
-  transition: transform 0.3s ease-out;
+  border-right: 2px solid #e2e2e2;
 }
 
-.projects__link:hover .project__image {
-  transform: scale(1.1);
+.projects {
+  padding: 0 40px;
 }
 
 .project__description {
@@ -347,6 +354,10 @@
     display: none;
   }
 
+  .projects {
+    padding: 0;
+  }
+
   .projects__contain--blog {
     display: flex;
   }
@@ -360,6 +371,10 @@
 
   .project__image-wrapper {
     width: 100%;
+  }
+
+  .project__image {
+    border: none;
   }
 
   .project__description {

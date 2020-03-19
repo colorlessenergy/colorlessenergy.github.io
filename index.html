@@ -13,11 +13,6 @@ priority: 1.0
     {% for project in site.projects %}
     <a class="projects__link" href="{{ project.url }}">
     <li class="project">
-      <div class="date">
-        <p class="date__project">
-          {{ project.published }}
-        </p>
-      </div>
       <div class="project__image-wrapper">
         <img class="project__image" src="{{ project.image }}" alt="{{ project.title }}">
       </div>

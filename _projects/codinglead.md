@@ -1,9 +1,9 @@
 ---
-title: codinglead better developers one post at a time
+title: codinglead
 link: https://codinglead.github.io
 layout: project
 image: /images/codinglead.png
-meta: coding lead is a platform to post content about front end web development.
+meta: codinglead is a platform to post content about web development. It helps developers become better one post at a time.
 description: Front End Technologies
 ---
 
