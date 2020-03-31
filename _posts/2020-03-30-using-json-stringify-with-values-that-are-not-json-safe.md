@@ -5,5 +5,5 @@ published: March 30, 2020
 meta: When using JSON.stringify you will most likely run into the issue of having some properties that are not JSON-safe.
 pic: images/javascript.png
 imgAlt: the javascript logo
-https://codinglead.github.io/javascript/using-json-stringify-with-values-that-are-not-json-safe
+link: https://codinglead.github.io/javascript/using-json-stringify-with-values-that-are-not-json-safe
 ---
