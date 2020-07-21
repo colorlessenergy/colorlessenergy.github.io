@@ -31,12 +31,12 @@ coding lead is a website to post content about front end web development and rec
 
 ## challenges and knowledge acquired
 
-The website was built with Jekyll to be able to split different parts of the website into files and be able to include these parts without having to repeat the code.
+The website was built with Jekyll to be able to split different parts of the website into files and be able to include these parts without having to repeat code.
 
-I had to create a collection for every type of blog post to stay organized. The different collections I have are HTML, CSS, JavaScript, and courses.
+A collection was created for every type of blog post to stay organized. The different collections I have are HTML, CSS, JavaScript, and courses.
 
 I decided to make text courses instead of videos because the courses will be a guide where you can go back to specific sections.
 
 Ultimately I wanted it to be a resource where people can copy and paste code snippets and learn from them.
 
-I was thinking about having the navigation on the top in a responsive layout or have them hidden away and show them with a hamburge menu. I decided it would be better to have a hamburger because I had more than 3 links.
+I was thinking about having the navigation on the top be displayed or have them hidden away and show them with a hamburger menu. I decided it would be better to have a hamburger menu because I had more than 3 links.
