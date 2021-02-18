@@ -266,8 +266,9 @@
 }
 
 .contact-form__button {
+  width: 50%;
   color: #fff;
-  background: #b7b9c4;
+  background: #1d31a0;
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 20px;
