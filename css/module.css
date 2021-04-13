@@ -372,10 +372,6 @@
     padding: 20px 30px;
   }
 
-  .social__icon--mobile {
-    transform: rotate(0)
-  }
-
   .social {
     display: none;
   }
