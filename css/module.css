@@ -70,20 +70,6 @@
   transform: scale(1.03);
 }
 
-.date {
-  width: 80px;
-}
-
-.date__project {
-  transform: rotate(-90deg) translateX(-100%) translateY(-50%);
-  white-space: nowrap;
-  color: #000;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 12px;
-  letter-spacing: 1px;
-}
-
 .project__image-wrapper {
   width: 61%;
   overflow: hidden;
@@ -429,7 +415,7 @@
     height: 150px;
   }
 
-  .date, .hide {
+  .hide {
     display: none;
   }
 

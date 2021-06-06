@@ -14,11 +14,7 @@ changefreq: weekly
     {% for post in site.posts %}
     <a class="projects__link" href="{{ post.link }}">
       <li class="project project--blog">
-        <div class="date">
-          <p class="date__project">
-            {{ post.published }}
-          </p>
-        </div>
+        
         <div class="project__image-wrapper project__image-wrapper--blog">
           <img class="project__image project__image--blog" src="{{ site.baseurl }}/{{ post.pic }}" alt="{{ post.imgAlt }}">
         </div>
