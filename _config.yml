@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: ""
 permalink: pretty
 exclude: ["_site", ".gitignore"]
 
@@ -7,4 +7,10 @@ title: Brian Munoz, Front End Web Developer, California
 
 collections:
   projects:
+    order:
+      - soloqco.md
+      - lastpad.md
+      - letter-gg.md
+      - superchats.md
+      - codinglead.md
     output: true
