@@ -87,7 +87,7 @@
 }
 
 .project__description {
-  padding: 20px 0 0 20px;
+  padding: 20px 20px 0 20px;
   border-left: 2px solid #e2e2e2;
   display: flex;
   flex-direction: column;
@@ -102,8 +102,6 @@
 
 .project__meta {
   color: #81909a;
-  max-width: 550px;
-  width: 75%;
 }
 
 .project__cta {
