@@ -9,7 +9,8 @@ priority: 1.0
 
 <section id="more" class="projects">
   <ul>
-    {% for project in site.projects %}
+    {% assign projects = site.projects | sort: "order" %}
+    {% for project in projects %}
     <a class="projects__link" href="{{ project.url }}">
     <li class="project">
       <div class="project__image-wrapper">

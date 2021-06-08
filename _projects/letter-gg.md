@@ -6,6 +6,7 @@ image: /images/letter-gg.png
 meta: letter-gg is a web app where people can create, comment or read guides about teamfight tactics
 description: Full Stack Technologies
 permalink: /letter-gg
+order: 2
 ---
 
 ### letter-gg

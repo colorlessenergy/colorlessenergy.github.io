@@ -5,6 +5,7 @@ image: /images/soloq.png
 meta: soloq.co is an E-commerce website
 description: Front End Technologies
 permalink: /soloq
+order: 0
 ---
 
 
