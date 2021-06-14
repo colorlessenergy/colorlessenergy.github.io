@@ -251,6 +251,10 @@
   width: 100%;
 }
 
+.contact-form__label {
+  display: none;
+}
+
 .contact-form__button {
   width: 50%;
   color: #fff;
