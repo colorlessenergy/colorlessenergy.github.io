@@ -35,37 +35,38 @@
   </section>
   <!-- menu for the contact section -->
   <section class="contact">
-    <nav class="contact__nav">
-      <h2>Brian</h2>
-
-      <p id="contact--back" class="contact__back">Go <span>Back</span></p>
-    </nav>
-    <div class="contact__contain-form">
-      <div class="contact__info">
-        <h3 class="contact__title">
-          Contact Me
-        </h3>
-      </div>
-      <form class="contact-form" action="https://formspree.io/f/xoqydoen" method="POST">
-        <div>
-          <div>
-            Hey,
-            <label for="name">
-              <input class="contact-form__input" placeholder="your name" type="text" id="name" name="name">
-            </label>
-            and your email is
-            <label for="_replyto">
-              <input class="contact-form__input" placeholder="your email" type="email" id="_replyto" name="_replyto">
-            </label>
-            In the field below you can ask me anything.
+    <div class="contact-wrapper">
+        <nav class="contact__nav">
+          <h2>Brian</h2>
+          <p id="contact--back" class="contact__back">Go <span>Back</span></p>
+        </nav>
+        <div class="contact__contain-form">
+          <div class="contact__info">
+            <h3 class="contact__title">
+              Contact Me
+            </h3>
           </div>
-          <div>
-            <label class="contact-form__label" for="message">Message: </label>
-            <textarea class="contact-form__textarea" id="message" name="message" rows="8" cols="80" placeholder="message..."></textarea>
-          </div>
+          <form class="contact-form" action="https://formspree.io/f/xoqydoen" method="POST">
+            <div>
+              <div>
+                Hey,
+                <label for="name">
+                  <input class="contact-form__input" placeholder="your name" type="text" id="name" name="name">
+                </label>
+                and your email is
+                <label for="_replyto">
+                  <input class="contact-form__input" placeholder="your email" type="email" id="_replyto" name="_replyto">
+                </label>
+                In the field below you can ask me anything.
+              </div>
+              <div>
+                <label class="contact-form__label" for="message">Message: </label>
+                <textarea class="contact-form__textarea" id="message" name="message" rows="8" cols="80" placeholder="message..."></textarea>
+              </div>
+            </div>
+            <input class="contact-form__button" type="submit" value="Send">
+          </form>
         </div>
-        <input class="contact-form__button" type="submit" value="Send">
-      </form>
     </div>
   </section>
 </header>

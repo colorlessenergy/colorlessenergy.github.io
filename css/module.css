@@ -226,6 +226,11 @@
 
 /* styles for the form in the contact menu */
 
+.contact-wrapper {
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
 .contact-form {
   color: #fff;
   font-size: 36px;
