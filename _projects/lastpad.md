@@ -18,6 +18,9 @@ order: 1
 <p class="project__intro">
  <a href="https://github.com/colorlessenergy/lastpad">visit Github</a>
 </p>
+<p>
+ <a href="/pdf/lastpad-designs.pdf">PDF of lastpad designs</a>
+</p>
 
 
 <a href="https://lastpad.herokuapp.com/">
