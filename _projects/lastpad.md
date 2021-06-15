@@ -2,7 +2,7 @@
 title: PWA lastpad
 layout: project
 image: /images/lastpad.png
-meta: a PWA to create update delete and read notes offline and online
+meta: A progressive web app that allows you to create, view, edit and delete notes offline and have them be updated and saved as soon as you get back on an internet connection.
 description: Full Stack Technologies
 permalink: /lastpad
 order: 1
@@ -30,16 +30,13 @@ order: 1
 
 ## what is this
 
-A progressive web app that allows you to take notes offline and have them be updated and saved as soon as you get back on an internet connection. With this web app, I designed and developed a REST API to allow me to issue CRUD operations from the frontend. This web app was designed in Figma and utilize React to implement the design.
+A progressive web app where you can create, view, edit and delete notes offline and have them be updated and saved as soon as you get back on an internet connection. I designed and developed a REST API with Node and Express that connects to MongoDB using Mongoose. This allowed me to issue CRUD operations from the React frontend. This web app was designed with a mobile first approach in Figma and utilizes React to implement the design.
 
 ## how to use
 
-You have to create an account to use this web app to be able to save your notes and have them accessible everywhere you sign in. When you create an account you will be able to view, edit, create and delete your notes offline and online. When the web app is loaded it will prompt you to download it to your device.
+You have to create an account to use this web app to be able to save your notes and have them accessible everywhere you sign in. Also you can look at the [all the designs](/pdf/lastpad-designs.pdf "PDF of lastpad designs"). When you create an account you will be able to view, edit, create and delete your notes offline and online. When the web app is loaded it will prompt you to download it to your device.
 
-If you don't want to create an account you can use this one
-
-Email: test@brianmunoz.co Password: test
-
+If you don't want to create an account you can log in as a guest.
 
 ## Front End Tech
 
@@ -71,7 +68,7 @@ Email: test@brianmunoz.co Password: test
 
 ### difficulties of displaying HTML with React
 
-React by default escapes and sanitizes anything that comes from a variable before it is put into JSX to protect from XSS attack. This created a problem for me because when a note was created it will be saved as HTML and when rendered into the page the literal tags will be shown instead of just the content.
+React by default escapes and sanitizes anything that comes from a variable before it is put into JSX to protect from XSS attack. This created a problem because when a note was created it will be saved as HTML and when rendered into the page the literal tags will be shown instead of just the content.
 
 To fix this issue I used the library [react-render-html](https://www.npmjs.com/package/react-render-html). It takes in a string and creates React Elements.
 
@@ -85,7 +82,7 @@ Knowing that all it does is not escape the HTML I decided to just use `react-ren
 The service worker was really easy to set up with Create React App all you need to do is allow it to register a service worker for you and it cached certain assets and allowed the user to download the web app to there home screen.
 
 
-### edit, create and delete note operations offline
+### create, view, edit and delete note operations offline
 
 To make the web app useable offline the service worker cached all resources needed.
 
@@ -93,15 +90,15 @@ Every operation that can be done on a note had a different array so there was an
 
 Every time someone would try to make a CRUD operation for notes it would first check if there are online by using `navigator.onLine`. `navigator.onLine` isn't a very good way to check if the user is connected to an internet connection because it will be true if the user is connected to a network.
 
-If the `navigator.onLine` was true it would just make a fetch request otherwise if it was false or the fetch failed it would try to make the operation offline using the arrays in localStorage.
+If `navigator.onLine` is true it will make a fetch request otherwise if it was false or the fetch failed it will try to make the operation offline using the arrays in localStorage.
 
 I have a JavaScript timer that runs every 5 seconds to check if the user went back online and there was changes made offline to send requests to the backend to create the new changes in MongoDB.
 
 #### this is the general idea that happens with every operation
 
-If a note is created and the user is offline it will first check if the `createdNotes` array has anything inside if it does not it will set an array with the note that were created then it will use `JSON.stringfy()` to make sure the objects are saved and not turned into `[object Object,...object Object]`. If the `createdNotes` is already created it will `JSON.parse()` the `createdNotes` array and push the new one into the array then `JSON.stringfy()` it.
+If a note is created and the user is offline it will first check if the `createdNotes` array has anything inside if it does not it will set an array in localStorage with the note that is created after that it will use `JSON.stringfy()` to make sure the objects are saved and not turned into `[object Object,...object Object]`. If the `createdNotes` is already created it will `JSON.parse()` the `createdNotes` array and push the new one into the array then `JSON.stringfy()` before saving it into localStorage.
 
 
 #### issue with creating notes offline and going online
 
-If someone were to edit or delete a note that was created offline and the user goes online it would try to make changes to the database with fake notes that had fake IDs. To fix this I first check if the note that was being made changes to is inside the `createdNotes` arrays if it was it would edit or delete the note inside that array instead of pushing it into a new array which could have been `updatedNotes` and deletedNotes`.
+If someone were to edit or delete a note that was created offline and the user goes online it would try to make changes to the database with fake notes that had fake IDs. To fix this I first check if the note that was being made changes to is inside the `createdNotes` arrays if it was it will edit or delete the note inside that array instead of pushing it into a new array which could have been `updatedNotes` or `deletedNotes`.
