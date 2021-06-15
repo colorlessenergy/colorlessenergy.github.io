@@ -99,9 +99,9 @@ I have a JavaScript timer that runs every 5 seconds to check if the user went ba
 
 #### this is the general idea that happens with every operation
 
-If a note was created and the user was offline it would first check if the `createdNotes` array had anything inside If It didn't it would set an array with the note that was created then it would use `JSON.stringfy()` to make sure the objects are saved and not turned into `[object Object,...object Object]`. If the `createdNotes` was already created it would `JSON.parse()` the `createdNotes` array and push the new one into the array then `JSON.stringfy()` it.
+If a note is created and the user is offline it will first check if the `createdNotes` array has anything inside if it does not it will set an array with the note that were created then it will use `JSON.stringfy()` to make sure the objects are saved and not turned into `[object Object,...object Object]`. If the `createdNotes` is already created it will `JSON.parse()` the `createdNotes` array and push the new one into the array then `JSON.stringfy()` it.
 
 
 #### issue with creating notes offline and going online
 
-An issue I had with the arrays was if someone were to edit or delete a note that was created offline and the user goes online it would try to make changes to the database with these fake notes that had fake Ids. This threw errors and to fix this I first check if the note that was being made changes to is inside the `createdNotes` arrays if it was it would edit or delete the note inside that array instead of pushing it into a new array which could have been `updatedNotes` and deletedNotes`.
+If someone were to edit or delete a note that was created offline and the user goes online it would try to make changes to the database with fake notes that had fake IDs. To fix this I first check if the note that was being made changes to is inside the `createdNotes` arrays if it was it would edit or delete the note inside that array instead of pushing it into a new array which could have been `updatedNotes` and deletedNotes`.
