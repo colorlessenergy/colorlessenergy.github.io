@@ -18,15 +18,11 @@ published: true
  <a href="/pdf/the-chats-designs.pdf">PDF of The Chats designs</a>
 </p>
 
-<p class="project__intro">
-    a progressive web app where we can send messages to chat rooms and a notification is sent to people in the chat room.
-</p>
-
 ![The Chats chat room]({{ site.baseurl }}/images/the-chats.png "the chats chat room")
 
 ## what is this
 
-The Chats is a place where we can send messages to people in chat rooms.
+A progressive web app where we can send messages to chat rooms and a notification is sent to people in the chat room.
 
 ## how to use
 
@@ -46,6 +42,7 @@ password: test1234
 
 ## Back End Tech
 
+* Firebase
 * Node
 * Express
 * web push
@@ -80,7 +77,7 @@ Custom Emojis are images that are uploaded to firebase storage. A collection is 
 
 When typing it will check if the value has a colon followed by a letter if it does a box will appear showing all matching custom emojis. When selecting one it will replace what is typed with the emoji full complete name in the input.
 
-When rendering the custom emojis is search for in the text by checking there are any words between two colons if there is it check if it exists on the custom emoji collection and replace the text with an image tag. 
+When rendering the custom emojis it is search for in the text by checking if there are any words between two colons if there is it check if it exists on the custom emoji collection and replace the text with an image tag. 
 
 ### cursor position resets 
 
