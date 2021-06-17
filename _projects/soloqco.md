@@ -8,9 +8,7 @@ permalink: /soloq
 order: 0
 ---
 
-
-
-### soloq.co
+# soloq.co
 
 <p class="project__intro">
  <a href="https://soloq.co/">visit Site</a>
