@@ -1,5 +1,5 @@
 ---
-title: PWA lastpad
+title: lastpad
 layout: project
 image: /images/lastpad.png
 meta: A progressive web app that allows you to create, view, edit and delete notes offline and have them be updated and saved as soon as you get back on an internet connection.
