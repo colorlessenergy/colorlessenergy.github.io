@@ -280,16 +280,14 @@
 /* styles for newsletter */
 
 .newsletter-info__headline {
-  font-size: 48px;
   margin: 0 0 30px 0;
-  font-weight: 400;
+
+  font-size: 30px;
 }
 
 .newsletter-info__content {
   max-width: 70%;
   margin: 0;
-
-  color: #81909a;
 }
 
 .mailchimp-container {
@@ -306,9 +304,7 @@
 }
 
 .mailchimp-form__label {
-  padding-bottom: 12px;
-
-  color: #000;
+  color: #81909a;
 }
 
 .mailchimp-form__input {
@@ -327,12 +323,11 @@
   border: 1px solid #000;
 
   border-radius: 5px;
-  background-color: #007c89;
+  background-color: #1c8adb;
   cursor: pointer;
   color: #fff;
   font-weight: bold;
   font-size: 16px;
-  outline: none;
 
   transition: background-color 0.3s ease;
 }
@@ -444,10 +439,6 @@
   }
 
   /* newsletter and footer styles */
-
-  .newsletter-info__headline {
-    font-size: 40px;
-  }
 
   .newsletter-info__content {
     max-width: 100%;
