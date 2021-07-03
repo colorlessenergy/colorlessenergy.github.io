@@ -175,6 +175,10 @@ img.img-container__img {
   color: #000;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 
 img.img-reset {
   width: auto;
