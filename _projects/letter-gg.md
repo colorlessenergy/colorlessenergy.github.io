@@ -3,13 +3,14 @@ title: letter-gg
 link: https://letter-gg.web.app/
 layout: project
 image: /images/letter-gg.png
-meta: letter-gg is a web app where people can create, comment or read guides about teamfight tactics
+meta: a web app where people can create, comment or read guides about teamfight tactics
 description: Full Stack Technologies
 permalink: /letter-gg
 order: 2
 ---
 
-### letter-gg
+# letter-gg
+
 <p class="project__intro">
  <a href="https://letter-gg.web.app/">visit web app</a>
 </p>
@@ -19,13 +20,12 @@ order: 2
 
 A place where people can create, comment or read guides about teamfight tactics
 
-<div class="img-container">
- <img class="img-container__img" src="{{ site.baseurl }}/images/letter-gg.png" alt="letter-gg web app screenshot">
-</div>
 
+<a href="https://lastpad.herokuapp.com/">
+   ![letter-gg web app]({{ site.baseurl }}/images/letter-gg.png "letter-gg web app")
+</a>
 
 ## what is this
-
 
 Letter-gg was built for people that played <a href="https://na.leagueoflegends.com/en/featured/events/teamfight-tactics">teamfight tactics</a>. Once an account is created you can make guides, like guides, and comment on guides.
 
