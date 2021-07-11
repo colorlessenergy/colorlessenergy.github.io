@@ -80,13 +80,13 @@
   color: #000;
   display: block;
   text-transform: uppercase;
-  animation: text-drop-down 1s ease forwards;
+  animation: move-text-from-bottom 1s ease forwards;
 }
 
-@keyframes text-drop-down {
+@keyframes move-text-from-bottom {
   0% {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(50px);
   }
 
   100% {
