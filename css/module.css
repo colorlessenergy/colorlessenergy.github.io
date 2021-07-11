@@ -47,6 +47,8 @@
 }
 
 .social__icon {
+  animation: fall-down 1s ease none;
+  display: block;
   width: 30px;
   fill: #24292e;
   transition: transform 0.3s ease;
@@ -54,6 +56,16 @@
 
 .social__icon:hover {
   transform: scale(1.1);
+}
+
+@keyframes fall-down {
+  0% {
+    transform: translateY(-10px) scale(1.5);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
 
 .project {
