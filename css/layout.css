@@ -70,6 +70,8 @@
 
 .pen-icon {
   width: 61px;
+
+  animation: fall-down 1s ease;
 }
 
 .disable-scroll {
