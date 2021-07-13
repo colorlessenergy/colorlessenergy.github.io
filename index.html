@@ -13,6 +13,7 @@ priority: 1.0
     {% for project in projects %}
     <a class="projects__link" href="{{ project.url }}">
     <li class="project">
+      <div class="project__emoji">{{ project.emoji }}</div>
       <div class="project__image-wrapper">
         <img class="project__image" src="{{ project.image }}" alt="{{ project.title }}">
       </div>

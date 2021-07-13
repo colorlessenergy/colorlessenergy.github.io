@@ -7,6 +7,7 @@ meta: A platform to post content about web development. It helps developers beco
 description: Front End Technologies
 permalink: /codinglead
 order: 4
+emoji: 😎️
 ---
 
 # codinglead

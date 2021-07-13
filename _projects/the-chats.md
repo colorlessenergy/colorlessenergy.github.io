@@ -6,6 +6,7 @@ meta: a progressive web app where we can send messages to chat rooms and a notif
 description: Full Stack Technologies
 permalink: /the-chats
 published: true
+emoji: 😀️
 ---
 
 # the chats

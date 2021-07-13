@@ -6,6 +6,7 @@ meta: A progressive web app that allows you to create, view, edit and delete not
 description: Full Stack Technologies
 permalink: /lastpad
 order: 1
+emoji: 😎️
 ---
 
 

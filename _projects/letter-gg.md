@@ -7,6 +7,7 @@ meta: a web app where people can create, comment or read guides about teamfight 
 description: Full Stack Technologies
 permalink: /letter-gg
 order: 2
+emoji: 😀️
 ---
 
 # letter-gg
