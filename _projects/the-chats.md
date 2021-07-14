@@ -2,7 +2,7 @@
 title: The Chats
 layout: project
 image: /images/the-chats.png
-meta: a progressive web app where we can send messages to chat rooms and a notification is sent to people in the chat room.
+meta: A Progressive Web App where we can send messages to chat rooms and a notification is sent to people in the chat room.
 description: Full Stack Technologies
 permalink: /the-chats
 published: true
