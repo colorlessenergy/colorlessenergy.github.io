@@ -12,10 +12,6 @@ emoji: 😀️
 # the chats
 
 <p class="project__intro">
- <a href="https://the-chats.netlify.app/">visit web app</a>
-</p>
-
-<p class="project__intro">
  <a href="/pdf/the-chats-designs.pdf">PDF of The Chats designs</a>
 </p>
 
@@ -24,13 +20,6 @@ emoji: 😀️
 ## what is this
 
 A progressive web app where we can send messages to chat rooms and a notification is sent to people in the chat room.
-
-## how to use
-
-You can sign in with this account 
-
-email: test@brianmunoz.co   
-password: test1234
 
 ## Front End Tech
 
