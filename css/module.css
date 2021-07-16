@@ -96,6 +96,12 @@
   font-size: 50px;
 }
 
+@media (max-width: 421px) {
+  .project__emoji {
+    display: none;
+  }
+}
+
 @keyframes bounce {
   0% {
     transform: translate(0, 0);
