@@ -21,33 +21,52 @@ emoji: 😀️
 
 A progressive web app where we can send messages to chat rooms and a notification is sent to people in the chat room.
 
-## Front End Tech
+## technologies
 
-* HTML
-* CSS
-* JavaScript 
-* React - Create React App
-* Redux - Redux Thunk
-* React Redux Firebase
-
-## Back End Tech
-
-* Firebase
-* Node
-* Express
-* web push
-
-## Hosting
-
-* Netlify
-
-## Version control
-
-* Git
-
-## Design Software
-
-* Figma
+<div class="project__skills">
+    <span class="project__skill">
+        HTML
+    </span>
+    <span class="project__skill">
+        SASS
+    </span>
+    <span class="project__skill">
+        JavaScript
+    </span>
+    <span class="project__skill">
+        React 
+    </span>
+    <span class="project__skill">
+        Redux 
+    </span>
+    <span class="project__skill">
+        React Redux Firebase 
+    </span>
+    <span class="project__skill">
+        Firebase 
+    </span>
+    <span class="project__skill">
+        Firestore 
+    </span>
+    <span class="project__skill">
+        Node 
+    </span>
+    <span class="project__skill">
+        Express 
+    </span>
+    <span class="project__skill">
+        web push 
+    </span>
+    <span class="project__skill">
+        Netlify 
+    </span>
+    <span class="project__skill">
+        Git 
+    </span>
+    <span class="project__skill">
+        Figma 
+    </span>
+</div>
 
 ## challenges and knowledge acquired
 

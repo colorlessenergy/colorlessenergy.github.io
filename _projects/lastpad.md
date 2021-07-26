@@ -39,29 +39,50 @@ You have to create an account to use this web app to be able to save your notes 
 
 If you don't want to create an account you can log in as a guest.
 
-## Front End Tech
 
-* HTML
-* CSS
-* JavaScript 
-* React - Create React App
-* Redux
-* Redux-Thunk
-* Service Worker
+## technologies
 
-## Back End Tech
-
-* Node
-* JWT for authentication
-* Express
-* MongoDB
-* Mongoose
-
-## Hosting
-
-* Heroku
-
-
+<div class="project__skills">
+    <span class="project__skill">
+        HTML
+    </span>
+    <span class="project__skill">
+        CSS
+    </span>
+    <span class="project__skill">
+        JavaScript
+    </span>
+    <span class="project__skill">
+        React 
+    </span>
+    <span class="project__skill">
+        Redux 
+    </span>
+    <span class="project__skill">
+        Redux-Thunk 
+    </span>
+    <span class="project__skill">
+        Service Worker 
+    </span>
+    <span class="project__skill">
+        Node 
+    </span>
+    <span class="project__skill">
+        JWT for authentication 
+    </span>
+    <span class="project__skill">
+        Express 
+    </span>
+    <span class="project__skill">
+        MongoDB 
+    </span>
+    <span class="project__skill">
+        Mongoose 
+    </span>
+    <span class="project__skill">
+        Heroku 
+    </span>
+</div>
 
 ## challenges and knowledge acquired
 

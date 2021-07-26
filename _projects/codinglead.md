@@ -24,12 +24,22 @@ emoji: 😎️
 
 codinglead is a website to post content about front end web development and recently about back end development. It currently has two authors [Daniel](https://planeswalker1.github.io/) and I.
 
-## Built with
+## technologies
 
-* HTML
-* CSS
-* JavaScript
-* Jekyll
+<div class="project__skills">
+    <span class="project__skill">
+        HTML
+    </span>
+    <span class="project__skill">
+        CSS
+    </span>
+    <span class="project__skill">
+        JavaScript
+    </span>
+    <span class="project__skill">
+        Jekyll
+    </span>
+</div>
 
 ## challenges and knowledge acquired
 

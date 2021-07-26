@@ -40,28 +40,37 @@ If you don't want to make an account you can use this one
 * email: test@gmail.com
 * password: test123
 
-## Front End Tech
+## technologies
 
-* React - create react app
-
-## Back End Tech
-
-* firebase
-* firestore
-
-
-## Hosting
-
-* firebase hosting
-
-## Version Control
-
-* Git
-
-## Design Software
-
-* Figma
-
+<div class="project__skills">
+    <span class="project__skill">
+        HTML
+    </span>
+    <span class="project__skill">
+        CSS
+    </span>
+    <span class="project__skill">
+        JavaScript
+    </span>
+    <span class="project__skill">
+        React
+    </span>
+    <span class="project__skill">
+        Firebase
+    </span>
+    <span class="project__skill">
+        Firestore
+    </span>
+    <span class="project__skill">
+        Firebase hosting
+    </span>
+    <span class="project__skill">
+        Git
+    </span>
+    <span class="project__skill">
+        Figma
+    </span>
+</div>
 
 ## challenges and knowledge acquired
 
