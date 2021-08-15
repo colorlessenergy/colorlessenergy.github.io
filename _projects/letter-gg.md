@@ -8,6 +8,7 @@ description: Full Stack Technologies
 permalink: /letter-gg
 order: 2
 emoji: 😀️
+published: false
 ---
 
 # letter-gg
