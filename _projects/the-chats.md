@@ -7,6 +7,7 @@ description: Full Stack Technologies
 permalink: /the-chats
 published: true
 emoji: 😀️
+order: 1
 ---
 
 # the chats
