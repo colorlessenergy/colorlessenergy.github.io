@@ -176,6 +176,11 @@
   width: 100%;
 }
 
+.case-study__img-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
 .case-study__content ul {
   margin-left: 50px;
 }
