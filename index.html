@@ -51,10 +51,8 @@ priority: 1.0
             createSpan.textContent = emoji;
 
             let randomX = (Math.random() * window.innerWidth);
-            if (randomX <= 65) {
-                randomX += 65;
-            } else if (randomX >= window.innerWidth - 65) {
-                randomX -= 65;
+            if (randomX >= window.innerWidth - 100) {
+                randomX -= 100;
             }
             createSpan.style.left = `${ randomX }px`;
 
@@ -92,4 +90,6 @@ priority: 1.0
     };
 
     createFallingEmojis();
+    
+    window.setInterval(createFallingEmojis, 100)
 </script>
