@@ -86,7 +86,7 @@ I noticed when I submitted forms It seemed that they didn't do anything because 
 
 ### reward system
 
-The reward for making it to the calorie goal confetti falls from the top of the screen
+Confetti falls from the top of the screen when the calorie goal is met.
 
 ![confetti]({{ site.baseurl }}/images/calorie-tracker-confetti.png "confetti")
 
