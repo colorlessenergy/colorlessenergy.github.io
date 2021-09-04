@@ -1,7 +1,7 @@
 ---
 title: what is array reduce method in JavaScript
 published: October 26, 2018
-meta: Array reduce in javascript. Reduce is a javascript method.
+meta: reduce() method accumulates an array to one value. 
 pic: images/javascript.png
 imgAlt: the javascript logo
 tags: ["javascript"]
