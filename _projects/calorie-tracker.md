@@ -74,7 +74,7 @@ The previous food blocks are shown when opening the add a food block modal.
 
 ![calorie tracker edit food block modal]({{ site.baseurl }}/images/calorie-tracker-edit-food-block-modal.png "calorie tracker edit food block modal")
 
-when I wanted to change a food block it wasn't convenient because I had to go to the food blocks page then look for it. To make it easier to edit a food block I added a modal that opens when clicking on a food block. This is made it very simple to edit a food block.
+When I wanted to change a food block it wasn't convenient because I had to go to the food blocks page then look for it. To make it easier to edit a food block I added a modal that opens when clicking on a food block.
 
 ### snackbars
 
