@@ -22,7 +22,7 @@ emoji: 😎️
 
 ## what is this
 
-codinglead is a website to post content about front end web development and recently about back end development. It currently has two authors [Daniel](https://planeswalker1.github.io/) and I.
+codinglead is a website to post content about front end web development. It currently has two authors [Daniel](https://planeswalker1.github.io/) and I.
 
 ## technologies
 
@@ -43,12 +43,8 @@ codinglead is a website to post content about front end web development and rece
 
 ## challenges and knowledge acquired
 
-The website is built with Jekyll to be able to split different parts of the website into files and be able to include these parts without having to repeat code.
-
-A Jekyll collection is created for courses to separate it from blog posts.
-
-I decided to make text courses instead of videos because the courses will be a guide where you can go back to specific sections.
+The website is built with Jekyll because it allows to create blogs and split different parts of the website into files to avoid repeating code.
 
 The goal of codinglead is to be a resource where people can copy and paste code snippets and learn from them.
 
-I was thinking about having the navigation on the top be displayed or have them hidden away and show them with a hamburger menu. I decided it would be better to have a hamburger menu because I had more than 3 links.
+I had an issue with how to display the navigation, I had to choose to display all the links or have a hamburger menu with all the links. I decided it would be better to have a hamburger menu because I have more than 3 links.
