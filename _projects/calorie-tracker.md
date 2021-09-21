@@ -6,7 +6,7 @@ meta: A Progressive Web App to keep track of your calories in a fun and interact
 description: Front End Technologies
 permalink: /calorie-tracker
 published: true
-order: 2 
+order: 3
 emoji: 😀️
 ---
 
