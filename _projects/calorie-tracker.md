@@ -22,6 +22,7 @@ emoji: 😀️
 <a href="https://calorie-tracker.vercel.app/">
     ![calorie tracker dashboard]({{ site.baseurl }}/images/calorie-tracker.png "calorie tracker dashboard")
 </a>
+
 ## what is this
 
 A Progressive Web App to keep track of calories that works offline.
@@ -47,7 +48,7 @@ Select a date from the calendar and start adding food to keep track of calories.
         React 
     </span>
     <span class="project__skill">
-        Next
+        Next.js
     </span>
     <span class="project__skill">
         localStorage
