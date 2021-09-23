@@ -8,3 +8,5 @@ title: Brian Munoz, Front End Web Developer, California
 collections:
   projects:
     output: true
+  all_projects:
+    output: true
