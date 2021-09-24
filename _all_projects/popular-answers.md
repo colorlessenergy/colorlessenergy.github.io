@@ -2,7 +2,7 @@
 title: popular answers
 layout: project
 image: /images/popular-answers.png
-meta: A web app to answer questions and see what other people have answered.
+meta: A web app to answer questions and see how other people answered them.
 description: Front End Technologies
 permalink: /popular-answers
 published: true
@@ -25,7 +25,7 @@ emoji: 😀️
 
 ## what is this
 
-A web app to answer questions and see what other people have answered.
+A web app to answer questions and see how other people answered them.
 
 ## technologies
 
