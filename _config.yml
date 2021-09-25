@@ -3,7 +3,7 @@ permalink: pretty
 exclude: ["_site", ".gitignore"]
 
 description: Hi my name is Brian Munoz. I am a Front End Developer that loves to bring designs to life and create beautiful web experiences with HTML, CSS and JavaScript.
-title: Brian Munoz, Front End Web Developer, California
+title: Brian Munoz, Front End Web Developer
 
 collections:
   projects:
