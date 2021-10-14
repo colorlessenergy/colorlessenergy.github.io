@@ -259,19 +259,11 @@
 }
 
 #menu-hamburger rect {
-  transition: all 0.5s;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.animate .hamburger-menu__rect1 {
-  transform: rotate(35deg) translate(2px, -2px);
-}
-
-.animate .hamburger-menu__rect3 {
-  transform: rotate(-35deg) translate(-8px, -2px);
-}
-
-.animate .hamburger-menu__rect2 {
-  opacity: 0;
+.animate .hamburger-menu__rect {
+  opacity: 0.3;
 }
 
 /* styles for the form in the contact menu */
