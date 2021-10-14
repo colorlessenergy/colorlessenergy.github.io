@@ -8,18 +8,6 @@ changefreq: weekly
 {% include header.html
   description="I love to write about Front End Web Development and create projects." %}
 
-
-<section class="projects">
-    <h2>articles</h2>
-    <ul class="notes-container">
-        {% for post in site.posts %}
-            <a class="note-title" href="{{ post.link }}">
-                {{ post.title }}
-            </a>
-        {% endfor %}
-    </ul>
-</section>
-
 <section class="projects">
     <h2>projects</h2>
 
@@ -31,6 +19,17 @@ changefreq: weekly
             </a>
         {% endfor %}
     </div>
+</section>
+
+<section class="projects">
+    <h2>articles</h2>
+    <ul class="notes-container">
+        {% for post in site.posts %}
+            <a class="note-title" href="{{ post.link }}">
+                {{ post.title }}
+            </a>
+        {% endfor %}
+    </ul>
 </section>
 
 {% include footer.html %}
