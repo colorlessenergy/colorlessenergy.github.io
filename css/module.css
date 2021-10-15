@@ -342,7 +342,7 @@
 }
 
 .mailchimp-form__label {
-  color: #81909a;
+  display: none;
 }
 
 .mailchimp-form__input {
