@@ -43,8 +43,8 @@ codinglead is a website to post content about front end web development. It curr
 
 ## challenges and knowledge acquired
 
-The website is built with Jekyll because it allows to create blogs and split different parts of the website into files to avoid repeating code.
+The website is built with Jekyll because it allows to create a blog easily and split different parts of the website into files to avoid repeating code.
 
-The goal of codinglead is to be a resource where people can copy and paste code snippets and learn from them.
+The goal of codinglead is to help me improve breaking down ideas into small pieces to better understand a complex idea.
 
 I had an issue with how to display the navigation, I had to choose to display all the links or have a hamburger menu with all the links. I decided it would be better to have a hamburger menu because I have more than 3 links.
