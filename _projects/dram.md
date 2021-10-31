@@ -7,7 +7,7 @@ description: Front End Technologies
 permalink: /dram
 published: true
 order: 1
-emoji: 😀️
+emoji: 🚀
 ---
 
 # dram
