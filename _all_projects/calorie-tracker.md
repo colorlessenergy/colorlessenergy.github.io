@@ -2,7 +2,7 @@
 title: calorie tracker
 layout: project
 image: /images/calorie-tracker.png
-meta: A Progressive Web App to keep track of your calories in a fun and interactive way. 
+meta: A Progressive Web App to keep track of calories in a fun and interactive way. 
 description: Front End Technologies
 permalink: /calorie-tracker
 published: true
