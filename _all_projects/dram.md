@@ -2,7 +2,7 @@
 title: dram
 layout: project
 image: /images/dram.png
-meta: A PWA to invite, draw and guess with people.
+meta: A PWA to invite, draw and guess.
 description: Front End Technologies
 permalink: /dram
 published: true
@@ -27,7 +27,7 @@ emoji: 🚀
 
 ## what is this
 
-A PWA to invite, draw and guess with people
+A PWA to invite, draw and guess.
 
 ## technologies
 
