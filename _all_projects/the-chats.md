@@ -2,12 +2,12 @@
 title: The Chats
 layout: project
 image: /images/the-chats.png
-meta: A Progressive Web App where we can send messages to chat rooms and a notification is sent to people in the chat room.
+meta: A Progressive Web App to send messages with notifications to chat rooms.
 description: Full Stack Technologies
 permalink: /the-chats
 published: true
 emoji: 😀️
-order: 1
+order: 2
 ---
 
 # the chats
@@ -20,7 +20,7 @@ order: 1
 
 ## what is this
 
-A progressive web app where we can send messages to chat rooms and a notification is sent to people in the chat room.
+A Progressive Web App to send messages with notifications to chat rooms.
 
 ## technologies
 
@@ -75,7 +75,7 @@ A progressive web app where we can send messages to chat rooms and a notificatio
 
 #### populate
 
-React Redux Firebase doesn't support populating arrays. I had to do it manually by looping through the array and replacing IDs with the objects.
+React Redux Firebase doesn't support populating arrays. I had to do it manually by looping through the array and replacing IDs with the documents.
 
 #### pagination / infinite scrolling
 
