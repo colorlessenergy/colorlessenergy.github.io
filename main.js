@@ -3,7 +3,7 @@ let responsiveNav = document.querySelector('.mobile-nav');
 
 let buttonContact = document.querySelector('#contact--back');
 let contactMenu = document.querySelector('.contact');
-let svgContactButton = document.querySelector('.pen-icon');
+let svgContactButton = document.querySelector('.mail-icon');
 
 menuHamburger.addEventListener('click', function () {
   menuHamburger.classList.toggle('animate');

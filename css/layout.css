@@ -68,10 +68,15 @@
   background-color: #81909a;
 }
 
-.pen-icon {
-  width: 61px;
+.mail-icon {
+  border: 3px solid #000000;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  padding: 10px;
 
   animation: fall-down 1s ease;
+  background-color: #A6DCEF;
 }
 
 .disable-scroll {
