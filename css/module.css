@@ -172,15 +172,13 @@
 
 .project__title {
   margin: 0;
-  color: #81909a;
-  font-size: 22px;
 
-  transition: color 0.3s ease-out,
-              transform 0.3s ease-out;
+  color: #000000;
+  font-size: 22px;
+  transition: transform 0.3s ease-out;
 }
 
 .projects__link:hover .project__title {
-  color: #000;
   transform: translateY(-8px);
 }
 
@@ -458,11 +456,6 @@
   .project__description {
     border: none;
     border-top: 2px solid #e2e2e2;
-  }
-
- .project__title, .project__info {
-    font-weight: 400;
-    color: #000;
   }
 
   .description,.description__content {
