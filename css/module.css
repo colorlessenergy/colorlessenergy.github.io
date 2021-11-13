@@ -389,19 +389,24 @@
   z-index: -1;
 }
 
-.note-title {
-  border-bottom: 2px solid #000;
-  display: block;
+.note-container {
+  display: inline-block;
+  margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.note-title {
+  border: 3px solid #000000;
+  display: inline-block;
   padding: 5px;
 
-  color: #000;
+  color: #000000;
   font-size: 20px;
   transition: 1s ease transform;
 }
 
 .note-title:hover {
-  transform: translateY(-3px) scale(1.03);
+  transform: translate(-8px, -8px) scale(1.03);
 }
 
 @media screen and (max-width: 961px) {

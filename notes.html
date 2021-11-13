@@ -11,25 +11,44 @@ changefreq: weekly
 <section class="projects">
     <h2>projects</h2>
 
-    <div class="notes-container">
+    <div>
         {% assign projects = site.all_projects | sort: "order" %}
         {% for project in projects %}
-            <a class="note-title" href="{{ project.permalink }}">
-                {{ project.title }}
-            </a>
+            <div class="note-container">
+                <a class="note-title" href="{{ project.permalink }}">
+                    {{ project.title }}
+                </a>
+            </div>
         {% endfor %}
     </div>
 </section>
 
 <section class="projects">
     <h2>articles</h2>
-    <ul class="notes-container">
+    <div>
         {% for post in site.posts %}
-            <a class="note-title" href="{{ post.link }}">
-                {{ post.title }}
-            </a>
+            <div class="note-container">
+                <a class="note-title" href="{{ post.permalink }}">
+                    {{ post.title }}
+                </a>
+            </div>
         {% endfor %}
-    </ul>
+    </div>
 </section>
 
 {% include footer.html %}
+
+
+<script>
+    const backgroundColors = ['#ffffe0', '#ffe0e0', '#e0ffe5', '#ede0ff', '#e0fcff'];
+    const notesContainers = document.querySelectorAll('.note-container');
+    let currentBackgroundColorIndex = 0;
+    notesContainers.forEach(noteContainer => {
+        if (currentBackgroundColorIndex === backgroundColors.length) {
+            currentBackgroundColorIndex = 0;
+        }
+
+        noteContainer.style.backgroundColor = backgroundColors[ currentBackgroundColorIndex ];
+        currentBackgroundColorIndex += 1;
+    });
+</script>
