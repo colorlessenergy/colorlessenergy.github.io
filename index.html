@@ -38,58 +38,5 @@ priority: 1.0
   {% endfor %}
   </ul>
 </section>
+
 {% include footer.html %}
-
-<script>
-    function createFallingEmojis () {
-        const emojis = ['😀', '👑', '❤️'];
-        let spans = [];
-        const fragment = document.createDocumentFragment();
-        emojis.forEach(emoji => {
-            let createSpan = document.createElement('span');
-            createSpan.classList.add('falling-emoji')
-            createSpan.textContent = emoji;
-
-            let randomX = (Math.random() * window.innerWidth);
-            if (randomX >= window.innerWidth - 100) {
-                randomX -= 100;
-            }
-            createSpan.style.left = `${ randomX }px`;
-
-            const randomFallSpeed =  (Math.random() * 5) + 4;
-            createSpan.fallSpeed = randomFallSpeed;
-
-            spans.push(createSpan);
-            fragment.appendChild(createSpan)
-        });
-        document.body.appendChild(fragment);
-
-        const maxHeight = document.body.offsetHeight - 90;
-        function animationStep () {
-            spans.forEach((span, index) => {
-                let y = 0;
-                if (span.style.top) {
-                    y = parseFloat(span.style.top);
-                }
-
-                if (y >= maxHeight) {
-                    document.body.removeChild(span);
-                    spans.splice(index, 1);
-                } else {
-                    y += span.fallSpeed;
-                    span.style.top = `${ y }px` 
-                }
-            });
-
-            if (spans.length !== 0) {
-                window.requestAnimationFrame(animationStep);
-            }
-        }
-
-        window.requestAnimationFrame(animationStep);
-    };
-
-    window.setTimeout(() => {
-      createFallingEmojis();
-    }, 800);
-</script>

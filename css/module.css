@@ -382,12 +382,6 @@
   flex-direction: column;
 }
 
-.falling-emoji {
-  position: absolute;
-  font-size: 50px;
-  z-index: -1;
-}
-
 .note-container {
   display: inline-block;
   margin-right: 10px;
