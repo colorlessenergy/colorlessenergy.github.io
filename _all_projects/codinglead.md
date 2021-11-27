@@ -24,6 +24,10 @@ emoji: 😎️
 
 codinglead is a website to post content about front end web development. It currently has two authors [Daniel](https://planeswalker1.github.io/) and I.
 
+## goal
+
+The goal of codinglead is to help me improve breaking down ideas into small pieces to better understand a complex idea.
+
 ## technologies
 
 <div class="project__skills">
@@ -41,10 +45,14 @@ codinglead is a website to post content about front end web development. It curr
     </span>
 </div>
 
-## challenges and knowledge acquired
+## 📜 features
 
-The website is built with Jekyll because it allows to create a blog easily and split different parts of the website into files to avoid repeating code.
+### 📖 blogs
 
-The goal of codinglead is to help me improve breaking down ideas into small pieces to better understand a complex idea.
+* markdown files
+* previous and next blog pagination
+* filter by search
 
-I had an issue with how to display the navigation, I had to choose to display all the links or have a hamburger menu with all the links. I decided it would be better to have a hamburger menu because I have more than 3 links.
+### 🌙 themes ☀️
+
+dark and light mode
