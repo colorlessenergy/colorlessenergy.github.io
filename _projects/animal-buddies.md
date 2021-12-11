@@ -56,9 +56,9 @@ A website to view, like and sort posts about animals 😀
 
 ### 🎨 posts
 
-* posts can be sorted by user liked and most liked
-* posts can be filtered by search
-* posts can be liked by a person that is signed in
+* can be sorted by user liked and most liked
+* can be filtered by search
+* can be liked by a person that is signed in
 
 ### ☀️ themes 🌙
 
