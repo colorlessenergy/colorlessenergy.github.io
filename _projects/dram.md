@@ -57,7 +57,7 @@ A Progressive Web App to invite, draw and guess.
 ### 🎨 drawing
 
 * every person that joins the game has one round to draw
-* at the begining of the round the person chosen to draw will choose a word
+* in the beginning of the round the person chosen to draw will choose a word
 * customize brush color and brush radius
 * clear and undo buttons
 * time limit of 200 seconds
@@ -74,3 +74,8 @@ A Progressive Web App to invite, draw and guess.
 * everyone that isn't drawing can guess
 * repeated guesses don't show
 * a message will appear when someone guesses correctly 
+
+### ☀️ themes 🌙
+
+* auto detects and applies preferred theme
+* light and dark theme
