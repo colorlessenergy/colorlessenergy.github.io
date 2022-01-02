@@ -290,9 +290,9 @@
 }
 
 .contact-form__textarea {
-  font-size: 22px;
-  font-family: 'Roboto', sans-serif;
   width: 100%;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact-form__label {
