@@ -12,7 +12,7 @@ changefreq: weekly
     <h2>projects</h2>
 
     <div>
-        {% assign projects = site.all_projects | sort: "order" %}
+        {% assign projects = site.projects | sort: "order" %}
         {% for project in projects %}
             <div class="note-container">
                 <a class="note-title" href="{{ project.permalink }}">
