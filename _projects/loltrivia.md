@@ -1,33 +1,27 @@
 ---
-title: animal buddies
+title: loltrivia
 layout: project
-image: /images/animal-buddies.png
-meta: A website to view, like and sort posts about animals 😀
+image: /images/loltrivia.png
+meta: A Progressive Web App to answer questions related to league of legends
 description: Front End Technologies
-permalink: /animal-buddies
-published: true
-order: 3
-emoji: 💡
+permalink: /loltrivia
+order: 2
+emoji: 😃
 ---
 
-# animal buddies
+# loltrivia
 
 <p class="project__intro">
- <a href="https://animal-buddies.vercel.app/">visit website</a>
+ <a href="https://loltrivia.vercel.app/">visit website</a>
 </p>
 
-<p class="project__intro">
- <a href="https://github.com/colorlessenergy/animal-buddies">visit Github</a>
-</p>
-
-
-<a href="https://animal-buddies.vercel.app/">
-    ![animal buddies home page]({{ site.baseurl }}/images/animal-buddies.png "animal buddies home page")
+<a href="https://loltrivia.vercel.app/">
+    ![loltrivia home page]({{ site.baseurl }}/images/loltrivia.png "loltrivia home page")
 </a>
 
 ## what is this
 
-A website to view, like and sort posts about animals 😀
+A Progressive Web App to answer questions related to league of legends champions.
 
 ## technologies
 
@@ -54,11 +48,17 @@ A website to view, like and sort posts about animals 😀
 
 ## 📜 features
 
-### 🎨 posts
+### 🎨 questions
 
-* can be sorted by user liked and most liked
+* are ordered by vote count
 * can be filtered by search
-* can be liked by a person that is signed in
+* can be requested
+* only 1 champion can be voted for
+
+### 🔒 Firebase Authentication
+
+* sign in / sign up with email and password
+* continue with google
 
 ### ☀️ themes 🌙
 
