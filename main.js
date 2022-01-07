@@ -1,3 +1,28 @@
+if (!localStorage.getItem('theme')) {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    localStorage.setItem('theme', 'dark');
+  } else {
+    localStorage.setItem('theme', 'light');
+  }
+}
+
+if (localStorage.getItem('theme') === 'dark') {
+  document.body.classList.add('dark');
+}
+
+const lightThemeIcon = document.querySelector('#light-theme-icon');
+const darkThemeIcon = document.querySelector('#dark-theme-icon');
+
+lightThemeIcon.addEventListener('click', function () {
+  localStorage.setItem('theme', 'light');
+  document.body.classList.remove('dark');
+});
+
+darkThemeIcon.addEventListener('click', function () {
+  localStorage.setItem('theme', 'dark');
+  document.body.classList.add('dark');
+});
+
 const menuHamburger = document.querySelector('#menu-hamburger');
 const responsiveNav = document.querySelector('.mobile-nav');
 menuHamburger.addEventListener('click', function () {

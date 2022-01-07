@@ -1,0 +1,41 @@
+.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark a,
+.dark .hero__title,
+.dark .contact__cta,
+.dark .project__number,
+.dark .project__text,
+.dark .project__cta,
+.dark .project__desc,
+.dark .project__title {
+  color: #ffffff;
+}
+
+.dark .line {
+  background-color: #ffffff;
+}
+
+.dark .nav__link--active,
+.dark .project {
+  border-color: #ffffff;
+}
+
+.dark .social__icon,
+.dark #light-theme-icon {
+  fill: #ffffff;
+}
+
+.dark .project__skill {
+  background-color: #8d8989;
+}
+
+.dark .note-title {
+  color: #000000;
+}
+
+.dark .case-study__content a {
+  color: #A6DCEF;
+}
