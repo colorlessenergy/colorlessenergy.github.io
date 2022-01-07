@@ -24,8 +24,13 @@
 }
 
 .dark .social__icon,
-.dark #light-theme-icon {
+.dark #light-theme-icon,
+.dark #menu-hamburger {
   fill: #ffffff;
+}
+
+.dark .mobile-nav {
+  background-color: #333333;
 }
 
 .dark .project__skill {
@@ -38,4 +43,8 @@
 
 .dark .case-study__content a {
   color: #A6DCEF;
+}
+
+.dark .mobile-nav__link--active {
+  border-bottom: 2px solid #ffffff;
 }
