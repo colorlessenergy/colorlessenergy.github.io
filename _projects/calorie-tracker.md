@@ -6,7 +6,7 @@ meta: A Progressive Web App to keep track of calories in a fun and interactive w
 description: Front End Technologies
 permalink: /calorie-tracker
 published: true
-order: 5
+order: 3
 emoji: 😀️
 ---
 
@@ -14,9 +14,6 @@ emoji: 😀️
 
 <p class="project__intro">
  <a href="https://calorie-tracker.vercel.app/">visit web app</a>
-</p>
-<p class="project__intro">
- <a href="https://www.figma.com/file/dcEdzCTNeaVPuyk8PRzJI1/calorie-tracker?node-id=0%3A1">screenshots of calorie tracker</a>
 </p>
 
 <a href="https://calorie-tracker.vercel.app/">
@@ -60,25 +57,26 @@ Select a date from the calendar and start adding food to keep track of calories.
 
 The food blocks are stored in localStorage which allows the web app to perform CRUD operations offline. 
 
-The food blocks were designed for ease of use and look fun by giving it a cartoonish feel.
+The food blocks were designed for ease of use and to look fun by giving it a cartoonish feel.
 
 <div class="case-study__img-container">
     <img src="{{ site.baseurl }}/images/calorie-tracker-food-block.png" alt="calorie tracker food block" title="calorie tracker food block">
 </div>
 
-When food blocks are updated the inputs values are checked with previous one to determine if is new or it is already exists. If the food block is new it is added to the previous food blocks array in localStorage.
 
-![calorie tracker modal]({{ site.baseurl }}/images/calorie-tracker-modal.png "calorie tracker modal")
+To ease the flow of creating a food block a button is added to the home screen thats add a new empty food block and opens a modal with that food block to fill in the data.
 
-The previous food blocks are shown when opening the add a food block modal.
+Also when clicking on a food block a modal opens with a form to edit the food block data.
 
 ![calorie tracker edit food block modal]({{ site.baseurl }}/images/calorie-tracker-edit-food-block-modal.png "calorie tracker edit food block modal")
 
-When I wanted to change a food block it wasn't convenient because I had to go to the food blocks page then look for it. To make it easier to edit a food block I added a modal that opens when clicking on a food block.
+One of the previous 10 days can be duplicated and merged with the current day.
+
+![calorie tracker duplicate previous day]({{ site.baseurl }}/images/calorie-tracker-duplicate-previous-day.png "calorie tracker duplicate previous day")
 
 ### snackbars
 
-I noticed when I submitted forms It seemed that they didn't do anything because there weren't any visual queues. I decided to use Snackbars to make it clear that the forms were submitted.
+I noticed when I submitted forms it seemed that they didn't do anything because there weren't any visual cues. I decided to use Snackbars to make it clear that the forms were submitted.
 
 ![pink Snackbar]({{ site.baseurl }}/images/calorie-tracker-pink-snackbar.png "pink Snackbar")
 
@@ -90,6 +88,21 @@ Confetti falls from the top of the screen when the calorie goal is met.
 
 ![confetti]({{ site.baseurl }}/images/calorie-tracker-confetti.png "confetti")
 
+### mobile nav
+
+On mobile the nav is moved to the bottom of the screen to provide a native like experience.
+
+
+<div class="case-study__img-container">
+    <img src="{{ site.baseurl }}/images/calorie-tracker-mobile.png" alt="calorie tracker mobile" title="calorie tracker mobile">
+</div>
+
+### ☀️ themes 🌙
+
+It auto detects and applies preferred theme. 
+
+![calorie tracker dark theme]({{ site.baseurl }}/images/calorie-tracker-dark-theme.png "calorie tracker dark theme")
+
 
 ### add to home screen
 
@@ -97,4 +110,4 @@ You can add it to your home screen to easily revisit it again.
 
 ### offline functionality
 
-All the pages are available offline. I used localStorage as a database to store food blocks. This makes the user experience feel smooth and interactive.
+All pages and functionality work offline. localStorage is used as a database to store food blocks. 

@@ -6,7 +6,7 @@ meta: A website to view, like and sort posts about animals 😀
 description: Front End Technologies
 permalink: /animal-buddies
 published: true
-order: 3
+order: 5
 emoji: 💡
 ---
 
