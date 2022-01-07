@@ -209,6 +209,10 @@
   line-height: 1.9;
 }
 
+.case-study__content a {
+  text-decoration: underline;
+}
+
 /* styles for blog */
 
 .img-container {
