@@ -5,14 +5,14 @@ image: /images/loltrivia.png
 meta: A Progressive Web App to answer questions related to league of legends
 description: Front End Technologies
 permalink: /loltrivia
-order: 2
+order: 3
 emoji: 😃
 ---
 
 # loltrivia
 
 <p class="project__intro">
- <a href="https://loltrivia.vercel.app/">visit website</a>
+ <a href="https://loltrivia.vercel.app/">visit web app</a>
 </p>
 
 <a href="https://loltrivia.vercel.app/">
@@ -22,6 +22,10 @@ emoji: 😃
 ## what is this
 
 A Progressive Web App to answer questions related to league of legends champions.
+
+## how to use
+
+Select a question you find interesting and vote for a champion.
 
 ## technologies
 
