@@ -6,7 +6,7 @@ meta: A Progressive Web App to keep track of calories in a fun and interactive w
 description: Front End Technologies
 permalink: /calorie-tracker
 published: true
-order: 3
+order: 2
 emoji: 😀️
 ---
 
@@ -64,15 +64,27 @@ The food blocks were designed for ease of use and to look fun by giving it a car
 </div>
 
 
-To ease the flow of creating a food block a button is added to the home screen thats add a new empty food block and opens a modal with that food block to fill in the data.
+To ease the flow of creating a food block a button is added to the home screen thats add a new empty food block and opens a modal to fill in the data.
 
 Also when clicking on a food block a modal opens with a form to edit the food block data.
 
 ![calorie tracker edit food block modal]({{ site.baseurl }}/images/calorie-tracker-edit-food-block-modal.png "calorie tracker edit food block modal")
 
+### duplicate and merge previous day
+
 One of the previous 10 days can be duplicated and merged with the current day.
 
 ![calorie tracker duplicate previous day]({{ site.baseurl }}/images/calorie-tracker-duplicate-previous-day.png "calorie tracker duplicate previous day")
+
+
+### food dictionary
+
+I noticed there was a pain point where I need to find out how many calories a certain food has and calculate how many calories the food I am eating has.
+
+To help with this issue I created the food dictionary page which allows you to create a food block and calculate the calories by inputting the amount.
+
+
+![food dictionary]({{ site.baseurl }}/images/calorie-tracker-food-dictionary.png "food dictionary")
 
 ### snackbars
 
@@ -110,4 +122,4 @@ You can add it to your home screen to easily revisit it again.
 
 ### offline functionality
 
-All pages and functionality work offline. localStorage is used as a database to store food blocks. 
+All pages and functionality work offline.
