@@ -29,6 +29,12 @@ emoji: 🚀
 
 A Progressive Web App to invite, draw and guess.
 
+## how to use
+
+Once a name is created you can either create a game or join a game.
+
+The game can only start if there is at least two players in a game the person who created the game can start the game.
+
 ## technologies
 
 <div class="project__skills">
@@ -79,3 +85,7 @@ A Progressive Web App to invite, draw and guess.
 
 * auto detects and applies preferred theme
 * light and dark theme
+
+### add to home screen
+
+You can add it to your home screen to easily revisit it again.
