@@ -16,11 +16,6 @@ emoji: 🚀
  <a href="https://dram.vercel.app/">visit web app</a>
 </p>
 
-<p class="project__intro">
- <a href="https://github.com/colorlessenergy/dram">visit Github</a>
-</p>
-
-
 <a href="https://dram.vercel.app/">
     ![dram drawing page]({{ site.baseurl }}/images/dram.png "dram drawing page")
 </a>
