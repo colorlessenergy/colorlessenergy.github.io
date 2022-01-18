@@ -208,6 +208,10 @@
   transition: transform 0.3s ease-out;
 }
 
+.projects__link {
+  list-style-type: none;
+}
+
 .projects__link:hover .project__title {
   transform: translateY(-8px);
 }
