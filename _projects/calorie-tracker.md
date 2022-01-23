@@ -83,9 +83,13 @@ I noticed there was a pain point where I need to find out how many calories a ce
 
 To help with this issue I created the food dictionary page which allows you to create a food block and calculate the calories by inputting the amount.
 
-
 ![food dictionary]({{ site.baseurl }}/images/calorie-tracker-food-dictionary.png "food dictionary")
 
+An item in the food dictionary can be connected to a food block. 
+
+![connect food dictionary to food block]({{ site.baseurl }}/images/calorie-tracker-edit-food-block-modal.png "connect food dictionary to food block")
+
+The connected food dictionary item is used to automatically calculate the calories for the amount.
 ### snackbars
 
 I noticed when I submitted forms it seemed that they didn't do anything because there weren't any visual cues. I decided to use Snackbars to make it clear that the forms were submitted.
