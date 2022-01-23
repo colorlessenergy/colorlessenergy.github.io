@@ -76,6 +76,10 @@ The game can only start if there is at least two players in a game the person wh
 * repeated guesses don't show
 * a message will appear when someone guesses correctly 
 
+### 🎭 gallery
+
+* can look at your previous drawings
+
 ### ☀️ themes 🌙
 
 * auto detects and applies preferred theme
