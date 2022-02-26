@@ -22,6 +22,11 @@
   border-color: #ffffff;
 }
 
+.dark .nav__link::before,
+.dark .see-resume-text::before {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .dark .social__icon,
 .dark #light-theme-icon,
 .dark #menu-hamburger {

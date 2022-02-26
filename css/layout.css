@@ -84,8 +84,9 @@
 }
 
 .see-resume-text {
+  align-self: flex-start;
+  padding: 5px;
   color: #000;
-  display: block;
   font-weight: 700;
   text-decoration: underline;
   text-transform: uppercase;

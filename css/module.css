@@ -21,6 +21,25 @@
   font-size: 11px;
   letter-spacing: 2px;
   padding: 8px;
+  position: relative;
+}
+
+.nav__link:hover::before,
+.see-resume-text:hover::before {
+  transform: scale(1);
+}
+
+.nav__link::before,
+.see-resume-text::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale(0);
+  transition: transform 0.1s ease-in-out;
 }
 
 .nav__link--active {
