@@ -14,13 +14,20 @@ if (localStorage.getItem('theme') === 'dark') {
 const lightThemeIcon = document.querySelector('#light-theme-icon');
 const darkThemeIcon = document.querySelector('#dark-theme-icon');
 
+const popAudio = new Audio('./pop.mp3');
 lightThemeIcon.addEventListener('click', function () {
+  popAudio.pause();
+  popAudio.currentTime = 0;
+  popAudio.play();
   localStorage.setItem('theme', 'light');
   animateBackgroundColor('#ffffff');
   document.body.classList.remove('dark');
 });
 
 darkThemeIcon.addEventListener('click', function () {
+  popAudio.pause();
+  popAudio.currentTime = 0;
+  popAudio.play();
   localStorage.setItem('theme', 'dark');
   animateBackgroundColor('#333333');
   document.body.classList.add('dark');
