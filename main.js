@@ -14,7 +14,7 @@ if (localStorage.getItem('theme') === 'dark') {
 const lightThemeIcon = document.querySelector('#light-theme-icon');
 const darkThemeIcon = document.querySelector('#dark-theme-icon');
 
-const popAudio = new Audio('./pop.mp3');
+const popAudio = new Audio('/pop.mp3');
 lightThemeIcon.addEventListener('click', function () {
   popAudio.pause();
   popAudio.currentTime = 0;
