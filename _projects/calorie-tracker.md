@@ -104,26 +104,12 @@ Confetti falls from the top of the screen when the calorie goal is met.
 
 ![confetti]({{ site.baseurl }}/images/calorie-tracker-confetti.png "confetti")
 
-### mobile nav
-
-On mobile the nav is moved to the bottom of the screen to provide a native like experience.
-
-
-<div class="case-study__img-container">
-    <img src="{{ site.baseurl }}/images/calorie-tracker-mobile.png" alt="calorie tracker mobile" title="calorie tracker mobile">
-</div>
-
 ### ☀️ themes 🌙
 
 It auto detects and applies preferred theme. 
 
 ![calorie tracker dark theme]({{ site.baseurl }}/images/calorie-tracker-dark-theme.png "calorie tracker dark theme")
 
-
 ### add to home screen
 
 You can add it to your home screen to easily revisit it again.
-
-### offline functionality
-
-All pages and functionality work offline.
