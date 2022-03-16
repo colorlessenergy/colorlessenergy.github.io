@@ -63,10 +63,9 @@ The food blocks were designed for ease of use and to look fun by giving it a car
     <img src="{{ site.baseurl }}/images/calorie-tracker-food-block.png" alt="calorie tracker food block" title="calorie tracker food block">
 </div>
 
+To ease the flow of creating a food block there is a button on the home page thats add a food block.
 
-To ease the flow of creating a food block a button is added to the home screen thats add a new empty food block and opens a modal to fill in the data.
-
-Also when clicking on a food block a modal opens with a form to edit the food block data.
+Clicking on a food block opens a modal to edit the food block.
 
 ![calorie tracker edit food block modal]({{ site.baseurl }}/images/calorie-tracker-edit-food-block-modal.png "calorie tracker edit food block modal")
 
@@ -76,12 +75,11 @@ One of the previous 10 days can be duplicated and merged with the current day.
 
 ![calorie tracker duplicate previous day]({{ site.baseurl }}/images/calorie-tracker-duplicate-previous-day.png "calorie tracker duplicate previous day")
 
-
 ### food dictionary
 
 I noticed there was a pain point where I need to find out how many calories a certain food has and calculate how many calories the food I am eating has.
 
-To help with this issue I created the food dictionary page which allows you to create a food block and calculate the calories by inputting the amount.
+This lead to the creation of the food dictionary page which allows you to create a list of food blocks that automatically calculate calories.
 
 ![food dictionary]({{ site.baseurl }}/images/calorie-tracker-food-dictionary.png "food dictionary")
 
