@@ -2,11 +2,11 @@
 title: calorie tracker
 layout: project
 image: /images/calorie-tracker.png
-meta: A Progressive Web App to keep track of calories in a fun and interactive way. 
+meta: A Progressive Web App to keep track of calories in a fun and interactive way.
 description: Front End Technologies
 permalink: /calorie-tracker
 published: true
-order: 2
+order: 3
 emoji: 😀️
 ---
 
@@ -55,7 +55,7 @@ Select a date from the calendar and start adding food to keep track of calories.
 
 ### food blocks
 
-The food blocks are stored in localStorage which allows the web app to perform CRUD operations offline. 
+The food blocks are stored in localStorage which allows the web app to perform CRUD operations offline.
 
 The food blocks were designed for ease of use and to look fun by giving it a cartoonish feel.
 
@@ -83,11 +83,12 @@ This lead to the creation of the food dictionary page which allows you to create
 
 ![food dictionary]({{ site.baseurl }}/images/calorie-tracker-food-dictionary.png "food dictionary")
 
-An item in the food dictionary can be connected to a food block. 
+An item in the food dictionary can be connected to a food block.
 
 ![connect food dictionary to food block]({{ site.baseurl }}/images/calorie-tracker-edit-food-block-modal.png "connect food dictionary to food block")
 
 The connected food dictionary item is used to automatically calculate the calories for the amount.
+
 ### snackbars
 
 I noticed when I submitted forms it seemed that they didn't do anything because there weren't any visual cues. I decided to use Snackbars to make it clear that the forms were submitted.
@@ -104,7 +105,7 @@ Confetti falls from the top of the screen when the calorie goal is met.
 
 ### ☀️ themes 🌙
 
-It auto detects and applies preferred theme. 
+It auto detects and applies preferred theme.
 
 ![calorie tracker dark theme]({{ site.baseurl }}/images/calorie-tracker-dark-theme.png "calorie tracker dark theme")
 

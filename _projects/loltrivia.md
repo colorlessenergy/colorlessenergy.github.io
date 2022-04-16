@@ -5,7 +5,7 @@ image: /images/loltrivia.png
 meta: A Progressive Web App to answer questions related to league of legends
 description: Front End Technologies
 permalink: /loltrivia
-order: 3
+order: 5
 emoji: 😃
 ---
 
@@ -54,17 +54,17 @@ Select a question you find interesting and vote for a champion.
 
 ### 🎨 questions
 
-* are ordered by vote count
-* can be filtered by search
-* can be requested
-* only 1 champion can be voted for
+-   are ordered by vote count
+-   can be filtered by search
+-   can be requested
+-   only 1 champion can be voted for
 
 ### 🔒 Firebase Authentication
 
-* sign in / sign up with email and password
-* continue with google
+-   sign in / sign up with email and password
+-   continue with google
 
 ### ☀️ themes 🌙
 
-* auto detects and applies preferred theme
-* light and dark theme
+-   auto detects and applies preferred theme
+-   light and dark theme
