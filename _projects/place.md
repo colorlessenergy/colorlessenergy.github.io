@@ -16,6 +16,14 @@ emoji: 🎨
  <a href="https://place1.vercel.app/">visit web app</a>
 </p>
 
+<p class="project__intro">
+ <a href="https://place1.vercel.app/landing">visit landing page</a>
+</p>
+
+<p class="project__intro">
+ <a href="https://github.com/colorlessenergy/place.git">visit GitHub</a>
+</p>
+
 <a href="https://place1.vercel.app/">
     ![place drawing page]({{ site.baseurl }}/images/place.png "place home page")
 </a>
