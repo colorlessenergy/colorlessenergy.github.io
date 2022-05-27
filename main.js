@@ -72,25 +72,25 @@ function animateBackgroundColor (fillStyle) {
   const canvas = document.querySelector('#animate-background');
   const context = canvas.getContext('2d');
   context.fillStyle = fillStyle;
-  let i = 0;
+  let x = 0;
   let y = 0;
   let direction = 1;
 
   const drawBackgroundColorInterval = window.setInterval(() => {
-    context.fillRect(i, y, squareSize, squareSize);
-    i += (squareSize * direction);
+    context.fillRect(x, y, squareSize, squareSize);
+    y += (squareSize * direction);
 
-    if (i >= canvas.width || (direction === -1 && i < 0)) {
+    if (y >= canvas.height || (direction === -1 && y < 0)) {
       direction = direction * -1;
       if (direction === -1) {
-        i = canvas.width;
+        y = canvas.height;
       } else if (direction === 1) {
-        i = 0;
+        y = 0;
       }
 
-      y += squareSize;
+      x += squareSize;
 
-      if (y >= canvas.height) {
+      if (x >= canvas.width) {
         document.body.style.backgroundColor = fillStyle;
         clearInterval(drawBackgroundColorInterval);
       }
