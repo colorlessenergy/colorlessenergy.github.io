@@ -304,6 +304,7 @@
 
 .mobile-nav__link--active {
   color: #000;
+  text-decoration: underline;
 }
 
 /*  css to animate the responsive hamburger menu */
