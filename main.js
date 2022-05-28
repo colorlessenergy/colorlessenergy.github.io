@@ -7,7 +7,6 @@ if (!localStorage.getItem('theme')) {
 }
 
 if (localStorage.getItem('theme') === 'dark') {
-  document.body.style.backgroundColor = '#333333';
   document.body.classList.add('dark');
 }
 
