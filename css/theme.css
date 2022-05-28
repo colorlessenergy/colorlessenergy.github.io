@@ -5,17 +5,12 @@
 
 .dark a,
 .dark .hero__title,
-.dark .contact__cta,
 .dark .project__number,
 .dark .project__text,
 .dark .project__cta,
 .dark .project__desc,
 .dark .project__title {
   color: #ffffff;
-}
-
-.dark .line {
-  background-color: #ffffff;
 }
 
 .dark .nav__link--active,
