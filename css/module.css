@@ -303,8 +303,8 @@
 }
 
 .mobile-nav__link--active {
+  border-bottom: 2px solid #000000;
   color: #000;
-  text-decoration: underline;
 }
 
 /*  css to animate the responsive hamburger menu */
