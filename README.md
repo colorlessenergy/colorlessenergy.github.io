@@ -1,12 +1,13 @@
 # brianmunoz.co
+
 my portfolio website
 
 ### case studies
 
 [dram](https://brianmunoz.co/dram) - A Progressive Web App to invite, draw and guess.
 
-[loltrivia](https://brianmunoz.co/loltrivia) - A Progressive Web App to answer questions related to league of legends champions.
+[place](https://brianmunoz.co/place) - A Progressive Web App with a 340 x 340 canvas to create art with pixels.
 
-[animal buddies](https://brianmunoz.co/calorie-tracker) - A website to view, like and sort posts about animals 😀
+[calorie tracker](https://brianmunoz.co/calorie-tracker) - A Progressive Web App to keep track of calories that works offline.
 
 [codinglead](https://brianmunoz.co/codinglead) - A website to post content about front end web development.
