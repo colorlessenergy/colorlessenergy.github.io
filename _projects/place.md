@@ -7,7 +7,7 @@ description: Front End Technologies
 permalink: /place
 published: true
 order: 2
-emoji: 🎨
+emoji: 🚀
 ---
 
 # place

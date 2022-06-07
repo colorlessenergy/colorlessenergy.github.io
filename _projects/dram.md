@@ -7,7 +7,7 @@ description: Front End Technologies
 permalink: /dram
 published: true
 order: 1
-emoji: 🚀
+emoji: 🎨
 ---
 
 # dram
@@ -57,33 +57,32 @@ The game can only start if there is at least two players in a game the person wh
 
 ### 🎨 drawing
 
-* every person that joins the game has one round to draw
-* in the beginning of the round the person chosen to draw will choose a word
-* customize brush color and brush radius
-* clear and undo buttons
-* time limit of 200 seconds
+-   every person that joins the game has one round to draw
+-   in the beginning of the round the person chosen to draw will choose a word
+-   customize brush color and brush radius
+-   clear and undo buttons
+-   time limit of 200 seconds
 
 ### 🥇 scoring
 
-* the person who guesses correctly first gets 10 points, second gets 8 points, 3rd gets 6 points and everyone else after gets 2 points
-* if no one guesses correctly the drawer gets 2 points
-* once everyone goes a round a leaderboard is shown with the scores
-
+-   the person who guesses correctly first gets 10 points, second gets 8 points, 3rd gets 6 points and everyone else after gets 2 points
+-   if no one guesses correctly the drawer gets 2 points
+-   once everyone goes a round a leaderboard is shown with the scores
 
 ### 🤔 guesses
 
-* everyone that isn't drawing can guess
-* repeated guesses don't show
-* a message will appear when someone guesses correctly 
+-   everyone that isn't drawing can guess
+-   repeated guesses don't show
+-   a message will appear when someone guesses correctly
 
 ### 🎭 gallery
 
-* can look at your previous drawings
+-   can look at your previous drawings
 
 ### ☀️ themes 🌙
 
-* auto detects and applies preferred theme
-* light and dark theme
+-   auto detects and applies preferred theme
+-   light and dark theme
 
 ### add to home screen
 
