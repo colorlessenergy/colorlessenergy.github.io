@@ -16,6 +16,10 @@ emoji: 😀️
  <a href="https://calorie-tracker.vercel.app/">visit web app</a>
 </p>
 
+<p class="project__intro">
+ <a href="https://github.com/colorlessenergy/calorie-tracker">visit GitHub</a>
+</p>
+
 <a href="https://calorie-tracker.vercel.app/">
     ![calorie tracker dashboard]({{ site.baseurl }}/images/calorie-tracker.png "calorie tracker dashboard")
 </a>
