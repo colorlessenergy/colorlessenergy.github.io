@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 60px 0 0 0;
-  min-height: 460px;
+  min-height: 400px;
 }
 
 .hero__title {
