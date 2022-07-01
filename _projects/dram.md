@@ -6,8 +6,7 @@ meta: A Progressive Web App to invite, draw and guess.
 description: Front End Technologies
 permalink: /dram
 published: true
-order: 1
-emoji: 🎨
+order: 5
 ---
 
 # dram
