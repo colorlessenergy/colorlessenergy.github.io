@@ -326,19 +326,19 @@
 }
 
 .note-container {
+  border: 3px solid #000000;
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
 .note-title {
-  border: 3px solid #000000;
   display: inline-block;
   padding: 5px;
 
   color: #000000;
   font-size: 20px;
-  transition: 1s ease transform;
+  transition: 0.25s ease transform;
 }
 
 .note-title:hover {
