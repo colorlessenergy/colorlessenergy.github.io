@@ -238,18 +238,6 @@
   margin-bottom: 20px;
 }
 
-.project__number {
-  color: #81909a;
-  font-size: 41px;
-  margin: 0;
-
-  transition: font-size 0.3s ease-out;
-}
-
-.projects__link:hover .project__number {
-  font-size: 47px;
-}
-
 .project__skill {
   border-radius: 2px;
   margin: 0 5px 10px 0;

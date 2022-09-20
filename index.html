@@ -19,7 +19,7 @@ priority: 1.0
       </div>
       <div class="project__description">
         <div>
-          <p class="project__number">{{ forloop.index }}</p>
+          <h2 class="project__title">{{ project.title }}</h2>
 
           <p class="project__text">
             {{ project.meta }}
@@ -29,8 +29,7 @@ priority: 1.0
         </div>
 
         <div class="project__info">
-          <p class="project__desc hide">{{ project.description }}</p>
-          <h3 class="project__title">{{ project.title }}</h3>
+          <p class="project__desc">{{ project.description }}</p>
         </div>
       </div>
       </a>
