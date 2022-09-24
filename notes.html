@@ -14,11 +14,9 @@ changefreq: weekly
     <div>
         {% assign projects = site.projects | sort: "order" %}
         {% for project in projects %}
-            <div class="note-container">
-                <a class="note-title" href="{{ project.permalink }}">
-                    {{ project.title }}
-                </a>
-            </div>
+            <a class="note-container" href="{{ project.permalink }}">
+                <span class="note-title">{{ project.title }}</span>
+            </a>
         {% endfor %}
     </div>
 </section>
@@ -27,11 +25,9 @@ changefreq: weekly
     <h2>articles</h2>
     <div>
         {% for post in site.posts %}
-            <div class="note-container">
-                <a class="note-title" href="{{ post.link }}">
-                    {{ post.title }}
-                </a>
-            </div>
+            <a class="note-container" href="{{ post.link }}">
+                <span class="note-title">{{ post.title }}</span>
+            </a>
         {% endfor %}
     </div>
 </section>
