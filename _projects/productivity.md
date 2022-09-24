@@ -7,7 +7,7 @@ description: Front End Technologies
 permalink: /productivity
 published: true
 order: 1
-emoji: 🎨
+emoji: 📜
 ---
 
 # productivity
