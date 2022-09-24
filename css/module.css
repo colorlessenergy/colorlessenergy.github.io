@@ -209,13 +209,9 @@
 }
 
 .project__desc {
-  color: #81909a;
   margin-bottom: 6px;
-  transition: transform 0.3s ease-out;
-}
 
-.projects__link:hover .project__desc {
-  transform: translateY(-8px);
+  color: #81909a;
 }
 
 .project__title {
@@ -223,15 +219,10 @@
 
   color: #000000;
   font-size: 22px;
-  transition: transform 0.3s ease-out;
 }
 
 .projects__link {
   list-style-type: none;
-}
-
-.projects__link:hover .project__title {
-  transform: translateY(-8px);
 }
 
 .project__info {
