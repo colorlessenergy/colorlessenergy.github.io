@@ -82,4 +82,4 @@ const playImages = (image, container, amountOfImages) => {
 
 playImages('productivity', '.productivity-container', 6);
 playImages('place', '.place-container', 2);
-playImages('tracker', '.tracker-container', 3);
+playImages('calorie-tracker', '.calorie-tracker-container', 3);
