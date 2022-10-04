@@ -13,10 +13,10 @@ priority: 1.0
     {% for project in projects limit:4 %}
     <li class="projects__link">
       <div class="project__rectangle project__rectangle-{{forloop.index}}"></div>
-      <a class="project" href="{{ project.url }}">
+      <a class="project {{ project.title }}-container" href="{{ project.url }}">
       <div class="project__emoji">{{ project.emoji }}</div>
       <div class="project__image-wrapper">
-        <img class="project__image" src="{{ project.image }}" alt="{{ project.title }}">
+        <img class="project__image {{ project.title }}" src="{{ project.image }}" alt="{{ project.title }}">
       </div>
       <div class="project__description">
         <div>
