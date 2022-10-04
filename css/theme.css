@@ -1,4 +1,5 @@
-.dark {
+.dark,
+.dark .project {
   background-color: #333333;
   color: #ffffff;
 }

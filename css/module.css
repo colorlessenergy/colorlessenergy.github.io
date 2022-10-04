@@ -124,6 +124,7 @@
   height: 400px;
   
   display: flex;
+  background-color: #ffffff;
 
   transition: transform 0.3s ease,
     border 0.3s ease;
@@ -222,7 +223,40 @@
 }
 
 .projects__link {
+  position: relative;
+
   list-style-type: none;
+}
+
+.project__rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -10px;
+  left: -10px;
+
+  background-color: #c0d4ff; 
+}
+
+.project__rectangle-2 {
+  top: -10px;
+  left: 10px;
+
+  background-color: #00BD9D;
+}
+
+.project__rectangle-3 {
+  top: 10px;
+  left: -10px;
+
+  background-color: #957186;
+}
+
+.project__rectangle-4 {
+  top: 10px;
+  left: 10px;
+
+  background-color: #FF9B71;
 }
 
 .project__info {
