@@ -5,6 +5,10 @@
   min-height: 400px;
 }
 
+.hero--collection {
+  min-height: 300px;
+}
+
 .hero__title {
   animation: move-text-from-top 1s ease forwards;
   font-size: 11px;
