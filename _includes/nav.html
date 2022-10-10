@@ -32,10 +32,10 @@
 
     <ul class="nav__links">
       <li class="nav__list-item">
-        <a class="nav__link {% if page.url != '/notes/' %}nav__link--active{% endif %}" href="{{ site.baseurl }}/">projects</a> 04
+        <a class="nav__link {% if page.url != '/collection/' %}nav__link--active{% endif %}" href="{{ site.baseurl }}/">projects</a> 04
       </li>
       <li class="nav__list-item">
-        <a class="nav__link {% if page.url == '/notes/' %}nav__link--active{% endif %}" href="{{ site.baseurl }}/notes">notes</a>
+        <a class="nav__link {% if page.url == '/collection/' %}nav__link--active{% endif %}" href="{{ site.baseurl }}/collection">collection</a>
       </li>
     </ul>
 
@@ -45,11 +45,11 @@
 <section class="mobile-nav">
   <ul class="mobile-nav__links">
     <li class="mobile-nav__list-item">
-      <a class="mobile-nav__link {% if page.url != '/notes/' %}mobile-nav__link--active{% endif %}" href="{{ site.baseurl }}/">projects</a>
+      <a class="mobile-nav__link {% if page.url != '/collection/' %}mobile-nav__link--active{% endif %}" href="{{ site.baseurl }}/">projects</a>
       <span class="projects-amount">04</span>
     </li>
     <li class="mobile-nav__list-item">
-      <a class="mobile-nav__link {% if page.url == '/notes/' %}mobile-nav__link--active{% endif %}" href="{{ site.baseurl }}/notes">notes</a>
+      <a class="mobile-nav__link {% if page.url == '/collection/' %}mobile-nav__link--active{% endif %}" href="{{ site.baseurl }}/collection">collection</a>
     </li>
   </ul>
 
