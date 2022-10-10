@@ -3,7 +3,7 @@ title: codinglead
 link: https://codinglead.github.io
 layout: project
 image: /images/codinglead.png
-meta: A platform to post content about web development. It helps developers become better one post at a time.
+meta: A platform to post content about web development. It helps developers become better one post at a time
 description: Front End Technologies
 permalink: /codinglead
 order: 4

@@ -3,7 +3,7 @@ title: letter-gg
 link: https://letter-gg.web.app/
 layout: project
 image: /images/letter-gg.png
-meta: A web app where people can create, comment or read guides about teamfight tactics.
+meta: A web app where people can create, comment or read guides about teamfight tactics
 description: Full Stack Technologies
 permalink: /letter-gg
 order: 7

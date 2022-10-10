@@ -2,7 +2,7 @@
 title: productivity
 layout: project
 image: /images/productivity.png
-meta: A Progressive Web App to organize and complete tasks.
+meta: A Progressive Web App to organize and complete tasks
 description: Front End Technologies
 permalink: /productivity
 published: true

@@ -2,7 +2,7 @@
 title: lastpad
 layout: project
 image: /images/lastpad.png
-meta: A Progressive Web App that allows you to create, view, edit and delete notes offline and have them be updated and saved as soon as you get back on an internet connection.
+meta: A Progressive Web App that allows you to create, view, edit and delete notes offline and have them be updated and saved as soon as you get back on an internet connection
 description: Full Stack Technologies
 permalink: /lastpad
 published: false

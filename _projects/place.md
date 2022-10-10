@@ -2,7 +2,7 @@
 title: place
 layout: project
 image: /images/place.png
-meta: 340 x 340 canvas to create art with pixels.
+meta: 340 x 340 canvas to create art with pixels
 description: Front End Technologies
 permalink: /place
 published: true

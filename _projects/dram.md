@@ -2,7 +2,7 @@
 title: dram
 layout: project
 image: /images/dram.png
-meta: A Progressive Web App to invite, draw and guess.
+meta: A Progressive Web App to invite, draw and guess
 description: Front End Technologies
 permalink: /dram
 published: true
