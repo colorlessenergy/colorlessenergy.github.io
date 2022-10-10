@@ -26,11 +26,17 @@ changefreq: weekly
                     {% endif %}
 
                     <div>
-                        <h3 class="m-0">{{ project.title }}</h2>
+                        {% if project.image or project.meta %}
+                            <h3 class="m-0">{{ project.title }}</h2>
+                        {% else %}
+                            <h3 class="m-0 font-weight-400">{{ project.title }}</h2>
+                        {% endif %}
 
-                        <p class="collection-text m-0">
-                            {{ project.meta }}
-                        </p>
+                        {% if project.meta %}
+                            <p class="collection-text m-0">
+                                {{ project.meta }}
+                            </p>
+                        {% endif %}
                     </div>
                 </div>
 
