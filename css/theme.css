@@ -6,7 +6,6 @@
 
 .dark a,
 .dark .hero__title,
-.dark .project__text,
 .dark .project__cta,
 .dark .project__desc,
 .dark .project__title {
@@ -23,9 +22,7 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.dark .social__icon,
-.dark #light-theme-icon,
-.dark #menu-hamburger {
+.dark svg {
   fill: #ffffff;
 }
 
@@ -37,14 +34,18 @@
   background-color: #8d8989;
 }
 
-.dark .note-title {
-  color: #000000;
-}
-
 .dark .case-study__content a {
   color: #A6DCEF;
 }
 
 .dark .mobile-nav__link--active {
   border-bottom: 2px solid #ffffff;
+}
+
+.dark .collection-container:hover {
+  background-color: #1c1a1a;
+}
+
+.dark .collection-text {
+  color: #a4b5c0;
 }
