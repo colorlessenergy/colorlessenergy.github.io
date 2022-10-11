@@ -16,7 +16,11 @@ changefreq: weekly
         {% assign projects = site.projects | sort: "order" %}
         {% for project in projects %}
             <a href="{{ project.permalink }}">
+            {% if project.image %}
                 <div class="collection-container">
+            {% else %}
+                <div class="collection-container collection-container--svg">
+            {% endif %}
                     {% if project.image %}
                         <img class="collection-image" src="{{ project.image }}" alt="{{ project.title }}">
                     {% else %}
