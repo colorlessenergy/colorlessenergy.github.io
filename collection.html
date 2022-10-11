@@ -15,6 +15,7 @@ changefreq: weekly
     <div>
         {% assign projects = site.projects | sort: "order" %}
         {% for project in projects %}
+        {% if forloop.index > 4 %}
             <a href="{{ project.permalink }}">
             {% if project.image %}
                 <div class="collection-container">
@@ -46,6 +47,7 @@ changefreq: weekly
 
                 <div class="line"></div>
             </a>
+        {% endif %}
         {% endfor %}
     </div>
 </section>
