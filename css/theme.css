@@ -1,7 +1,7 @@
 .dark,
 .dark .project {
-  background-color: #333333;
-  color: #ffffff;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .dark a,
@@ -9,43 +9,43 @@
 .dark .project__cta,
 .dark .project__desc,
 .dark .project__title {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .dark .nav__link--active,
 .dark .project {
-  border-color: #ffffff;
+    border-color: #ffffff;
 }
 
 .dark .nav__link::before,
 .dark .see-resume-text::before {
-  background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .dark svg {
-  fill: #ffffff;
+    fill: #ffffff;
 }
 
 .dark .mobile-nav {
-  background-color: #333333;
+    background-color: #333333;
 }
 
 .dark .project__skill {
-  background-color: #8d8989;
+    background-color: #8d8989;
 }
 
 .dark .case-study__content a {
-  color: #A6DCEF;
+    color: #a6dcef;
 }
 
 .dark .mobile-nav__link--active {
-  border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 .dark .collection-container:hover {
-  background-color: #1c1a1a;
+    background-color: #1c1a1a;
 }
 
 .dark .collection-text {
-  color: #a4b5c0;
+    color: #a4b5c0;
 }

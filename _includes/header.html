@@ -1,23 +1,23 @@
 <header>
-  {% include nav.html %}
+    {% include nav.html %}
 
-  <section class="hero {{ include.heroClass }}">
-    <div class="position-element__down">
-      <div>
-        <h1 class="hero__title">Brian Munoz - Front End Developer</h1>
-        <h2 class="hero__description">
-          {{ include.description }}
-        </h2>
-      </div>
-      <a class="see-resume-text" href="https://brianmunoz.co/cv/brian-munoz-resume.pdf">
-          See Resume
-      </a>
-    </div>
+    <section class="hero {{ include.heroClass }}">
+        <div class="position-element__down">
+            <div>
+                <h1 class="hero__title">Brian Munoz - Front End Developer</h1>
+                <h2 class="hero__description">{{ include.description }}</h2>
+            </div>
+            <a
+                class="see-resume-text"
+                href="https://brianmunoz.co/cv/brian-munoz-resume.pdf">
+                See Resume
+            </a>
+        </div>
 
-    <div class="social">
-      <a href="https://github.com/colorlessenergy">
-        {% include github-svg.html %}
-      </a>
-    </div>
-  </section>
+        <div class="social">
+            <a href="https://github.com/colorlessenergy">
+                {% include github-svg.html %}
+            </a>
+        </div>
+    </section>
 </header>

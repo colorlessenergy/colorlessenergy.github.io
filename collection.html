@@ -5,50 +5,49 @@ title: collection
 changefreq: weekly
 ---
 
-{% include header.html
-  heroClass="hero--collection"
-  description="I create projects and write articles." %}
+{% include header.html heroClass="hero--collection" description="I create
+projects and write articles." %}
 
 <section class="projects">
     <h2 class="collection-title">projects</h2>
 
     <div>
-        {% assign projects = site.projects | sort: "order" %}
-        {% for project in projects %}
-        {% if forloop.index > 4 %}
-            <a href="{{ project.permalink }}">
-            {% if project.image %}
-                <div class="collection-container">
-            {% else %}
-                <div class="collection-container collection-container--svg">
-            {% endif %}
-                    {% if project.image %}
-                        <img class="collection-image" src="{{ project.image }}" alt="{{ project.title }}">
+        {% assign projects = site.projects | sort: "order" %} {% for project in
+        projects %} {% if forloop.index > 4 %}
+        <a href="{{ project.permalink }}">
+            <div
+                class="collection-container {% if !project.image %}collection-container--svg{% endif %}">
+                {% if project.image %}
+                <img
+                    class="collection-image"
+                    src="{{ project.image }}"
+                    alt="{{ project.title }}" />
+                {% else %}
+                <svg
+                    class="collection-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24">
+                    <path
+                        d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zM7 6v4h4V6H7zm0 6v2h10v-2H7zm0 4v2h10v-2H7zm6-9v2h4V7h-4z" />
+                </svg>
+                {% endif %}
+
+                <div>
+                    {% if project.image or project.meta %}
+                    <h3 class="m-0">{{ project.title }}</h3>
                     {% else %}
-                        <svg class="collection-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                            <path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zM7 6v4h4V6H7zm0 6v2h10v-2H7zm0 4v2h10v-2H7zm6-9v2h4V7h-4z"/>
-                        </svg>
+                    <h3 class="m-0 font-weight-400">{{ project.title }}</h3>
+                    {% endif %} {% if project.meta %}
+                    <p class="collection-text m-0">{{ project.meta }}</p>
                     {% endif %}
-
-                    <div>
-                        {% if project.image or project.meta %}
-                            <h3 class="m-0">{{ project.title }}</h2>
-                        {% else %}
-                            <h3 class="m-0 font-weight-400">{{ project.title }}</h2>
-                        {% endif %}
-
-                        {% if project.meta %}
-                            <p class="collection-text m-0">
-                                {{ project.meta }}
-                            </p>
-                        {% endif %}
-                    </div>
                 </div>
+            </div>
 
-                <div class="line"></div>
-            </a>
-        {% endif %}
-        {% endfor %}
+            <div class="line"></div>
+        </a>
+        {% endif %} {% endfor %}
     </div>
 </section>
 
@@ -57,18 +56,23 @@ changefreq: weekly
 
     <div>
         {% for post in site.posts %}
-            <a class="note-container" href="{{ post.link }}">
-                <span class="note-title">{{ post.title }}</span>
-            </a>
+        <a class="note-container" href="{{ post.link }}">
+            <span class="note-title">{{ post.title }}</span>
+        </a>
         {% endfor %}
     </div>
 </section>
 
 {% include footer.html %}
 
-
 <script>
-    const backgroundColors = ['#ffffe0', '#ffe0e0', '#e0ffe5', '#ede0ff', '#e0fcff'];
+    const backgroundColors = [
+        '#ffffe0',
+        '#ffe0e0',
+        '#e0ffe5',
+        '#ede0ff',
+        '#e0fcff'
+    ];
     const notesContainers = document.querySelectorAll('.note-title');
     let currentBackgroundColorIndex = 0;
     notesContainers.forEach(noteContainer => {
@@ -76,7 +80,8 @@ changefreq: weekly
             currentBackgroundColorIndex = 0;
         }
 
-        noteContainer.style.backgroundColor = backgroundColors[ currentBackgroundColorIndex ];
+        noteContainer.style.backgroundColor =
+            backgroundColors[currentBackgroundColorIndex];
         currentBackgroundColorIndex += 1;
     });
 </script>

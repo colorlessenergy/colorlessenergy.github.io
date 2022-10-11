@@ -49,9 +49,9 @@ The goal of codinglead is to help me improve breaking down ideas into small piec
 
 ### 📖 blogs
 
-* markdown files
-* previous and next blog pagination
-* filter by search
+-   markdown files
+-   previous and next blog pagination
+-   filter by search
 
 ### 🌙 themes ☀️
 

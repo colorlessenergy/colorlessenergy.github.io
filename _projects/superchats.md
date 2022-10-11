@@ -31,40 +31,40 @@ superchats is a chatting app where you can chat with your friends. You can make 
 
 If you don't want to make an account you can use this one
 
-- email: test1234@gmail.com
-- password: test1234
+-   email: test1234@gmail.com
+-   password: test1234
 
 ## Front End Tech
 
 Utilize the Vue CLI to build the front end which included
 
-- webpack - to bundle and build into the dist folder
-- Vuex - to manage the token state
-- Progressive Web app (pwa) - to make it an app you can download on your phone!
-- vue-router - to make my app a SPA
-- linter
-- socketio
+-   webpack - to bundle and build into the dist folder
+-   Vuex - to manage the token state
+-   Progressive Web app (pwa) - to make it an app you can download on your phone!
+-   vue-router - to make my app a SPA
+-   linter
+-   socketio
 
 ## Back End Tech
 
-- Node
-- Express
-- Mongo
-- JWT
-- socketio
+-   Node
+-   Express
+-   Mongo
+-   JWT
+-   socketio
 
 ## Hosting
 
-- Mlabs to host MongoDB
-- Heroku
+-   Mlabs to host MongoDB
+-   Heroku
 
 ## Version control
 
-- Git
+-   Git
 
 ## Design Software
 
-- Figma
+-   Figma
 
 ## Challenges and knowledge acquired
 

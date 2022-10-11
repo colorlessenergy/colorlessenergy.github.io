@@ -21,7 +21,6 @@ emoji: 😀️
 
 A place where people can create, comment or read guides about teamfight tactics
 
-
 <a href="https://lastpad.herokuapp.com/">
    ![letter-gg web app]({{ site.baseurl }}/images/letter-gg.png "letter-gg web app")
 </a>
@@ -32,13 +31,12 @@ Letter-gg was built for people that played <a href="https://na.leagueoflegends.c
 
 I spent a lot of time designing a platform where it is easy to create guides and look at specific guides for a certain character in the game.
 
-
 ## how to use
 
-If you don't want to make an account you can use this one 
+If you don't want to make an account you can use this one
 
-* email: test@gmail.com
-* password: test123
+-   email: test@gmail.com
+-   password: test123
 
 ## technologies
 
@@ -74,7 +72,6 @@ If you don't want to make an account you can use this one
 
 ## challenges and knowledge acquired
 
-
 ### Firebase
 
 Using firebase is like having a dedicated backend development team. There are some limits and the learning curve starts easy but when you are trying to create something complex the limits will make you have to create hacks to make it work.
@@ -83,10 +80,9 @@ Overall I would use firebase when I am creating something small that requires a 
 
 ### There isn't a unique field in firestore
 
-Firestore does not have a unique field. This was an issue when trying to create unique usernames. 
+Firestore does not have a unique field. This was an issue when trying to create unique usernames.
 
 To solve this issue I had to create a collection with the id of each doc being the username that was being created. Every attempt to create a user this collection had to be queried by ID to see if the username was already created. If the username wasn't found in the collection it would create a new document with that username. If it was found a message will be sent to the user that the username is already taken.
-
 
 ### Logo
 
@@ -106,12 +102,9 @@ Knowing that logos should be unique I decided to use circles and move them aroun
 
 A mobile-first approach was taken when designing because It will guarantee that all screens will be supported
 
-
 <div class="img-container">
  <img class="img-reset" src="{{ site.baseurl }}/images/home-design-letter-gg.png" alt="letter-gg website design">
 </div>
-
-
 
 <p class="center">
  <a href="https://www.figma.com/file/IfDB0HrqsPQOybUpkdkLhme2/Letter.gg?node-id=0%3A1"> link to figma of the full design</a>
