@@ -16,7 +16,7 @@ projects and write articles." %}
         projects %} {% if forloop.index > 4 %}
         <a href="{{ project.permalink }}">
             <div
-                class="collection-container {% if !project.image %}collection-container--svg{% endif %}">
+                class="{% if project.image %}collection-container{% else %}collection-container collection-container--svg{% endif %}">
                 {% if project.image %}
                 <img
                     class="collection-image"
