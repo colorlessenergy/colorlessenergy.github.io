@@ -5,13 +5,31 @@
     height: 61px;
 }
 
-.nav__title {
-    margin: 0;
+.contain-nav-title {
+    height: 27px;
+    overflow: hidden;
+
     font-size: 18px;
+    font-weight: 700;
 }
 
-.nav__title a {
-    color: #000000;
+.nav__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-nav-title:hover .nav__title {
+    animation: translateNavTitle 1s linear infinite;
+}
+
+@keyframes translateNavTitle {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
 }
 
 .nav__link {
