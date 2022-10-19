@@ -25,7 +25,7 @@ emoji: 🎨
 </p>
 
 <a href="https://place1.vercel.app/">
-    ![place drawing page]({{ site.baseurl }}/images/place.png "place home page")
+    ![place drawing page]({{ site.baseurl }}/images/place/place-1.png "place home page")
 </a>
 
 ## what is this
