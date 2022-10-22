@@ -97,15 +97,13 @@ The connected food dictionary item is used to automatically calculate the calori
 
 I noticed when I submitted forms it seemed that they didn't do anything because there weren't any visual cues. I decided to use Snackbars to make it clear that the forms were submitted.
 
-![pink Snackbar]({{ site.baseurl }}/images/calorie-tracker-pink-snackbar.png "pink Snackbar")
-
-![green Snackbar]({{ site.baseurl }}/images/calorie-tracker-green-snackbar.png "green Snackbar")
+![snackbar]({{ site.baseurl }}/images/calorie-tracker-snackbar.png "snackbar")
 
 ### reward system
 
 Confetti falls from the top of the screen when the calorie goal is met.
 
-![confetti]({{ site.baseurl }}/images/calorie-tracker-confetti.png "confetti")
+![confetti]({{ site.baseurl }}/images/calorie-tracker/calorie-tracker-3.png "confetti")
 
 ### ☀️ themes 🌙
 
