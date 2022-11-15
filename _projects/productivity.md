@@ -77,13 +77,11 @@ When all tasks are completed a celebration page is shown.
 
 ### 📜 stats
 
-Task completion is tracked by day on a streak chart.
-
-When all tasks are completed for a day a circle is filled in.
+When all task for a day is completed a day is filled in on the calendar.
 
 ![streak chart]({{ site.baseurl }}/images/productivity-streak.png "streak chart")
 
-Clicking on a filled in circle shows all tasks finished on that day.
+Clicking on a filled in square shows all tasks completed on that day.
 
 ![previous tasks]({{ site.baseurl }}/images/productivity-previous-tasks.png "previous tasks")
 
