@@ -8,6 +8,11 @@ permalink: /place
 published: true
 order: 2
 emoji: 🎨
+more:
+    {
+        title: calorie tracker,
+        description: A Progressive Web App to keep track of calories in a fun and interactive way
+    }
 ---
 
 # place

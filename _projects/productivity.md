@@ -8,6 +8,7 @@ permalink: /productivity
 published: true
 order: 1
 emoji: 📜
+more: { title: place, description: 340 x 340 canvas to create art with pixels }
 ---
 
 # productivity

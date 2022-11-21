@@ -5,4 +5,14 @@ layout: default
 <main class="case-study">
     {% include nav.html %}
     <div class="case-study__content">{{ content }}</div>
+
+    {% if page.more %}
+    <p class="next-project-text next-project-right">next project</p>
+    <a
+        class="next-project-right"
+        href="/{{ page.more.title | split: ' ' | join: '-' }}">
+        <h2 class="m-0">{{ page.more.title }}</h2>
+        <p class="m-0">{{ page.more.description }}</p>
+    </a>
+    {% endif %}
 </main>

@@ -113,12 +113,27 @@
 }
 
 .case-study__content p {
-    font-size: 19px;
     line-height: 1.9;
 }
 
 .case-study__content a {
     color: #0000ee;
+    text-decoration: underline;
+}
+
+.next-project-right {
+    display: block;
+    margin-left: auto;
+    max-width: 400px;
+}
+
+.next-project-text {
+    margin-bottom: 0;
+
+    color: #81909a;
+}
+
+.next-project-right:hover h2 {
     text-decoration: underline;
 }
 

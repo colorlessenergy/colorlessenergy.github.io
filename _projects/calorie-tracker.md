@@ -8,6 +8,11 @@ permalink: /calorie-tracker
 published: true
 order: 3
 emoji: 😀️
+more:
+    {
+        title: codinglead,
+        description: a platform to post content about web development
+    }
 ---
 
 # calorie tracker
