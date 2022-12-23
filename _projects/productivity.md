@@ -22,7 +22,7 @@ more: { title: place, description: 340 x 340 canvas to create art with pixels }
 </p>
 
 <a href="https://productivity1.vercel.app/">
-    ![dram drawing page]({{ site.baseurl }}/images/productivity.png "productivity home page")
+    ![productivity home page]({{ site.baseurl }}/images/productivity.png "productivity home page")
 </a>
 
 ## what is this
@@ -60,7 +60,7 @@ tasks are separated into quick, medium and large tasks.
 
 When a task is completed it is sent to the bottom.
 
-![productivity task done]({{ site.baseurl }}/images/productivity-task-done.png "productivity task done")
+![productivity task done]({{ site.baseurl }}/images/productivity/productivity-4.png "productivity task done")
 
 Edit and delete functionality is hidden when a task is completed.
 
@@ -74,7 +74,7 @@ Tasks are stored in localStorage.
 
 When all tasks are completed a celebration page is shown.
 
-![reward]({{ site.baseurl }}/images/productivity-reward.png "reward")
+![reward]({{ site.baseurl }}/images/productivity/productivity-6.png "reward")
 
 ### 📜 stats
 
