@@ -53,7 +53,10 @@ changefreq: weekly
         projects %} {% if forloop.index > 4 %}
         <a class="project project-collection" href="{{ project.permalink }}">
             {% if project.image %}
-            <img src="{{ project.image }}" alt="{{ project.title }}" />
+            <img
+                src="{{ project.image }}"
+                alt="{{ project.title }}"
+                class="max-width-400" />
             {% else %}
             <svg
                 xmlns="http://www.w3.org/2000/svg"
