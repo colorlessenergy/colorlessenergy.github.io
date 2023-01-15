@@ -1,7 +1,35 @@
 .m-0 {
-    margin: 0;
+    margin: 0 !important;
 }
 
-.font-weight-400 {
-    font-weight: 400;
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-decoration-underline {
+    text-decoration: underline;
+}
+
+.font-weight-300 {
+    font-weight: 300;
 }

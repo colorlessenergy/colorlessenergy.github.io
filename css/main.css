@@ -4,5 +4,130 @@
 {% include_relative base.css %}
 {% include_relative module.css %}
 {% include_relative layout.css %}
-{% include_relative theme.css %}
 {% include_relative utilities.css %}
+
+@media (max-width: 1200px) {
+    body {
+        margin: 8px;
+    }
+
+    header {
+        min-height: 267px;
+    }
+
+    header .header-text {
+        font-size: 30px;
+    }
+
+    header#home::before {
+        font-size: 114px;
+        top: 41px;
+        left: -6px;
+    }
+
+    header#home .circle:nth-child(4) {
+        top: -5%;
+        left: 36%;
+    }
+
+    header#collection {
+        min-height: auto;
+        padding-bottom: 24px;
+    }
+
+    .circle {
+        height: 45px;
+        width: 45px;
+    }
+
+    .links {
+        margin: 0;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .collection-title {
+        font-size: 30px;
+    }
+
+    .collection-text {
+        font-size: 25px;
+    }
+
+    .project-collection {
+        flex-direction: column;
+    }
+
+    .project-collection .project-collection-text {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    header {
+        min-height: 35vh;
+    }
+
+    header .header-text {
+        font-size: 50px;
+    }
+
+    header#home::before {
+        font-size: 263px;
+        top: 1px;
+        left: -13px;
+    }
+
+    .circle {
+        height: 60px;
+        width: 60px;
+    }
+
+    header#home .circle:nth-child(5) {
+        right: 11px;
+        bottom: 123px;
+    }
+
+    header#collection .circle-1 {
+        top: -40%;
+    }
+
+    header#collection .circle-2 {
+        top: 71%;
+    }
+
+    .links {
+        margin-top: 40px;
+    }
+
+    .project {
+        width: 45%;
+    }
+}
+
+@media (max-width: 800px) {
+    header#collection .circle-1 {
+        left: 0%;
+        top: -30%;
+    }
+
+    header#collection .circle-2 {
+        left: 0%;
+        top: 70%;
+    }
+
+    header#collection .circle-3 {
+        left: -50%;
+    }
+
+    header#collection .circle-4 {
+        left: 48%;
+    }
+}

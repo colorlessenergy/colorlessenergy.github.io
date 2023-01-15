@@ -9,29 +9,13 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    margin: 16px auto;
+    max-width: 1200px;
+
+    background-color: #fff6c8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     line-height: 1.5;
-    letter-spacing: 0.2px;
-    /* center content on big screens */
-    max-width: 1360px;
-    margin: 0 auto;
-}
-
-header {
-    padding: 41px 80px;
-}
-
-h1 {
-    margin: 0;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -39,13 +23,39 @@ a {
     text-decoration: none;
 }
 
-svg {
-    cursor: pointer;
+h1 {
+    margin: 0;
 }
 
-.footer {
-    padding: 40px;
+p {
+    margin: 0;
+}
 
+ul {
+    padding: 0;
+}
+
+nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    min-height: 80vh;
+    padding-top: 50px;
+}
+
+svg {
+    width: 35px;
+    height: 35px;
+}
+
+img {
+    max-width: 400px;
+    width: 100%;
 }
