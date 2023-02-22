@@ -120,7 +120,13 @@ header#home .circle:nth-child(7) {
 
 .project-collection {
     display: flex;
+    margin-bottom: 0;
+    padding-bottom: 24px;
     width: 100%;
+}
+
+.project-collection:hover {
+    background-color: #fff3b4;
 }
 
 .project-collection-text {
