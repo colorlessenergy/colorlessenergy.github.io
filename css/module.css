@@ -96,6 +96,26 @@ header#home .circle:nth-child(7) {
 .project {
     margin-bottom: 24px;
     width: 45%;
+
+    transition: all 0.3s ease;
+}
+
+.productivity-container:hover,
+.calorie-tracker-container:hover {
+    padding-left: 4px;
+
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.place-container:hover,
+.codinglead-container:hover {
+    padding-left: 4px;
+
+    background-color: #333333;
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 .project-collection {
