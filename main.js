@@ -17,7 +17,7 @@ const playImages = (image, container, amountOfImages) => {
                 imageElement.src = `/images/${image}/${image}-${i}.png`;
 
                 timeouts.shift();
-            }, 800 * i);
+            }, 500 * i);
 
             timeouts.push(timeoutID);
         }
