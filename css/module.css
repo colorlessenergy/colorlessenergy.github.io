@@ -133,9 +133,15 @@ header#home .circle:nth-child(7) {
     margin-left: 16px;
 }
 
+.project__skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .project__skill {
     border-radius: 4px;
     margin-right: 4px;
+    margin-bottom: 4px;
     padding: 4px 8px;
 
     background-color: #c8ffcb;
