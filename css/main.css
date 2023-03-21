@@ -53,6 +53,11 @@
         height: 24px;
     }
 
+    .case-study svg {
+        width: 30px;
+        height: 30px;
+    }
+
     .collection-title {
         font-size: 30px;
     }
