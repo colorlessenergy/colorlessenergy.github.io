@@ -7,10 +7,10 @@ layout: default
     <div class="case-study__content">{{ content }}</div>
 
     {% if page.more %}
-    <p class="next-project-right mb-0 font-weight-300">next project</p>
     <a
         class="next-project-right"
         href="/{{ page.more.title | split: ' ' | join: '-' }}">
+        <p class="m-0 font-weight-300">next project ></p>
         <h2 class="m-0">{{ page.more.title }}</h2>
         <p class="m-0">{{ page.more.description }}</p>
     </a>

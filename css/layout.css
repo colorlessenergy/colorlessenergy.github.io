@@ -49,9 +49,18 @@
 }
 
 .case-study .next-project-right {
+    border-radius: 10px;
     display: block;
     margin-left: auto;
     max-width: 400px;
+    padding: 8px;
+
+    background-color: #fdc4ad;
+    transition: transform 0.3s ease-in-out;
+}
+
+.next-project-right:hover {
+    transform: scale(1.1);
 }
 
 .next-project-right:hover h2 {
